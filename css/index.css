@@ -1,0 +1,16 @@
+/* SECTION ACCUEIL (start) */
+
+.accueil {
+   height: 700px;
+   background-image: url('../img/2354877.jpg');
+   background-image: url('../img/2354873.jpg');
+   background-size: 100%;
+}
+
+.accueil-filtre {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0,0,0,0.4);
+}
+
+/* SECTION ACCUEIL (end) */

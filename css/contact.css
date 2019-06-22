@@ -1,0 +1,16 @@
+/* TOP - CONTACT (start) */
+
+.top-contact {
+   height: 400px;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.top-contact h1 {
+   font-size: 30px;
+   color: white;
+}
+
+/* TOP - CONTACT (end) */

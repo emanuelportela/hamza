@@ -1,0 +1,87 @@
+/* ECRAN MEDIUM - 767px (start) */
+
+@media only screen and (max-width: 767px) {
+
+   .box {
+      bottom: 40px;
+      right: 40px;
+   }
+
+   .header-1 {
+      padding: 0 30px;
+      font-size: 11px;
+   }
+   
+   .header-1-1 i, .header-1-1 a {
+      margin-right: 5px;
+   }
+   
+   .header-1-2 {
+      font-size: 13px;
+   }
+   
+   .header-2 {
+      padding: 0 30px;
+   }
+
+   .header-logo {
+      display: initial !important;
+      width: 70%;
+   }
+
+   .header-logo img {
+      height: 50px;
+      transition: transform .2s;
+   }
+
+   .header-logo img:hover {
+      height: 50px;
+      transform: scale(1.1);
+   }
+
+   .navbar {
+      display: none;
+      float: none;
+      clear: both;
+      border-top: 1px solid #ddd;
+   }
+
+   .responsive {
+      display: block;
+      color: white;
+      font-size: 30px;
+      width: 20%;
+      display: flex;
+      justify-content: flex-end;
+   }
+
+   .responsiva {
+      color: orange;
+   }
+
+
+   .responsive i:hover {
+      color: orange;
+   }
+
+   .times {
+      display: none;
+      color: black;
+   }
+}
+
+/* ECRAN MEDIUM - 767px (end) */
+
+
+
+/* ECRAN SMALL - 500px (start) */
+
+@media only screen and (max-width: 500px) {
+
+   .box {
+      bottom: 20px;
+      right: 20px;
+   }
+}
+
+/* ECRAN SMALL - 500px (end) */

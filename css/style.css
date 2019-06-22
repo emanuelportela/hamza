@@ -1,0 +1,292 @@
+/* FONTS */
+/*
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Courgette', cursive;
+
+*/
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   margin: 0;
+   height: 1500px;
+   -webkit-transition: all 0.4s ease 0s;
+   -o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+}
+
+/* BOX (start) */
+
+.box {
+   position: fixed;
+   bottom: 60px;
+   right: 60px;
+   height: 40px;
+   width: 40px;
+   z-index: 999;
+   background-color: rgb(20, 14, 7);
+   -webkit-transition: all 0.4s ease 0s;
+   -o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+   justify-content: center;
+   align-items: center;
+   display: none;
+}
+
+.box:hover {
+   background-color: #46351B;
+   cursor: pointer;
+}
+
+.box i {
+   color: white;
+   font-size: 20px;
+}
+
+.scroll-box {
+   display: flex;
+}
+
+/* BOX (end) */
+
+
+/* HEADER-1 (start) */
+
+.responsive {
+   display: none;
+}
+
+.header-1 {
+   background-color: black;
+   height: 30px;
+   display: flex;
+   padding: 0 100px;
+   font-size: 14px;
+}
+
+.header-1-1 {
+   width: 80%;
+   display: flex;
+   align-items: center;
+   color: #ccc;
+}
+
+.header-1-1 i, .header-1-1 a {
+   margin-right: 10px;
+   text-decoration: none;
+   color: #ccc;
+}
+
+.header-1-1 a:hover {
+   color: orange;
+}
+
+.header-1-2 {
+   width: 20%;
+   font-size: 18px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.header-1-2 a {
+   text-decoration: none;
+   color: #ccc;
+   margin-left: 12px;
+}
+
+.header-1-2 a:hover {
+   color: orange;
+}
+
+/* HEADER-1 (end) */
+
+
+/* NAVBAR (start) */
+
+.header-2 {
+   padding: 0 150px;
+   width: 100%;
+   height: 70px;
+   background-color: white;
+   background-color: rgba(260,260,260,0.2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+   position: absolute;
+   top: 30px;
+}
+
+.navbar {
+   list-style: none;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.navbar li {
+   width: 10%;
+   height: 40px;
+   margin: 0 1.5%;
+   display: inline-block;
+}
+
+.navbar li::after, .navbar li::before {
+   content: "";
+   display: block;
+   background-color: orange;
+   width: 0;
+   height: 2px;
+   margin: auto;
+   transition: width 0.4s;
+}
+ 
+.navbar li:hover::after, .navbar li:hover::before {
+   width: 100%;
+}
+
+.navbar li:nth-child(4):hover::after, .navbar li:nth-child(4):hover:before {
+   width: 0;
+}
+
+.navbar li a {
+   display: inline-block;
+   color: white;
+   position: relative;
+   font-size: 15px;
+   -webkit-transition: all 0.4s ease 0s;
+   -o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar li a img {
+   width: 70px;
+   transition: transform .2s;
+}
+
+.navbar li a img:hover {
+   transform: scale(1.1);
+}
+
+.navbar li a:hover, .navbar li a.active, .navbar li.active a {
+   color: orange;
+   text-decoration: none;
+}
+
+.navbar li.active::after, .navbar li.active::before {
+   content: "";
+   display: block;
+   background-color: orange;
+   width: 100%;
+   height: 2px;
+   margin: auto;
+}
+
+
+   /* AU SCROLL (start) */
+
+      .scroll {
+         background-color: white;
+         position: fixed;
+         top: 0;
+         z-index: 999;
+         padding: 0 150px;
+         width: 100%;
+         box-shadow: 0px 1px 5px #343434;
+         -webkit-transition: all 0.4s ease 0s;
+         -o-transition: all 0.4s ease 0s;
+         transition: all 0.4s ease 0s;
+      }
+
+      .nonactiveblack {
+         color: black !important;
+      }
+
+      .nonactiveblack:hover {
+         color: orange !important;
+      }
+
+   /* AU SCROLL (end) */
+
+
+   /* CLIQUE SUR BURGER (start) */
+
+      .clicked {
+         background-color: white;
+      }
+
+      /* .clicked-2 {
+         border: 2px solid purple !important;
+      } */
+
+   /* CLIQUE SUR BURGER (end) */
+
+
+/* NAVBAR (end) */
+
+
+/* BURGER MENU (start) */
+
+.burger-1 {
+   width: 100%;
+   height: 100vh;
+   display: none;
+   flex-wrap: wrap;
+   z-index: 999;
+   position: fixed;
+   top: 100px;
+   background-color: rgba(38,38,38,0.8);
+}
+
+#burger:hover {
+   cursor: pointer;
+}
+
+.burger-1 div {
+   height: 50px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   border-top: 1px solid rgba(255,255,255,.1);
+   border-bottom: 1px solid rgba(0,0,0,0.3);
+   background-color: #262626;
+}
+
+.burger-1 div a {
+   text-decoration: none;
+   color: #ccc;
+   font-size: 14px;
+   width: 100%;
+   height: 100%;
+   padding: 15px 60px;
+}
+
+.burger-1 div a:hover {
+   color: orange;
+   text-decoration: none;
+   background-color: #2E2E2E;
+}
+
+.scroll2 {
+   width: 100%;
+   display: none;
+   flex-wrap: wrap;
+   z-index: 999;
+   position: fixed;
+   top: 70px !important;
+   background-color: rgba(38,38,38,0.8);
+}
+
+/* BURGER MENU (end) */

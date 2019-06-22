@@ -1,0 +1,16 @@
+/* TOP - MEDIA (start) */
+
+.top-media {
+   height: 400px;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.top-media h1 {
+   font-size: 30px;
+   color: white;
+}
+
+/* TOP - MEDIA (end) */
