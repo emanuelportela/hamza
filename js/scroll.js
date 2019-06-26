@@ -37,5 +37,3 @@ window.onscroll = () => {
       nonactive5.classList.remove("nonactiveblack");
    }
 };
-
-/* BARRE NAV AU SCROLL (end) */

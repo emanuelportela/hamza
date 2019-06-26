@@ -5,18 +5,125 @@ footer {
 }
 
 .footer-1 {
-   background-color: grey;
-   height: 300px;
+   height: 350px;
+   background-color: #222;
+   font-size: 14px;
+   padding: 60px 100px;
+}
+
+.footer-1 .row {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+}
+
+.footer-1-1 img {
+   width: 70px;
+}
+
+.footer-1-1 p {
+   color: rgb(121, 119, 119);
+   line-height: 30px;
+   margin-top: 30px;
+}
+
+
+.footer-1-2, .footer-1-3 {
+   display: flex;
+   flex-wrap: wrap;
+   height: 100%;
+}
+
+.footer-1-2 h1, .footer-1-3 h1 {
+   font-size: 15px;
+   color: #ccc;
+   margin-bottom: 20px;
+   width: 100%;
+}
+
+.footer-1-2 a, .footer-1-3 a, .footer-1-3 p {
+   text-decoration: none;
+   color: rgb(121, 119, 119);
+   width: 100%;
+   height: 20px;
+}
+
+.footer-1-2 a i, .footer-1-3 i {
+   margin-right: 15px;
+}
+
+.footer-1-2 a:hover, .footer-1-3 a:hover {
+   color: #FE9F00;
+}
+
+.footer-1-2 a:hover i {
+   margin-right: 20px;
+   margin-left: 5px;
+   -webkit-transition: all 0.4s ease 0s;
+   -o-transition: all 0.4s ease 0s;
+   transition: all 0.4s ease 0s;
+}
+
+.footer-1-3 {
+   height: 70%;
 }
 
 .footer-2 {
-   background-color: black;
-   height: 50px;
+   height: 60px;
    display: flex;
    justify-content: center;
    align-items: center;
-   color: white;
+   color: #ccc;
    font-size: 13px;
+   background: #121313;
+   border-top: 1px solid #2a2a2a;
+   display: flex;
+   padding: 0 100px;
+   font-size: 14px;
+}
+
+.footer-2-1 {
+   color: #ccc;
+   width: 80%;
+   display: flex;
+   align-items: center;
+}
+
+.footer-2-1 img:nth-child(1), .footer-2-1 img:nth-child(2) {
+   width: 30px;
+}
+
+.footer-2-1 img:nth-child(2), .footer-2-1:hover img:nth-child(1) {
+   display: none;
+}
+
+.footer-2-1:hover img:nth-child(2), .footer-2-1:hover a {
+   display: initial;
+   color: #FE9F00
+}
+
+.footer-2-1 a {
+   text-decoration: none;
+   color: #ccc;
+}
+
+.footer-2-2 {
+   width: 20%;
+   font-size: 18px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.footer-2-2 a {
+   text-decoration: none;
+   color: #ccc;
+   margin-left: 12px;
+}
+
+.footer-2-2 a:hover {
+   color: #FE9F00;
 }
 
 /* FOOTER (end) */
+
