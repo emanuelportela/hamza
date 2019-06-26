@@ -22,7 +22,7 @@
    width: 50%;
    height: 60%;
    background-color: rgba(0,0,0,0.8);
-   border-radius: 200px;
+   border-radius: 25px;
    display: flex;
    flex-wrap: wrap;
    align-items: center;
