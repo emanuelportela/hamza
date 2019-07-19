@@ -1,3 +1,5 @@
+<!-- <?php include("mail.php"); ?> -->
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -96,7 +98,10 @@
 
 <div class="top-contact" id="up">
 
-   <h1>CONTACT</h1>
+   <div class="top-contact-filtre">
+      <h1>CONTACT</h1>
+      <h5>Une réponse rapide assurée !</h5>
+   </div>
 
 </div>
 
@@ -111,6 +116,115 @@
    </div>
 
 <!-- BOX UP (end) -->
+
+
+<!-- FORMULAIRE DE CONTACT (start) -->
+
+
+   <section>
+
+      <div class="contact row">
+         <div class="col-md-6 contact-1">
+            <div class="contact-1-filtre">
+
+               <div class="contact-donnee">
+
+                  <div class="contact-donnee-1"><i class="fas fa-map-marker-alt"></i></div>
+                  <div class="contact-donnee-2">
+                     <div class="contact-donnee-2-1">Adresse</div>
+                     <div class="contact-donnee-2-2">Bruxelles - Belgique</div>
+                  </div>
+      
+               </div>
+      
+               <div class="contact-donnee">
+      
+                  <div class="contact-donnee-1"><i class="fas fa-mobile-alt"></i></div>
+                  <div class="contact-donnee-2">
+                     <div class="contact-donnee-2-1">Appelez-nous</div>
+                     <a class="contact-donnee-2-2" href="tel:0032">0470/00.00.00</a>
+                  </div>
+      
+               </div>
+               
+               <div class="contact-donnee">
+      
+                  <div class="contact-donnee-1"><i class="fas fa-envelope"></i></div>
+                  <div class="contact-donnee-2">
+                     <div class="contact-donnee-2-1">Posez-nous vos questions</div>
+                     <a class="contact-donnee-2-2" href="mailto:studio@gmail.com">studio@gmail.com</a>
+                  </div>
+      
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-6 contact-2">
+
+            <form action="" method="POST" class="form-class contact-form">
+            
+               <h3 class="contact-form-h3" >Envoyez-nous votre demande</h3>
+               
+               <div class="c-form">
+                  <div class="c-form-1">ENTREZ VOTRE NOM COMPLET</div>
+                  <input type="text" name="prenom" class="c-form-2" placeholder="Prénom">
+                  <!-- value="<?php if(isset($_POST['prenom'])) { echo $_POST['prenom']; } ?>" -->
+
+                  <input type="text" name="nom" class="c-form-3" placeholder="Nom">
+                  <!-- value="<?php if(isset($_POST['nom'])) { echo $_POST['nom']; } ?>" -->
+               </div>
+
+               <div class="c-form-test">
+                  <div class="c-form-1">ENTREZ VOTRE EMAIL</div>
+                  <input type="text" name="mail" class="c-form-4" placeholder="example@gmail.com">
+                  <!-- value="<?php if(isset($_POST['mail'])) { echo $_POST['mail']; } ?>" -->
+               </div>
+
+               <div class="c-form-test-2">
+                  <div class="c-form-1">ENTREZ VOTRE NUMÉRO</div>
+                  <input type="text" name="numero" class="c-form-4" placeholder="+3247000000">
+                  <!-- value="<?php if(isset($_POST['numero'])) { echo $_POST['numero']; } ?>" -->
+               </div>
+
+               <div class="c-form">
+                  <div class="c-form-1">QUEL PACK DÉSIREZ-VOUS ?</div>
+                  <select id="pack" class="c-form-4" name="pack" style="color:#b1b1b1">
+                     <!-- value="<?php if(isset($_POST['pack'])) { echo $_POST['pack']; } ?>" -->
+                     <option value="Media">Media</option>
+                     <option value="Web">Web</option>
+                     <option value="Graphisme">Graphisme</option>
+                     <option value="Pack Duo">Pack Duo</option>
+                     <option value="Pack Trio">Pack Trio</option>
+                  </select>
+               </div>
+
+               <div class="c-form">
+                  <div class="c-form-1">MESSAGE</div>
+                  <textarea class="c-form-5" name="message" placeholder="Écrivez-nous un message"></textarea>
+                  <!-- <?php if(isset($_POST['message'])) { echo $_POST['message']; } ?> -->
+               </div>
+   
+               <button type="submit" class="c-form-6" name="mailform">ENVOYER</button>
+            
+            <!-- <?php
+               if(isset($msg))
+               {
+                  echo $msg;
+               }
+            ?> -->
+
+            <!-- Retirer commentaires lignes 1, commentaire dans le form àpd 161  -->
+            
+            </form>
+
+         </div>
+
+      </div>
+
+   </section>
+
+
+<!-- FORMULAIRE DE CONTACT (end) -->
 
 
 <!-- FOOTER (start) -->

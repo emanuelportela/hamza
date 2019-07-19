@@ -204,7 +204,7 @@ body {
          z-index: 999;
          padding: 0 150px;
          width: 100%;
-         box-shadow: 0px 1px 5px #343434;
+         box-shadow: 0px 1px 5px #7a7a7a;
          -webkit-transition: all 0.4s ease 0s;
          -o-transition: all 0.4s ease 0s;
          transition: all 0.4s ease 0s;

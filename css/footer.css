@@ -56,7 +56,7 @@ footer {
    color: #FE9F00;
 }
 
-.footer-1-2 a:hover i {
+.footer-1-2 a:hover i, .footer-1-3 a:hover i {
    margin-right: 20px;
    margin-left: 5px;
    -webkit-transition: all 0.4s ease 0s;
@@ -99,7 +99,7 @@ footer {
 
 .footer-2-1:hover img:nth-child(2), .footer-2-1:hover a {
    display: initial;
-   color: #FE9F00
+   color: #FE9F00;
 }
 
 .footer-2-1 a {

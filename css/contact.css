@@ -2,15 +2,236 @@
 
 .top-contact {
    height: 400px;
-   background-color: black;
+   background-image: url('../img/contact.jpg');
+   background-size: 100%;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.top-contact-filtre {
+   background-color: rgba(0,0,0,0.7);
+   width: 100%;
+   height: 100%;
    display: flex;
+   flex-wrap: wrap;
    justify-content: center;
    align-items: center;
+   padding: 150px 0;
 }
 
 .top-contact h1 {
-   font-size: 30px;
+   font-size: 45px;
    color: white;
+   width: 100%;
+   text-align: center;
+}
+
+.top-contact h5 {
+   font-size: 15px;
+   color: white;
+   width: 100%;
+   text-align: center;
 }
 
 /* TOP - CONTACT (end) */
+
+
+/* CONTACT (start) */
+
+section {
+   height: 840px;
+   padding: 100px;
+   background-color: #F2F1F2;
+}
+
+.contact {
+   height: 640px;
+   width: 100%;
+   background-color: red;
+   margin: 0;
+}
+
+   /* CONTACT - DONNEE (start) */
+
+   .contact-1 {
+      background-image: url('../img/DSC06152.jpg');
+      background-size: 220%;
+      padding: 0;
+   }
+   
+      .contact-1-filtre {
+         background-color: rgba(0,0,0,0.7);
+         width: 100%;
+         height: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         align-items: center;
+         padding: 180px 100px;
+      }
+      
+         .contact-donnee {
+            height: 70px;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            }
+      
+         .contact-donnee-1 {
+            font-size: 20px;
+            color: white;
+            width: 15%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+         }
+      
+         .contact-donnee-2 {
+            width: 85%;
+            height: 75%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+         }
+      
+         .contact-donnee-2-1 {
+            width: 100%;
+            color: white;
+            font-weight: bolder;
+            font-size: 17px;
+         }
+      
+         
+         .contact-donnee-2-2 {
+            width: 100%;
+            color: #FE9F00;
+            font-size: 15px;
+         }
+         
+         .contact-donnee-2-2:hover {
+               text-decoration: none;
+               color: #ccc;
+               margin-left: 5px;
+               -webkit-transition: all 0.4s ease 0s;
+               -o-transition: all 0.4s ease 0s;
+               transition: all 0.4s ease 0s;
+            }
+      
+   /* CONTACT - DONNEE (end) */
+
+
+   /* CONTACT - FORM (start) */
+
+   .contact-2 {
+      background-color: white;
+      padding: 50px 60px;
+   }
+
+   .contact-form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   .contact-form-h3 {
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+      color: #FE9F00;
+      font-style: italic;
+      font-family: 'Patrick Hand', cursive;
+   }
+
+   .c-form {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid #e6e6e6;
+      width: 100%;
+   }
+
+   .c-form-test, .c-form-test-2 {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid #e6e6e6;
+      width: 50%;
+   }
+
+   .c-form-test-2 {
+      border-left: none;
+   }
+
+   .c-form-1 {
+      border-bottom: 1px solid #e6e6e6;
+      height: 40px;
+      width: 100%;
+      color: rgb(104, 104, 104);
+      padding: 12px 20px;
+      font-size: 12px;
+   }
+   
+   .c-form-2, .c-form-3 {
+      border: none;
+      height: 40px;
+      width: 50%;
+      color: #e6e6e6;
+      padding: 12px 20px;
+      font-size: 12px;
+   }
+
+   .c-form-3 {
+      border-left: 1px solid #e6e6e6 !important;
+   }
+
+   .c-form-4 {
+      border: none;
+      height: 40px;
+      width: 100%;
+      color: #666;
+      padding: 12px 20px;
+      font-size: 12px;
+      background-color: white;
+   }
+
+   .c-form-5 {
+      border: none;
+      height: 100px;
+      width: 100%;
+      color: #666;
+      padding: 12px 20px;
+      font-size: 12px;
+   }
+
+   .c-form-6 {
+      border: none;
+      height: 40px;
+      width: 180px;
+      color: #666;
+      padding: 12px 20px;
+      font-size: 12px;
+      font-weight: bold;
+      background-color: #FE9F00;
+      margin-top: 20px;
+      color: white;
+      text-align: center;
+   }
+
+   .c-form-6:hover {
+      background-color: #FC7B01;
+   }
+
+   .c-form-2:focus, .c-form-3:focus, .c-form-4:focus, .c-form-5:focus, .c-form-6:focus  {
+      outline: none !important;
+      border: 1px solid #FE9F00 !important;
+   }
+
+   .c-form-2::placeholder, .c-form-3::placeholder, .c-form-4::placeholder, .c-form-5::placeholder  {
+      color: #b1b1b1;
+   }
+
+   /* CONTACT - FORM (end) */
+
+
+/* CONTACT (end) */
