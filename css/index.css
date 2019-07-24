@@ -27,6 +27,7 @@
    flex-wrap: wrap;
    align-items: center;
    justify-content: center;
+   font-family: 'Patrick Hand', cursive;
 }
 
 .accueil-filtre h1 {
@@ -75,3 +76,282 @@
 }
 
 /* SECTION ACCUEIL (end) */
+
+
+/* SECTION SERVICES (start) */
+
+.section-services {
+   background-color: #fff;
+   padding: 50px 100px;
+}
+
+.section-services h1 {
+   font-size: 25px;
+   color: #262626;
+   text-align: center;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.section-services span {
+   color: #FE9F00;
+}
+
+.services {
+   margin: 0;
+   width: 100%;
+   padding: 50px 0 0 0;
+}
+
+.service {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.service a {
+   text-decoration: none;
+}
+
+.service-1 {
+   width: 180px;
+   height: 180px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   border: solid 2px #FE9F00;
+   border-radius: 50%;
+}
+
+.service-1-1 {
+   width: 170px;
+   height: 170px;
+   border-radius: 50%;
+   font-size: 50px;
+   background-image: linear-gradient(to right top, #fc7b01, #fd8400, #fd8d00, #fe9600, #fe9f00);
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.service:hover .service-1-1 {
+   transition: all 1s ease 0s;
+   color: #262626;
+}
+
+.service:hover .service-1 {
+   transition: all 1s ease 0s;
+   border: solid 2px #262626;
+}
+
+.service-2 {
+   font-size: 18px;
+   color: #262626;
+   width: 180px;
+   text-align: center;
+   position: relative;
+   padding: 10px;
+   margin: 40px 0 100px 0;
+}
+
+ 
+.service-2::before, .service-2::after {
+   content: "";
+   position: absolute;
+   width: 0;
+   height: 0;
+}
+
+.service:hover .service-2 {
+   color: #fc7b01;
+   transition: all .8s;
+}
+
+.service:hover .service-2::before, .service:hover .service-2::after {
+   height: 100%;
+   width: 100%;
+   color: #fc7b01;
+}
+
+.service:hover .service-2::before {
+   top: -2px;
+   left: 0;
+   border-top: 2px solid #fc7b01;
+   border-right: 2px solid #fc7b01;
+   transition: width .2s ease, height .2s ease .2s, border-right 0s ease .2s;
+}
+
+.service:hover .service-2::after {
+   bottom: 0;
+   right: 0px;
+   border-bottom: 2px solid #fc7b01;
+   border-left: 2px solid #fc7b01;
+   transition: width .2s ease .4s, border-botom 0s ease .4s, height .2s ease .6s, border-left 0s ease .6s;
+}
+
+.service-3-1, .service-3-2, .service-3-3 {
+   font-size: 15px;
+   color: #262626;
+   width: 100%;
+   text-align: center;
+   transition: transform 1s;
+   position: absolute;
+   bottom: 0;
+   left:0;
+   line-height: 25px;
+}
+
+.service-3-1 { left: -600px; }
+.service-3-2 { bottom: -950px; color: white; z-index: -2; }
+.service-3-3 { bottom: -950px; color: white; z-index: -2; }
+
+.service:hover .service-3-1 { transform: translate(600px); }
+.service:hover .service-3-2 { transform: translate(0,-950px); color: #262626; z-index: 2; }
+.service:hover .service-3-3 { transform: translate(0,-950px); color: #262626; z-index: 2; }
+
+.service-3-1 span, .service-3-2 span, .service-3-3 span {
+   color: white;
+}
+
+.service:hover .service-3-1 span, .service:hover .service-3-2 span, .service:hover .service-3-3 span { 
+   color: #fc7b01 
+}
+
+/* SECTION SERVICES (end) */
+
+
+/* SECTION PROMO (start) */
+
+.promo {
+   height: 400px;
+   background-color: #222;
+   padding: 50px 100px;
+}
+
+.promo h1 {
+   font-size: 25px;
+   color: white;
+   text-align: center;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.promo span {
+   color: #FE9F00;
+}
+
+
+/* SECTION PROMO (end) */
+
+
+/* SECTION A PROPOS (start) */
+
+.section-apropos {
+   height: 500px;
+   background-color: #FFFFFF;
+   padding: 50px 0px;
+}
+
+.section-apropos h1 {
+   font-size: 25px;
+   color: #262626;
+   text-align: center;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.section-apropos span {
+   color: #FE9F00;
+}
+
+.apropos {
+   height: 400px;
+   margin: 0;
+   padding: 50px 100px;
+   width: 100%;
+}
+
+.apropos-1 {
+   height: 100%;
+}
+
+.apropos-1-carres {
+   height: 220px;
+   position: relative;
+}
+
+.apropos-1-carre-1, .apropos-1-carre-2, .apropos-1-carre-3 {
+   height: 160px;
+   width: 160px;
+   border: solid 2px #ccc;
+   padding: 5px;
+   transition: transform 1s;
+}
+ 
+.apropos-1-carre-1:hover, .apropos-1-carre-2:hover, .apropos-1-carre-3:hover {
+   transform: rotate(-15deg);
+}
+
+.apropos-1-carre-1 {
+   position: absolute;
+   z-index: 1;
+   top:0;
+   left: 0;
+}
+
+.apropos-1-carre-2 {
+   position: absolute;
+   z-index: 1;
+   top: 30px;
+   left: 130px;
+}
+
+.apropos-1-carre-3 {
+   position: absolute;
+   z-index: 1;
+   top: 10px;
+   right: 0;
+}
+
+.apropos-1-carres img {
+   height: 100%;
+   width: 100%;
+}
+
+.apropos-1 h1 {
+   color: #262626;
+   font-size: 18px;
+   text-align: center;
+   line-height: 35px;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.apropos-2 {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.apropos-2 p {
+   font-size: 15px;
+   color: rgb(99, 98, 98);
+   line-height: 30px;
+   text-align: justify;
+   width: 100%;
+}
+
+.apropos-2 a {
+   padding: 10px 20px;
+   text-decoration: none;
+   border: 2px solid #FE9F00;
+   color: #FE9F00;
+}
+
+.apropos-2 a:hover {
+   border: 2px solid rgb(37, 37, 37);
+   color: rgb(0,0,0);
+   transition: all 0.4s ease;
+}
+
+/* SECTION A PROPOS (end) */
