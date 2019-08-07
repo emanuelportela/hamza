@@ -40,3 +40,18 @@ window.onscroll = () => {
       nonactive6.classList.remove("nonactiveblack");
    }
 };
+
+/* BARRE NAV AU SCROLL (end) */
+
+
+
+/* TITRE REFRESH TEST (start) */
+
+window.addEventListener("load", function () {
+   let bar = document.querySelector('.carre-1');
+
+   bar.classList.add("carre-2");
+
+})
+
+/* TITRE REFRESH TEST (start) */

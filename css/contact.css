@@ -14,7 +14,7 @@
    height: 100%;
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
+   justify-content: flex-end;
    align-items: center;
    padding: 150px 0;
 }
@@ -22,14 +22,14 @@
 .top-contact h1 {
    font-size: 45px;
    color: white;
-   width: 100%;
+   width: 60%;
    text-align: center;
 }
 
 .top-contact h5 {
    font-size: 15px;
    color: white;
-   width: 100%;
+   width: 60%;
    text-align: center;
 }
 

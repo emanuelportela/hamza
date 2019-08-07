@@ -30,8 +30,20 @@
    font-family: 'Patrick Hand', cursive;
 }
 
+.carre-1 {
+   position: absolute;
+   transition: transform 2s;
+   left: -100%;
+   z-index: -2; 
+}
+
+.carre-2 { 
+   transform: translate(250%); 
+   z-index: 2; 
+}
+
 .accueil-filtre h1 {
-   font-size: 150px;
+   font-size: 10vw;
    width: 100%;
    text-align: center;
 }
@@ -83,6 +95,7 @@
 .section-services {
    background-color: #fff;
    padding: 50px 100px;
+   position: relative /* test triangle*/
 }
 
 .section-services h1 {
@@ -203,13 +216,17 @@
    line-height: 25px;
 }
 
-.service-3-1 { left: -600px; }
-.service-3-2 { bottom: -950px; color: white; z-index: -2; }
-.service-3-3 { bottom: -950px; color: white; z-index: -2; }
+.service-3-1 { left: -400px; }
+/* .service-3-2 { left: -600px; }
+.service-3-3 { left: -600px; } */
+.service-3-2 { left: -300px; color: white; z-index: -2; }
+.service-3-3 { left: -300px; color: white; z-index: -2; }
 
-.service:hover .service-3-1 { transform: translate(600px); }
-.service:hover .service-3-2 { transform: translate(0,-950px); color: #262626; z-index: 2; }
-.service:hover .service-3-3 { transform: translate(0,-950px); color: #262626; z-index: 2; }
+.service:hover .service-3-1 { transform: translate(400px); }
+.service:hover .service-3-2 { transform: translate(300px); color: #262626; z-index: 2; }
+.service:hover .service-3-3 { transform: translate(300px); color: #262626; z-index: 2; }
+/* .service:hover .service-3-2 { transform: translate(0,-950px); color: #262626; z-index: 2; }
+.service:hover .service-3-3 { transform: translate(0,-950px); color: #262626; z-index: 2; } */
 
 .service-3-1 span, .service-3-2 span, .service-3-3 span {
    color: white;
@@ -225,9 +242,10 @@
 /* SECTION PROMO (start) */
 
 .promo {
-   height: 400px;
+   /* height: 630px; */
    background-color: #222;
-   padding: 50px 100px;
+   padding: 70px 100px;
+   position: relative; /* test triangle */
 }
 
 .promo h1 {
@@ -241,6 +259,159 @@
    color: #FE9F00;
 }
 
+.packs {
+   color: #070707;
+}
+
+.pack {
+   height: 400px;
+}
+
+.pack-icons {
+   font-size: 30px;
+   height: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 60px;
+   background-color: #606060;
+   border: 2px solid #070707;
+   border-radius: 20px;
+   box-shadow: 9px 9px 10px #070707;
+}
+
+.pack-icons i {
+   color: white;
+}
+
+.pack-icons-1 {
+   text-align: center;
+   width: 100%;
+   margin: auto;
+}
+
+.pack-icons-2 {
+   display: flex;
+   width: 100%;
+   align-items: center;
+}
+
+.pack-icons-2 div {
+   width: 50%;
+   text-align: center;
+}
+
+.pack-icons-trio {
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 40px;
+   height: 200px;
+   margin-top: 60px;
+   align-items: center;
+   color: white;
+   background-color: #606060;
+   border: 2px solid #070707;
+   border-radius: 20px;
+   box-shadow: 9px 9px 10px #070707;
+}
+
+.pack-icons-trio i:nth-child(1) {
+   width: 100%;
+   text-align: center;
+}
+
+.pack-icons-trio i:nth-child(2), .pack-icons-trio i:nth-child(3) {
+   width: 50%;
+   text-align: center;
+}
+
+.pack h1 {
+   font-size: 25px;
+   /* padding: 10px 20px; */
+   color: white;
+   width: 200px;
+   margin: 40px auto 10px;
+   border-radius: 5px;
+   /* border: 2px solid #070707; */
+}
+
+.pack-info {
+   font-size: 15px;
+   color: #262626;
+   width: 100%;
+   text-align: center;
+   transition: transform 1s;
+   position: absolute;
+   left:0;
+   line-height: 25px;
+}
+
+.pack-info { 
+   left: -300px; 
+   color: #262626; 
+   z-index: -2; 
+}
+
+.pack:hover .pack-info { 
+   transform: translate(300px); 
+   color: #070707; 
+   z-index: 2; 
+}
+
+
+.pack-solde-1, .pack-solde-2 {
+   width: 150px;
+   height: 150px;
+   font-family: 'Patrick Hand', cursive;
+   /* background-color: #FE9F00; */
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 40px;
+   color: white;
+   background-image: url('../img/stickers.png');
+   background-size: 100%;
+   background-repeat: no-repeat;
+   left: 0;
+   transform: rotate(-15deg);
+}
+
+.pack-solde-1 {
+   /* border-radius: 28% 72% 55% 45% / 69% 58% 42% 31% ; */
+   top: 0;
+}
+
+.pack-solde-2 {
+   /* border-radius: 28% 72% 55% 45% / 69% 58% 42% 31% ; */
+   /* right: 0; */
+   top: 20px;
+}
+
+.pack-solde-1:hover, .pack-solde-2:hover {
+   transition: all 0.4s;
+   width: 160px;
+   height: 160px;
+   font-size: 45px;
+}
+
+.pack-commande {
+   text-decoration: none !important;
+   font-size: 20px;
+   margin: 0 auto;
+   width: 200px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid #FE9F00;
+   color: #FE9F00;
+   transition: all 1s;
+}
+
+.pack-commande:hover {
+   border: 2px solid white;
+   color: white;
+}
 
 /* SECTION PROMO (end) */
 
@@ -248,9 +419,10 @@
 /* SECTION A PROPOS (start) */
 
 .section-apropos {
-   height: 500px;
+   /* height: 500px; */
    background-color: #FFFFFF;
-   padding: 50px 0px;
+   padding: 50px 0px 0;
+   position: relative; /* test triangle */
 }
 
 .section-apropos h1 {

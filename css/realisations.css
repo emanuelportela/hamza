@@ -1,0 +1,202 @@
+/* TOP - REALISATIONS (start) */
+
+.top-realisations {
+   height: 400px;
+   background-image: url('../img/2354877.jpg');
+   background-size: 100%;
+   background-position-y: 11%;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.top-realisations-filtre {
+   background-color: rgba(0,0,0,0.6);
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 150px 0;
+}
+
+.top-realisations h1 {
+   font-size: 35px;
+   color: white;
+   margin-top: 40px;
+   width: 60%;
+   text-align: center;
+}
+
+.top-realisations h5 {
+   font-size: 16px;
+   color: white;
+   width: 60%;
+   text-align: center;
+}
+
+/* TOP - REALISATIONS (end) */
+
+
+/* SECTION - REALISATIONS (start) */
+
+.section-realisations {
+   /* height: 500px; */
+   background-color: #FFFFFF;
+   padding: 50px 0px 0;
+   position: relative; /* test triangle */
+}
+
+.section-realisations h1 {
+   font-size: 25px;
+   color: #262626;
+   text-align: center;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.section-realisations span {
+   color: #FE9F00;
+}
+
+.realisations {
+   margin: 0;
+   padding: 50px 100px;
+   width: 100%;
+   position: relative;
+}
+
+.realisation {
+   width: 100%;
+   height: 100%;
+   padding: 0;
+   margin-bottom: 15px;
+   display: flex;
+   justify-content: center;
+}
+
+.realisation-1 {
+   width: 95%;
+   height: 200px;
+   transition: transform .2s;
+   float: left;
+   position: relative;
+   overflow: hidden;
+}
+
+.realisation-2 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   z-index: 2;
+}
+
+.realisation-2 img {
+   width: 100%;
+   height: 100%;
+   -webkit-transition: 0.4s ease;
+   transition: 0.4s ease;
+}
+
+.realisation-3 {
+   display: none;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 3;
+   background-color: rgba(254,159,0,0.0);
+   justify-content: center;
+   align-items: center;
+}
+
+.realisation-3 h1 {
+   font-size: 25px;
+   color: #141414;
+   font-family: 'Patrick Hand', cursive;
+   /* border: 2px solid white; */
+   padding: 5px 15px;
+   /* background-color: rgba(0,0,0,0.3); */
+}
+
+.realisation:hover .realisation-2 img {
+   -webkit-transform: scale(1.08);
+   transform: scale(1.08);
+}
+
+.realisation:hover .realisation-3 {
+   display: flex;
+   background-color: rgba(254,159,0,0.7);
+   cursor: pointer;
+}
+
+.media {
+   margin: 0;
+}
+
+/* SECTION - REALISATIONS (end) */
+
+
+/* REALISATIONS - BOUTONS (start) */
+
+.realisations-boutons {
+   width: 100%;
+   height: 60px;
+   display: flex;;
+   justify-content: flex-start;
+   align-items: center;
+   margin-top: 50px;
+   background-color: rgb(244, 243, 236);
+   font-size: 16px;
+   padding: 5px 90px;
+}
+
+#bouton-1 {
+   height: 35px;
+   border: solid 2px #FE9F00;
+   outline: none !important;
+   cursor: pointer;
+   display: flex;;
+   justify-content: center;
+   align-items: center;
+   padding: 15px 15px;
+   margin: 0 10px;
+   color: #FE9F00;
+}
+
+#bouton-2, #bouton-3, #bouton-4 {
+   height: 35px;
+   outline: none !important;
+   cursor: pointer;
+   margin-right: 10px;
+   display: flex;;
+   justify-content: center;
+   align-items: center;
+   border: rgb(110,110,110) solid 2px;
+   color: rgb(110,110,110);
+   padding: 15px 15px;
+   margin: 0 10px;
+}
+
+#bouton-2:hover, #bouton-3:hover, #bouton-4:hover {
+   border: #141414 solid 2px;
+   color: #141414;
+}
+
+.bouton-clique {
+   border: #FE9F00 solid 2px !important;
+   color: #FE9F00 !important;
+}
+
+.all-clique {
+   border: rgb(110,110,110) solid 2px !important;
+   color: rgb(110,110,110) !important;
+}
+
+.all-clique:hover {
+   border: #141414 solid 2px !important;
+   color: #141414 !important;
+}
+
+/* REALISATIONS - BOUTONS (end) */

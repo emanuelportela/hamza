@@ -2,15 +2,207 @@
 
 .top-graphisme {
    height: 400px;
-   background-color: black;
+   background-image: url('../img/mockup-10.png');
+   background-size: 135%;
+   background-position-y: 20%;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.top-graphisme-filtre {
+   background-color: rgba(0,0,0,0.6);
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 150px 0;
+}
+
+.top-graphisme h1 {
+   font-size: 35px;
+   color: white;
+   width: 51%;
+   text-align: center;
+}
+
+.top-graphisme h5 {
+   font-size: 16px;
+   color: white;
+   width: 51%;
+   text-align: center;
+}
+
+/* TOP - GRAPHISME (end) */
+
+
+/* SECTION SERVICES (start) */
+
+.section-services {
+   background-color: #fff;
+   padding: 50px 100px;
+}
+
+.section-services-h1 {
+   font-size: 25px;
+   color: #262626;
+   text-align: center;
+   font-family: 'Patrick Hand', cursive;
+}
+
+.section-services span {
+   color: #FE9F00;
+}
+
+.services {
+   margin: 0;
+   width: 100%;
+   padding: 50px 0 0 0;
+}
+
+.service {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.service-1 {
+   width: 180px;
+   height: 180px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   border: solid 2px #FE9F00;
+   border-radius: 50%;
+}
+
+.service-1-1 {
+   width: 170px;
+   height: 170px;
+   border-radius: 50%;
+   font-size: 50px;
+   background-image: linear-gradient(to right top, #fc7b01, #fd8400, #fd8d00, #fe9600, #fe9f00);
+   color: white;
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-.top-graphisme h1 {
-   font-size: 30px;
+.service:hover .service-1-1 {
+   transition: all 1s ease 0s;
+   color: #262626;
+}
+
+.service:hover .service-1 {
+   transition: all 1s ease 0s;
+   border: solid 2px #262626;
+}
+
+.service-2 {
+   font-family: 'Patrick Hand', cursive;
+   font-size: 18px;
+   color: #262626;
+   width: 180px;
+   text-align: center;
+   position: relative;
+   padding: 10px;
+   margin: 40px 0 100px 0;
+}
+
+ 
+.service-2::before, .service-2::after {
+   content: "";
+   position: absolute;
+   width: 0;
+   height: 0;
+}
+
+.service:hover .service-2 {
+   color: #fc7b01;
+   transition: all .8s;
+}
+
+.service:hover .service-2::before, .service:hover .service-2::after {
+   height: 100%;
+   width: 100%;
+   color: #fc7b01;
+}
+
+.service:hover .service-2::before {
+   top: -2px;
+   left: 0;
+   border-top: 2px solid #fc7b01;
+   border-right: 2px solid #fc7b01;
+   transition: width .2s ease, height .2s ease .2s, border-right 0s ease .2s;
+}
+
+.service:hover .service-2::after {
+   bottom: 0;
+   right: 0px;
+   border-bottom: 2px solid #fc7b01;
+   border-left: 2px solid #fc7b01;
+   transition: width .2s ease .4s, border-botom 0s ease .4s, height .2s ease .6s, border-left 0s ease .6s;
+}
+
+.service-3-1, .service-3-2, .service-3-3 {
+   font-size: 15px;
+   color: #262626;
+   width: 100%;
+   text-align: center;
+   transition: transform 1s;
+   position: absolute;
+   bottom: 30px;
+   left:0;
+   line-height: 25px;
+}
+
+.service-3-1 { 
+   left: -400px; 
+}
+
+.service-3-2, .service-3-3 { 
+   left: -300px; 
+   color: white; 
+   z-index: -2; }
+
+.service:hover .service-3-1 { 
+   transform: translate(400px); 
+}
+
+.service:hover .service-3-2, .service:hover .service-3-3 { 
+   transform: translate(300px); 
+   color: #262626; 
+   z-index: 2; }
+
+
+.service-3-1 span, .service-3-2 span, .service-3-3 span {
    color: white;
 }
 
-/* TOP - GRAPHISME (end) */
+.service:hover .service-3-1 span, .service:hover .service-3-2 span, .service:hover .service-3-3 span { 
+   color: #fc7b01 
+}
+
+.pack-commande {
+   text-decoration: none !important;
+   font-size: 20px;
+   margin: 0 auto;
+   width: 200px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid #262626;
+   color: #262626;
+   transition: all 1s;
+}
+
+.pack-commande:hover {
+   border: 2px solid #fc7b01;
+   color: #fc7b01;
+}
+
+/* SECTION SERVICES (end) */
