@@ -10,7 +10,7 @@
 }
 
 .top-graphisme-filtre {
-   background-color: rgba(0,0,0,0.6);
+   background-color: rgba(0, 0, 0, 0.6);
    width: 100%;
    height: 100%;
    display: flex;
@@ -84,7 +84,7 @@
    height: 170px;
    border-radius: 50%;
    font-size: 50px;
-   background-image: linear-gradient(to right top, #fc7b01, #fd8400, #fd8d00, #fe9600, #fe9f00);
+   background-image: linear-gradient(to right top, #fc7b01, #fd8400, #fd8d00, #fe9600, #FE9F00);
    color: white;
    display: flex;
    justify-content: center;
@@ -112,8 +112,9 @@
    margin: 40px 0 100px 0;
 }
 
- 
-.service-2::before, .service-2::after {
+
+.service-2::before,
+.service-2::after {
    content: "";
    position: absolute;
    width: 0;
@@ -125,7 +126,8 @@
    transition: all .8s;
 }
 
-.service:hover .service-2::before, .service:hover .service-2::after {
+.service:hover .service-2::before,
+.service:hover .service-2::after {
    height: 100%;
    width: 100%;
    color: #fc7b01;
@@ -147,7 +149,9 @@
    transition: width .2s ease .4s, border-botom 0s ease .4s, height .2s ease .6s, border-left 0s ease .6s;
 }
 
-.service-3-1, .service-3-2, .service-3-3 {
+.service-3-1,
+.service-3-2,
+.service-3-3 {
    font-size: 15px;
    color: #262626;
    width: 100%;
@@ -155,35 +159,43 @@
    transition: transform 1s;
    position: absolute;
    bottom: 30px;
-   left:0;
+   left: 0;
    line-height: 25px;
 }
 
-.service-3-1 { 
-   left: -400px; 
+.service-3-1 {
+   left: -400px;
 }
 
-.service-3-2, .service-3-3 { 
-   left: -300px; 
-   color: white; 
-   z-index: -2; }
-
-.service:hover .service-3-1 { 
-   transform: translate(400px); 
+.service-3-2,
+.service-3-3 {
+   left: -300px;
+   color: white;
+   z-index: -2;
 }
 
-.service:hover .service-3-2, .service:hover .service-3-3 { 
-   transform: translate(300px); 
-   color: #262626; 
-   z-index: 2; }
+.service:hover .service-3-1 {
+   transform: translate(400px);
+}
+
+.service:hover .service-3-2,
+.service:hover .service-3-3 {
+   transform: translate(300px);
+   color: #262626;
+   z-index: 2;
+}
 
 
-.service-3-1 span, .service-3-2 span, .service-3-3 span {
+.service-3-1 span,
+.service-3-2 span,
+.service-3-3 span {
    color: white;
 }
 
-.service:hover .service-3-1 span, .service:hover .service-3-2 span, .service:hover .service-3-3 span { 
-   color: #fc7b01 
+.service:hover .service-3-1 span,
+.service:hover .service-3-2 span,
+.service:hover .service-3-3 span {
+   color: #fc7b01
 }
 
 .pack-commande {

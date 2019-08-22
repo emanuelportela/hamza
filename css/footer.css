@@ -28,35 +28,42 @@ footer {
 }
 
 
-.footer-1-2, .footer-1-3 {
+.footer-1-2,
+.footer-1-3 {
    display: flex;
    flex-wrap: wrap;
    height: 100%;
 }
 
-.footer-1-2 h1, .footer-1-3 h1 {
+.footer-1-2 h1,
+.footer-1-3 h1 {
    font-size: 15px;
    color: #ccc;
    margin-bottom: 20px;
    width: 100%;
 }
 
-.footer-1-2 a, .footer-1-3 a, .footer-1-3 p {
+.footer-1-2 a,
+.footer-1-3 a,
+.footer-1-3 p {
    text-decoration: none;
    color: rgb(121, 119, 119);
    width: 100%;
    height: 20px;
 }
 
-.footer-1-2 a i, .footer-1-3 i {
+.footer-1-2 a i,
+.footer-1-3 i {
    margin-right: 15px;
 }
 
-.footer-1-2 a:hover, .footer-1-3 a:hover {
+.footer-1-2 a:hover,
+.footer-1-3 a:hover {
    color: #FE9F00;
 }
 
-.footer-1-2 a:hover i, .footer-1-3 a:hover i {
+.footer-1-2 a:hover i,
+.footer-1-3 a:hover i {
    margin-right: 20px;
    margin-left: 5px;
    -webkit-transition: all 0.4s ease 0s;
@@ -89,15 +96,18 @@ footer {
    align-items: center;
 }
 
-.footer-2-1 img:nth-child(1), .footer-2-1 img:nth-child(2) {
+.footer-2-1 img:nth-child(1),
+.footer-2-1 img:nth-child(2) {
    width: 30px;
 }
 
-.footer-2-1 img:nth-child(2), .footer-2-1:hover img:nth-child(1) {
+.footer-2-1 img:nth-child(2),
+.footer-2-1:hover img:nth-child(1) {
    display: none;
 }
 
-.footer-2-1:hover img:nth-child(2), .footer-2-1:hover a {
+.footer-2-1:hover img:nth-child(2),
+.footer-2-1:hover a {
    display: initial;
    color: #FE9F00;
 }
@@ -126,4 +136,3 @@ footer {
 }
 
 /* FOOTER (end) */
-

@@ -16,7 +16,7 @@ if(isset($_POST['mailform'])) {
       /* HEADER DES MAILS (start) */
 
          $header="MIME-Version: 1.0\r\n";
-         $header.='From:"Formulaire de contact"<studio@gmail.com>'."\n";
+         $header.='From:"Formulaire de contact"<atypeak@gmail.com>'."\n";
          $header.='Content-Type:text/html;'."\n";
          $header.='Content-Transfer-Encoding: 8bit';
    
@@ -46,14 +46,14 @@ if(isset($_POST['mailform'])) {
                      <p><i>" '.nl2br($_POST['message']).' "</i></p>
 
                      <h4 style="text-align:right; color:#345f87; margin-top: 30px;">N\'hésitez pas à lui répondre.</h4>
-                     <h4 style="text-align:right; color:#939393">Studio Corporation - Site</h4>
+                     <h4 style="text-align:right; color:#939393">Atypeak - Site</h4>
 
                   </div>
 		      	</body>
 		      </html>
             '; 
 
-            mail("studio@gmail.com", "Contact - Studio Corporation", $message, $header);
+            mail("atypeak@gmail.com", "Contact - Atypeak", $message, $header);
          }
       
       /* MAIL SI PACK MEDIA (end) */
@@ -83,14 +83,14 @@ if(isset($_POST['mailform'])) {
                      <p><i>" '.nl2br($_POST['message']).' "</i></p>
    
                      <h4 style="text-align:right; color:#345f87; margin-top: 30px;">N\'hésitez pas à lui répondre.</h4>
-                     <h4 style="text-align:right; color:#939393">Studio Corporation - Site</h4>
+                     <h4 style="text-align:right; color:#939393">Atypeak - Site</h4>
    
                   </div>
                </body>
             </html>
             '; 
    
-            mail("studio@gmail.com", "Contact - Studio Corporation", $message, $header);
+            mail("atypeak@gmail.com", "Contact - Atypeak", $message, $header);
          }
       
       /* MAIL SI PACK WEB (end) */
@@ -120,14 +120,14 @@ if(isset($_POST['mailform'])) {
                      <p><i>" '.nl2br($_POST['message']).' "</i></p>
       
                      <h4 style="text-align:right; color:#345f87; margin-top: 30px;">N\'hésitez pas à lui répondre.</h4>
-                     <h4 style="text-align:right; color:#939393">Studio Corporation - Site</h4>
+                     <h4 style="text-align:right; color:#939393">Atypeak - Site</h4>
       
                   </div>
                </body>
             </html>
             '; 
       
-            mail("studio@gmail.com", "Contact - Studio Corporation", $message, $header);
+            mail("atypeak@gmail.com", "Contact - Atypeak", $message, $header);
          }
       
       /* MAIL SI PACK GRAPHISME (end) */
@@ -157,14 +157,14 @@ if(isset($_POST['mailform'])) {
                      <p><i>" '.nl2br($_POST['message']).' "</i></p>
 
                      <h4 style="text-align:right; color:#345f87; margin-top: 30px;">N\'hésitez pas à lui répondre.</h4>
-                     <h4 style="text-align:right; color:#939393">Studio Corporation - Site</h4>
+                     <h4 style="text-align:right; color:#939393">Atypeak - Site</h4>
 
                   </div>
 		      	</body>
 		      </html>
             '; 
 
-            mail("studio@gmail.com", "Contact - Studio Corporation", $message, $header);
+            mail("atypeak@gmail.com", "Contact - Atypeak", $message, $header);
          }
       
       /* MAIL SI PACK DUO (end) */
@@ -194,14 +194,14 @@ if(isset($_POST['mailform'])) {
                      <p><i>" '.nl2br($_POST['message']).' "</i></p>
    
                      <h4 style="text-align:right; color:#345f87; margin-top: 30px;">N\'hésitez pas à lui répondre.</h4>
-                     <h4 style="text-align:right; color:#939393">Studio Corporation - Site</h4>
+                     <h4 style="text-align:right; color:#939393">Atypeak - Site</h4>
    
                   </div>
                </body>
             </html>
             '; 
    
-            mail("studio@gmail.com", "Contact - Studio Corporation", $message, $header);
+            mail("atypeak@gmail.com", "Contact - Atypeak", $message, $header);
          }
          
       /* MAIL SI PACK TRIO (end) */
@@ -226,14 +226,14 @@ if(isset($_POST['mailform'])) {
                   <p><i>" '.nl2br($_POST['message']).' "</i></p>
 
                   <h4 style="text-align:right; color:#345f87; margin-top: 30px;">Nous vous répondrons au plus vite.</h4>
-                  <h4 style="text-align:right; color:#939393">Studio Corporation</h4>
+                  <h4 style="text-align:right; color:#939393">Atypeak</h4>
 
                </div>
 		   	</body>
 		   </html>
 		   ';
 
-         mail($_POST['mail'], "Accuse de reception - Studio Corporation", $message2, $header);
+         mail($_POST['mail'], "Accuse de reception - Atypeak", $message2, $header);
 
       /* MAIL ACCUSE DE RECEPTION (end) */
       
