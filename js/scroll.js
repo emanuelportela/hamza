@@ -12,7 +12,7 @@ window.onscroll = () => {
    var nonactive3 = document.querySelector('.nonactive3');
    var nonactive4 = document.querySelector('.nonactive4');
    var nonactive5 = document.querySelector('.nonactive5');
-   var nonactive6 = document.querySelector('.nonactive6');
+   // var nonactive6 = document.querySelector('.nonactive6');
    
    
    if (this.scrollY > 0) {
@@ -25,7 +25,7 @@ window.onscroll = () => {
       nonactive3.classList.add("nonactiveblack");
       nonactive4.classList.add("nonactiveblack");
       nonactive5.classList.add("nonactiveblack");
-      nonactive6.classList.add("nonactiveblack");
+      // nonactive6.classList.add("nonactiveblack");
 
    } else {
       nav.classList.remove("scroll");
@@ -37,7 +37,7 @@ window.onscroll = () => {
       nonactive3.classList.remove("nonactiveblack");
       nonactive4.classList.remove("nonactiveblack");
       nonactive5.classList.remove("nonactiveblack");
-      nonactive6.classList.remove("nonactiveblack");
+      // nonactive6.classList.remove("nonactiveblack");
    }
 };
 
