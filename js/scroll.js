@@ -12,7 +12,7 @@ window.onscroll = () => {
    var nonactive3 = document.querySelector('.nonactive3');
    var nonactive4 = document.querySelector('.nonactive4');
    var nonactive5 = document.querySelector('.nonactive5');
-   // var nonactive6 = document.querySelector('.nonactive6');
+   var nonactive6 = document.querySelector('.nonactive6');
    
    
    if (this.scrollY > 0) {
@@ -25,7 +25,7 @@ window.onscroll = () => {
       nonactive3.classList.add("nonactiveblack");
       nonactive4.classList.add("nonactiveblack");
       nonactive5.classList.add("nonactiveblack");
-      // nonactive6.classList.add("nonactiveblack");
+      nonactive6.classList.add("nonactiveblack");
 
    } else {
       nav.classList.remove("scroll");
@@ -37,7 +37,7 @@ window.onscroll = () => {
       nonactive3.classList.remove("nonactiveblack");
       nonactive4.classList.remove("nonactiveblack");
       nonactive5.classList.remove("nonactiveblack");
-      // nonactive6.classList.remove("nonactiveblack");
+      nonactive6.classList.remove("nonactiveblack");
    }
 };
 
@@ -55,3 +55,15 @@ window.addEventListener("load", function () {
 })
 
 /* TITRE REFRESH TEST (start) */
+
+
+
+ScrollReveal().reveal('.headline', { delay: 500 });
+ScrollReveal().reveal('.punchline', { delay: 1000 });
+
+ScrollReveal().reveal('.oneline', { delay: 500 });
+ScrollReveal().reveal('.twoline', { delay: 1500 });
+ScrollReveal().reveal('.threeline', { delay: 2500 });
+ScrollReveal().reveal('.fourline', { delay: 3500 });
+ScrollReveal().reveal('.fiveline', { delay: 4500 });
+ScrollReveal().reveal('.sixline', { delay: 5500 });

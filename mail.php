@@ -16,7 +16,7 @@ if(isset($_POST['mailform'])) {
       /* HEADER DES MAILS (start) */
 
          $header="MIME-Version: 1.0\r\n";
-         $header.='From:"Formulaire de contact"<atypeak@gmail.com>'."\n";
+         $header.='From:"Formulaire de contact"<info@atypeak.be>'."\n";
          $header.='Content-Type:text/html;'."\n";
          $header.='Content-Transfer-Encoding: 8bit';
    
@@ -53,7 +53,7 @@ if(isset($_POST['mailform'])) {
 		      </html>
             '; 
 
-            mail("atypeak@gmail.com", "Contact - Atypeak", $message, $header);
+            mail("info@atypeak.be", "Contact - Atypeak", $message, $header);
          }
       
       /* MAIL SI PACK MEDIA (end) */
@@ -90,7 +90,7 @@ if(isset($_POST['mailform'])) {
             </html>
             '; 
    
-            mail("atypeak@gmail.com", "Contact - Atypeak", $message, $header);
+            mail("info@atypeak.be", "Contact - Atypeak", $message, $header);
          }
       
       /* MAIL SI PACK WEB (end) */
@@ -127,7 +127,7 @@ if(isset($_POST['mailform'])) {
             </html>
             '; 
       
-            mail("atypeak@gmail.com", "Contact - Atypeak", $message, $header);
+            mail("info@atypeak.be", "Contact - Atypeak", $message, $header);
          }
       
       /* MAIL SI PACK GRAPHISME (end) */
@@ -164,7 +164,7 @@ if(isset($_POST['mailform'])) {
 		      </html>
             '; 
 
-            mail("atypeak@gmail.com", "Contact - Atypeak", $message, $header);
+            mail("info@atypeak.be", "Contact - Atypeak", $message, $header);
          }
       
       /* MAIL SI PACK DUO (end) */
@@ -201,7 +201,7 @@ if(isset($_POST['mailform'])) {
             </html>
             '; 
    
-            mail("atypeak@gmail.com", "Contact - Atypeak", $message, $header);
+            mail("info@atypeak.be", "Contact - Atypeak", $message, $header);
          }
          
       /* MAIL SI PACK TRIO (end) */

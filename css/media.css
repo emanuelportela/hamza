@@ -118,6 +118,11 @@
    height: 400px;
    margin-top: 20px;
 }
+
+/* .affichage:hover {
+   box-shadow: 4px 4px 17px 7px rgb(216, 214, 214);
+} */
+
 .affichage a {
    text-decoration: none;
 }
@@ -137,7 +142,21 @@
    font-size: 15px;
    margin-left: 5px;
    text-align: justify;
+   color: black;
 }
+
+.text_visibilité-2 {
+   border: 2px solid #383838;
+   color: #383838 !important;
+   font-size: 15px;
+   padding: 8px 30px;
+}
+
+.text_visibilité-2:hover {
+   color: #FE7F00 !important;
+   border: 2px solid #FE7F00;
+}
+
 .img_visibilité img {
    height: 400px;
    width: 100%;
@@ -184,15 +203,21 @@
    align-self: center;
 }
 
+.affichage-1{
+   height: 400px;
+}
+
 .affichage {
    padding: 0;
 }
 
-.affichage-2, .affichage-3, .affichage-1, .affichage-4 {
+.affichage-2, .affichage-3, .affichage-4 {
    display: none;
-   color: black;
 }
 
+.affichage-1, .affichage-2, .affichage-3, .affichage-4 {
+   color: black;
+}
 
 /* PAGES ANNEXES */
 
@@ -243,16 +268,22 @@
 
 .image-2 {
    display: flex;
-   justify-content: center;
+   justify-content: flex-end;
 }
 
 .image-2 img {
    height: 380px;
    border-radius: 20px;
+   opacity: 0.8;
+}
+
+.image-2 img:hover {
+   opacity: 1;
+   transition: all 2s;
 }
 
 .image-1 {
-   padding-left: 50px;
+   /* padding-left: 50px; */
    font-size: 15px;
    line-height: 31px;
 }
@@ -292,7 +323,7 @@
 .tarif {
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: flex-start;
 }
 
 .tarif-2 {

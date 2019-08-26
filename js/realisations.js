@@ -103,7 +103,7 @@ media.addEventListener("click", function () {
 
    for (var i = 0; i < des.length; i++) {
 
-      if (des[i].classList.contains("media")) {
+      if (des[i].classList.contains("meedia")) {
          document.querySelectorAll(".realisation")[i].style.display = "initial";
          media.classList.add("bouton-clique")
          all.classList.add("all-clique")
