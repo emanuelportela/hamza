@@ -222,10 +222,8 @@
    padding: 10px;
 }
 
-.contactez_nous i {
-   padding: 5px;
-   font-size: 85px;
-   color: white;
+.contactez_nous img {
+   height: 70px;
 }
 
 .contactez_nous h1 {
@@ -237,8 +235,9 @@
    color: white;
    border: 2px solid white;
    background-color: transparent;
-   padding: 10px;
+   padding: 10px 20px;
    font-size: 16px;
+   font-weight: bold;
 }
 
 .contactez_nous button:hover {

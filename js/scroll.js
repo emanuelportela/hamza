@@ -1,4 +1,3 @@
-
 /* BARRE NAV AU SCROLL (start) */
 
 window.onscroll = () => {
@@ -47,12 +46,12 @@ window.onscroll = () => {
 
 /* TITRE REFRESH TEST (start) */
 
-window.addEventListener("load", function () {
-   let bar = document.querySelector('.carre-1');
+// window.addEventListener("load", function () {
+//    let bar = document.querySelector('.accueil-ligne');
 
-   bar.classList.add("carre-2");
+//    bar.classList.add("accueil-ligne-2");
 
-})
+// })
 
 /* TITRE REFRESH TEST (start) */
 
@@ -67,3 +66,9 @@ ScrollReveal().reveal('.threeline', { delay: 2500 });
 ScrollReveal().reveal('.fourline', { delay: 3500 });
 ScrollReveal().reveal('.fiveline', { delay: 4500 });
 ScrollReveal().reveal('.sixline', { delay: 5500 });
+
+
+ScrollReveal().reveal('.uneidee', { duration: 2500 } );
+ScrollReveal().reveal('.deuxidee', { delay: 1000, duration: 1500 } );
+ScrollReveal().reveal('.troisidee', { delay: 2000, duration: 2000 } );
+ScrollReveal().reveal('.quatreidee', { delay: 3000, duration: 2000 } );

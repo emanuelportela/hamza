@@ -166,12 +166,10 @@
       rgba(255, 145, 0, 0.795), 
       rgb(255, 81, 0)
       );
-   padding: 10px;
+   padding: 40px 50px !important;
 }
-.contactez_nous i {
-   padding: 5px;
-   font-size: 85px;
-   color: white;
+.contactez_nous img {
+   height: 60px;
 }
 .empreinte {
    padding-top: 5px;
@@ -185,19 +183,16 @@
 .contactez_nous button {
    color: white;
    border: 2px solid white;
-   border-radius: 7px;
    background-color: transparent;
-   padding: 10px;
+   padding: 10px 20px;
    font-size: 16px;
+   font-weight: bold;
 }
+
 .contactez_nous button:hover {
-   transition: all 0.15s linear;
-   color: orange;
-   border: 2px solid orange;
-   border-radius: 7px;
-   background-color: white;
-   padding: 10px;
-   font-size: 16px;
+   transition: all 0.6s linear;
+   color: #262626;
+   border: 2px solid #262626;
 }
 .besoin_info {
    align-self: center;
