@@ -17,8 +17,8 @@
    <link rel="stylesheet" href="css/npm/imagehover.min.css">
 
    <!-- Pages -->
-   <link rel="stylesheet" href="css/web.css">
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/web.css">
    <link rel="stylesheet" href="css/footer.css">
    <link rel="stylesheet" href="css/responsive/all.css">
 
@@ -54,7 +54,7 @@
    <header class="header-2">
 
       <div class="header-logo" style="display: none;">
-         <a href="index.html"><img src="../../img/logo-3.png"></a>
+         <a href="index.html"><img src="./img/logo-3.png"></a>
       </div>
 
       <!-- Navigation -->
@@ -69,7 +69,7 @@
          <li class="active"><a href="web.html">WEB</a></li>
          <li><a class="nonactive2" href="media.html">MÉDIA</a></li>
          <li><a class="nonactive3" href="graphisme.html">GRAPHISME</a></li>
-         <li><a href="index.html"><img src="../../img/logo-3.png"></a></li>
+         <li><a href="index.html"><img src="./img/logo-3.png"></a></li>
          <li><a class="nonactive1" href="realisations.html">RÉALISATIONS</a></li>
          <li><a class="nonactive4" href="apropos.html">À PROPOS</a></li>
          <li><a class="nonactive5" href="contact.html">CONTACT</a></li>
@@ -107,9 +107,12 @@
 
 
    <!-- SECTION TOP - WEB (start) -->
-   <div class="img-fond">
-      <div class="titre-web text-center" id="up">
-         <p class="first-titre pb-5">UN <span class="color-span">SITE WEB</span> POUR UNE VISIBILITÉ OPTIMALE</p>
+   <div class="img-fond" id="up">
+      <div id="particles-js"></div>
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+      <div class="titre-web text-center">
+         <p class="first-titre pb-5">UN <span class="color-span mx-3"> SITE WEB </span> POUR UNE VISIBILITÉ OPTIMALE</p>
          <br>
          <p class="second-titre">Donnez vie à vos projets en les mettants en ligne à travers le monde entier. Votre site
             web est le principal moyen de communication, il permet d'être une vitrine accessible 24h/24. </p>
@@ -118,16 +121,20 @@
    <!-- SECTION TOP - WEB (end) -->
 
    <!-- SECTION-FIRST (start) -->
+
    <section class="section-first">
+
       <div class="container">
-         <div class="row pt-5">
+
+         <div class="row pt-5 pb-4">
+
             <div class="col-md-6 col-sm-12 oneline">
 
                <div class="medi text-center py-3">
-                  <i class="fas fa-mobile-alt"></i>
-                  <h1 class="pb-2">Taille adaptée</h1>
-                  <p>Nous conçevons votre site web de manière à ce que la consultation se fasse sur des écrans de
-                     tailles très différentes. Cela offrira à votre site un confort sur mobile, tablette et ordinateur.
+
+                  <i class="fas fa-mobile-alt mb-3"></i>
+                  <h1 class="pb-2 mb-4">Taille adaptée</h1>
+                  <p>Nous conçevons votre site web de manière à ce que la consultation se fasse sur des écrans de tailles très différentes. Cela offrira à votre site un confort sur mobile, tablette et ordinateur.
                   </p>
                </div>
 
@@ -135,31 +142,30 @@
             <div class="col-md-6 col-sm-12 twoline">
 
                <div class="medi text-center py-3">
-                  <i class="fas fa-paint-brush"></i>
-                  <h1 class="pb-2">Site sur mesure</h1>
-                  <p>De la création de votre logo en passant par la prise de photos et vidéos de votre marque, nous
-                     conçevons la charte graphique dont vous avez besoin pour une identité visuelle optimale.</p>
+                  
+                  <i class="fas fa-paint-brush mb-3"></i>
+                  <h1 class="pb-2 mb-4">Site sur mesure</h1>
+                  <p>De la création de votre logo en passant par la prise de photos et vidéos de votre marque, nous conçevons la charte graphique dont vous avez besoin pour une identité visuelle optimale.</p>
                </div>
 
             </div>
          </div>
 
-         <div class="row pb-5">
-            <div class="col-md-6 col-sm-12 threeline">
+         <div class="row pb-5 mt-3">
+            <div class="col-md-6 col-sm-12 threeline pb-5">
 
                <div class="medi text-center py-3">
-                  <i class="fas fa-redo"></i>
-                  <h1 class="pb-2">Site évolutif</h1>
-                  <p>Nous nous assurons que votre site web soit toujours au top des nouvelles technologies. Vous allez
-                     pouvoir apporter de nouvelles fonctions et des modules supplémentaires de manière très simple.</p>
+                  <i class="fas fa-redo mb-3"></i>
+                  <h1 class="pb-2 mb-4">Site évolutif</h1>
+                  <p>Nous nous assurons que votre site web soit toujours au top des nouvelles technologies. Vous allez pouvoir apporter de nouvelles fonctions et des modules supplémentaires de manière simple.</p>
                </div>
 
             </div>
-            <div class="col-md-6 col-sm-12 fourline">
+            <div class="col-md-6 col-sm-12 fourline pb-5">
 
                <div class="medi text-center py-3">
-                  <i class="fas fa-medal"></i>
-                  <h1 class="pb-2">Référencement naturel</h1>
+                  <i class="fas fa-medal mb-3"></i>
+                  <h1 class="pb-2 mb-4">Référencement naturel</h1>
                   <p>Un bon référencement permet d'être mieux classé dans les moteurs de recherches. Votre site web est
                      fait de manière à ce qu'il soit dans une bonne position pour avoir la meilleure visibilité
                      possible.</p>
@@ -179,7 +185,7 @@
 
       <div class="audit text-center pb-5">
 
-         <p class="py-5">VOTRE SITE WEB EST-IL OPTIMAL? FAITES UN AUDIT !</p>
+         <p class="py-5">VOTRE SITE WEB EST-IL OPTIMAL ? FAITES UN AUDIT !</p>
          <div><a href="" class="py-3">C'EST PARTI !</a></div>
 
       </div>
@@ -199,17 +205,10 @@
 
             <div class="col-lg-5 col-md-12 arguments">
 
-               <div class="test">
-                  <h1>Visibilité</h1>
-               </div>
-               <div class="test">-<h1>Adapté au public</h1>
-               </div>
-               <div class="test">
-                  <h1>Créer une e-réputation</h1>
-               </div>
-               <div class="test">
-                  <h1>Miximiser le rendement</h1>
-               </div>
+               <div class="test filtre-1"><h1>Visibilité</h1></div>
+               <div class="test"><h1>Adapté au public</h1></div>
+               <div class="test"><h1>Créer une e-réputation</h1></div>
+               <div class="test"><h1>Miximiser le rendement</h1></div>
 
             </div>
 
@@ -226,11 +225,8 @@
                         <div class="fond_h1">
                            <h1>Faites vous remarquer 1</h1>
                         </div>
-                        <p class="text_visibilité px-5 pt-5">Dans un monde où les gens sont connectés quasi la totalité
-                           de leur temps, où tout le monde est connecté sur leur mobile, avoir un site web est le moyen
-                           le plus efficace pour promouvoir son activité et ses produits.</p>
-                        <p class="text_visibilité pt-1 px-5">Un site web bien présenté attirera l'oeil, surtout si
-                           celui-ci peut être consulté sur son smartphone...</p>
+                        <p class="text_visibilité px-5 pt-5">Dans un monde où les gens sont connectés quasi la totalité de leur temps, où tout le monde est connecté sur leur mobile, avoir un site web est le moyen le plus efficace pour promouvoir son activité et ses produits.</p>
+                        <p class="text_visibilité pt-1 px-5">Un site web bien présenté attirera l'oeil, surtout si celui-ci peut être consulté sur son smartphone...</p>
 
                      </div>
 
@@ -325,27 +321,23 @@
 
    <!-- SECTION-THIRD (end) -->
 
-   <!-- SECTION-FOURTH (start) -->
+   <!-- SECTION - RAPPEL CONTACT (start) -->
 
    <section class="section_fourth py-5">
 
-      <div class="mx-5 px-5">
+      <div class="row contactez_nous">
 
-         <div class="row contactez_nous">
-
-            <div class="col-1 text-right besoin_info"><img src="./img/telephone.png"></div>
-            <div class="col-8 besoin_info">
-               <h1>BESOIN DE PLUS D'INFORMATIONS ?</h1>
-            </div>
-            <div class="col-3 besoin_info"><a href="contact.html"><button>CONTACTEZ-NOUS !</button></a></div>
-
+         <div class="col-1 text-right besoin_info"><img src="./img/telephone.png"></div>
+         <div class="col-8 besoin_info">
+            <h1>BESOIN DE PLUS D'INFORMATIONS ?</h1>
          </div>
+         <div class="col-3 besoin_info"><a href="contact.html"><button>CONTACTEZ-NOUS !</button></a></div>
 
       </div>
 
    </section>
 
-   <!-- SECTION-FOURTH (end) -->
+   <!-- SECTION - RAPPEL CONTACT (end) -->
 
 
    <!-- FOOTER (start) -->
@@ -362,22 +354,22 @@
             </div>
 
             <div class="col-md-3 col-md-offset-1 footer-1-2">
-               <h1>MENU</h1>
-               <a href="index.html"><i class="fas fa-chevron-right"></i>Accueil</a>
-               <a href="web.html"><i class="fas fa-chevron-right"></i>Web</a>
-               <a href="media.html"><i class="fas fa-chevron-right"></i>Média</a>
-               <a href="graphisme.html"><i class="fas fa-chevron-right"></i>Graphisme</a>
-               <a href="realisations.html"><i class="fas fa-chevron-right"></i>Réalisations</a>
-               <a href="apropos.html"><i class="fas fa-chevron-right"></i>À propos</a>
-               <a href="contact.html"><i class="fas fa-chevron-right"></i>Contact</a>
-            </div>
-
-            <div class="col-md-3 footer-1-3">
-               <h1>CONTACTEZ-NOUS</h1>
-               <a href="tel:0032470202020"><i class="fas fa-mobile-alt ml-1"></i>+32 470 20 20 20</a>
-               <a href="mailto:info@atypeak.be"><i class="fas fa-envelope"></i>info@atypeak.be</a>
-               <p><i class="fas fa-map-marker-alt ml-1"></i>Bruxelles - Belgique</p>
-            </div>
+                  <h1>MENU</h1>
+                  <a class="mb-3" href="index.html"><i class="fas fa-chevron-right"></i>Accueil</a>
+                  <a class="mb-3" href="web.html"><i class="fas fa-chevron-right"></i>Web</a>
+                  <a class="mb-3" href="media.html"><i class="fas fa-chevron-right"></i>Média</a>
+                  <a class="mb-3" href="graphisme.html"><i class="fas fa-chevron-right"></i>Graphisme</a>
+                  <a class="mb-3" href="realisations.html"><i class="fas fa-chevron-right"></i>Réalisations</a>
+                  <a class="mb-3" href="apropos.html"><i class="fas fa-chevron-right"></i>À propos</a>
+                  <a href="contact.html"><i class="fas fa-chevron-right"></i>Contact</a>
+               </div>
+   
+               <div class="col-md-3 footer-1-3">
+                  <h1>CONTACTEZ-NOUS</h1>
+                  <a class= "mb-3"href="tel:0032470202020"><i class="fas fa-mobile-alt ml-1"></i>+32 470 20 20 20</a>
+                  <a class= "mb-3"href="mailto:info@atypeak.be"><i class="fas fa-envelope"></i>info@atypeak.be</a>
+                  <p><i class="fas fa-map-marker-alt ml-1"></i>Bruxelles - Belgique</p>
+               </div>
 
          </div>
       </div>
@@ -415,6 +407,7 @@
    <script src="js/scroll.js"></script>
    <script src="js/burger.js"></script>
    <script src="js/filtre.js"></script>
+   <script src="js/particules.js"></script>
 
    <!-- SCRIPT (end) -->
 

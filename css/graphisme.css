@@ -1,3 +1,7 @@
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
 /* TOP - GRAPHISME (start) */
 
 .top-graphisme {
@@ -5,8 +9,6 @@
    background-image: url('../img/mockup-10.png');
    background-size: 135%;
    background-position-y: 20%;
-   font-family: 'Roboto', sans-serif;
-   font-family: 'Patrick Hand', cursive;
 }
 
 .top-graphisme-filtre {
@@ -48,7 +50,6 @@
    font-size: 25px;
    color: #262626;
    text-align: center;
-   font-family: 'Patrick Hand', cursive;
 }
 
 .section-services span {
@@ -102,7 +103,6 @@
 }
 
 .service-2 {
-   font-family: 'Patrick Hand', cursive;
    font-size: 18px;
    color: #262626;
    width: 180px;

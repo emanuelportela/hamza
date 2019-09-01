@@ -1,0 +1,104 @@
+/* ECRAN 1223 px (start) */
+
+@media only screen and (max-width: 1223px) {
+
+   .c-form-test, .c-form-test-2 {
+      width: 100%;
+   }
+
+   .c-form-test-2 {
+      border: 1px solid #e6e6e6;
+   }
+
+   .contact-1 {
+      background-size: 400%;
+   }
+}
+
+/* ECRAN 1223 px (end) */
+
+
+/* ECRAN 1000 px (start) */
+
+@media only screen and (max-width: 1000px) {
+
+   .top-contact {
+      background-size: 140%;
+   }
+
+   .contact-1 {
+      background-size: 400%;
+   }
+
+   .contact-1-filtre {
+      padding: 220px 50px;
+   }
+
+   .contact-2 {
+      padding: 30px;
+   }
+
+   .c-form-1:nth-child(1) {
+      font-size: 11px;
+   }
+}
+
+/* ECRAN 1000 px (end) */
+
+
+/* ECRAN 767 px (start) */
+
+@media only screen and (max-width: 767px) {
+
+   .top-contact {
+      background-size: 192%;
+   }
+
+   .contact-1 {
+      height: 300px;
+      background-size: 230%;
+   }
+
+   .contact-1-filtre {
+      padding: 50px 50px;
+   }
+
+   .contact-donnee {
+      height: 70px;
+   }
+   
+   .contact-donnee-1 {
+      font-size: 15px;
+   }
+   
+   .contact-donnee-2-1 {
+      font-size: 15px;
+   }
+}
+
+/* ECRAN 767 px (end) */
+
+
+/* ECRAN 500 px (start) */
+
+@media only screen and (max-width: 500px) {
+
+   .top-contact {
+      background-size: 256%;
+   }
+
+   section {
+      padding: 40px 20px;
+   }
+
+   .contact-1 {
+      display: none;
+   }
+
+   .contact-form-h3 {
+      font-size: 17px;
+   }
+   
+}
+
+/* ECRAN 500 px (end) */
