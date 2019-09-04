@@ -3,22 +3,22 @@ body {
 }
 
 .img-fond {
-   height: 70vh;
+   height: 50vh;
    background-image: linear-gradient(to top, #0c1f3f, #091b34, #081729, #06111e, #020a14);
    background-image: linear-gradient(to top, #12377a, #012e62, #00244b, #011a34, #000e1f);
    background-image: linear-gradient(to top, #052460, #002153, #001d45, #011938, #05152b, #061224, #060e1d, #040a16, #040712, #03050d, #020207, #000001);
 }
 .titre-web {
-   height: 70vh;
+   height: 30vh;
    color: white;
-   padding-top: 25vh;
+   padding-top: 19vh;
 }
 .first-titre {
    font-size: 45px;
 }
 .second-titre {
    font-size: 20px;
-   max-width: 80%;
+   max-width: 70%;
    margin: auto;
 }
 .color-span {
@@ -40,7 +40,6 @@ body {
    font-size: 15px;
    max-width: 80%;
    margin: auto;
-   text-align: justify;
 }
 .section-second {
    background: linear-gradient(
@@ -181,7 +180,7 @@ body {
 #particles-js {
    position: absolute;
    width: 100%;
-   height: 70vh;
+   height: 50vh;
    z-index: 9;
  }
 

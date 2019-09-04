@@ -144,7 +144,7 @@ body {
 .navbar li::after, .navbar li::before {
    content: "";
    display: block;
-   background-color: #fe8b00;
+   background-color: #fe9f00;
    width: 0;
    height: 2px;
    margin: auto;
@@ -299,11 +299,18 @@ body {
 
 .section_fourth {
    background: linear-gradient(rgba(255, 145, 0, 0.795), rgb(255, 81, 0));
+   /* background-color: #cf7c00; */
+   background-color: rgb(255, 81, 0);
    padding: 40px 100px !important;
 }
 
 .contactez_nous img {
    height: 60px;
+}
+
+.contactez_nous:hover img {
+   transform: rotate(15deg);
+   transition: all 0.5s;
 }
 
 .contactez_nous h1 {
@@ -321,7 +328,7 @@ body {
 }
 
 .contactez_nous button:hover {
-   transition: all 0.6s linear;
+   transition: all 0.2s linear;
    color: #262626;
    border: 2px solid #262626;
 }

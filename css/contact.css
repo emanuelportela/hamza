@@ -58,6 +58,8 @@ section {
 .contact-1 {
    background-image: url('../img/DSC06152.jpg');
    background-size: 230%;
+   background-position-x: 50%;
+   background-position-y: 50%;
    padding: 0;
 }
 

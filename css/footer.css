@@ -140,3 +140,134 @@ body {
 }
 
 /* FOOTER (end) */
+
+
+/* FOOTER TEST (start) */
+
+.bas-1 {
+   font-size: 14px;
+   background-color: #121313;
+   padding: 60px 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.bas h1 {
+   font-size: 18px;
+   color: white;
+   margin-bottom: 20px;
+   width: 100%;
+}
+
+   .bas-1-1 {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
+      .bas-1-1-1 {
+         width: 120px;
+         height: 120px;
+      }
+
+      .bas-1-1-2 {
+         width: 150px;
+         height: 25px;
+      }
+
+   .bas-1-2 {
+      width: 350px;
+      height: 200px;
+   }
+
+      .bas-1-2-1 {
+         height: 160px;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: flex-start;
+         align-items: center;
+      }
+
+         .bas-1-2-1 a {
+            width: 50%;
+            text-decoration: none;
+            color: rgb(121,119,119);
+            display: flex;
+            align-items: center;
+            height: 30px;
+         }
+         
+            .bas-1-2-1 a p {
+               width: 100px;
+               margin: 0;
+               padding: auto;
+               text-align: left;
+            }
+
+            .bas-1-2-1 a p::after, .bas-1-2-1 a p::before {
+               content: "";
+               display: block;
+               background-color: #fe9f00;
+               width: 0;
+               height: 2px;
+               /* margin: auto; */
+               transition: width 0.4s;
+            }
+             
+            .bas-1-2-1 a p:hover::after, .bas-1-2-1 a p:hover::before {
+               width: 100%;
+               margin: 2px 0;
+            }
+
+            .bas-1-2-1 a:hover p {
+               color: #fe9f00;
+               text-align: center;
+            }
+
+   .bas-1-3 {
+      width: 250px;
+      height: 200px;
+   }
+
+   .bas-1-3-1 {
+      width: 100%;
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+      .bas-1-3-1 a {
+         width: 50px;
+         height: 50px;
+         border: 2px solid rgb(121,119,119);
+         border-radius: 50px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         text-decoration: none;
+         color: rgb(121,119,119);
+         font-size: 20px;
+      }
+
+      .bas-1-3-1 a:hover {
+         transition: 1s all;
+         border: 2px solid #fe9f00;
+         color: #fe9f00;
+      }
+
+.bas-2 {
+   height: 60px;
+   background: #222;
+   border-top: 1px solid #2a2a2a;
+   color: #ccc;
+   font-size: 14px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* FOOTER TEST (end) */

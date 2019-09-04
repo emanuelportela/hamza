@@ -62,6 +62,4 @@ function refresh2() {
    document.querySelectorAll('.test')[0].classList.add('filtre-2');
 }
 
-
-
 // FONCTIONS (end)

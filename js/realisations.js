@@ -4,7 +4,6 @@ let all = document.getElementById('bouton-1');
 let web = document.getElementById('bouton-2');
 let graphisme = document.getElementById('bouton-3');
 let media = document.getElementById('bouton-4');
-let arrow = document.getElementById('arrow-legende');
 
 /* DECLARATION VARIABLE (end) */
 
@@ -24,11 +23,6 @@ all.addEventListener("click", function () {
    web.classList.remove("bouton-clique")
    graphisme.classList.remove("bouton-clique")
    media.classList.remove("bouton-clique")
-
-   arrow.classList.remove("arrow-legende-2")
-   arrow.classList.remove("arrow-legende-3")
-   arrow.classList.remove("arrow-legende-4")
-   arrow.classList.add("arrow-legende-1")
 
 })
 
@@ -50,11 +44,6 @@ web.addEventListener("click", function () {
 
          media.classList.remove("bouton-clique")
          graphisme.classList.remove("bouton-clique")
-
-         arrow.classList.remove("arrow-legende-1")
-         arrow.classList.remove("arrow-legende-3")
-         arrow.classList.remove("arrow-legende-4")
-         arrow.classList.add("arrow-legende-2")
 
       } else {
          document.querySelectorAll(".realisation")[i].style.display = "none";
@@ -81,11 +70,6 @@ graphisme.addEventListener("click", function () {
          web.classList.remove("bouton-clique")
          media.classList.remove("bouton-clique")
 
-         arrow.classList.remove("arrow-legende-1")
-         arrow.classList.remove("arrow-legende-2")
-         arrow.classList.remove("arrow-legende-4")
-         arrow.classList.add("arrow-legende-3")
-
       } else {
          document.querySelectorAll(".realisation")[i].style.display = "none";
       }
@@ -110,11 +94,6 @@ media.addEventListener("click", function () {
 
          web.classList.remove("bouton-clique")
          graphisme.classList.remove("bouton-clique")
-
-         arrow.classList.remove("arrow-legende-1")
-         arrow.classList.remove("arrow-legende-2")
-         arrow.classList.remove("arrow-legende-3")
-         arrow.classList.add("arrow-legende-4")
 
       } else {
          document.querySelectorAll(".realisation")[i].style.display = "none";
