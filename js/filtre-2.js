@@ -31,9 +31,9 @@ y[2].addEventListener('click', refresh2);
 
 function refresh4() {
    event.preventDefault();
-   document.querySelector('.affichage-1').style.display="initial";
-   document.querySelector('.affichage-2').style.display="none";
-   document.querySelector('.affichage-3').style.display="none";
+   document.querySelector('.new-test-21').style.display="flex";
+   document.querySelector('.new-test-22').style.display="none";
+   document.querySelector('.new-test-23').style.display="none";
    document.querySelectorAll('.test')[0].classList.add('filtre-1');
    document.querySelectorAll('.test')[0].classList.remove('filtre-2');
    document.querySelectorAll('.test')[1].classList.remove('filtre-active');
@@ -41,10 +41,10 @@ function refresh4() {
 }
 
 function refresh1() {
-event.preventDefault();
-   document.querySelector('.affichage-1').style.display="none";
-   document.querySelector('.affichage-2').style.display="initial";
-   document.querySelector('.affichage-3').style.display="none";
+   event.preventDefault();
+   document.querySelector('.new-test-21').style.display="none";
+   document.querySelector('.new-test-22').style.display="flex";
+   document.querySelector('.new-test-23').style.display="none";
    document.querySelectorAll('.test')[1].classList.add('filtre-active');
    document.querySelectorAll('.test')[0].classList.remove('filtre-1');
    document.querySelectorAll('.test')[0].classList.add('filtre-2');
@@ -53,9 +53,9 @@ event.preventDefault();
 
 function refresh2() {
    event.preventDefault();
-   document.querySelector('.affichage-1').style.display="none";
-   document.querySelector('.affichage-2').style.display="none";
-   document.querySelector('.affichage-3').style.display="initial";
+   document.querySelector('.new-test-21').style.display="none";
+   document.querySelector('.new-test-22').style.display="none";
+   document.querySelector('.new-test-23').style.display="flex";
    document.querySelectorAll('.test')[2].classList.add('filtre-active');
    document.querySelectorAll('.test')[1].classList.remove('filtre-active');
    document.querySelectorAll('.test')[0].classList.remove('filtre-1');

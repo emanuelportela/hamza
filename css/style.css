@@ -308,7 +308,7 @@ body {
    height: 60px;
 }
 
-.contactez_nous:hover img {
+.section_fourth:hover img {
    transform: rotate(15deg);
    transition: all 0.5s;
 }

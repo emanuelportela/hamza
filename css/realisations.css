@@ -66,6 +66,8 @@ body {
    width: 100%;
    position: relative;
    background-color: #262626;
+   /* background-color: #FE9F00; */
+   /* background-color: rgb(185,185,185); */
    /* background-image: linear-gradient(to bottom, #262626, #4b4b4b, #737373, #9f9f9f, #cccccc); */
    /* background-image: linear-gradient(to bottom, #262626, #565656, #8a8a8a, #c3c3c3, #ffffff); */
    border-top-right-radius: 10px;
@@ -162,24 +164,26 @@ body {
    margin-top: 50px;
    /* background-color: rgb(244, 243, 236); */
    font-size: 16px;
-   padding: 0 100px;
+   padding: 0 110px;
 }
 
 #bouton-1 {
    height: 35px;
-   /* border: solid 2px #FE9F00; */
    outline: none !important;
    cursor: pointer;
    display: flex;
    justify-content: center;
    align-items: center;
    padding: 15px 30px;
-   margin: 0 1px;
-   color: white;
-   background-color: #262626;
-   border-top-right-radius: 15px;
-   border-top-left-radius: 15px;
+   margin: 0 4px;
+   /* background-color: #262626; */
+   /* border-top-right-radius: 15px;
+   border-top-left-radius: 15px; */
+   color: #262626;
+   border: solid 1px #262626;
+   border-left: #262626 solid 25px;
    border-bottom: none;
+   box-shadow: 2px 2px 4px 1px rgb(185,185,185);
 }
 
 #bouton-2,
@@ -192,49 +196,62 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-   border: rgb(110, 110, 110) solid 2px;
-   color: rgb(110, 110, 110);
    padding: 15px 30px;
-   margin: 0 1px;
-   border-top-right-radius: 15px;
-   border-top-left-radius: 15px;
+   margin: 0 4px;
+   /* border-top-right-radius: 15px;
+   border-top-left-radius: 15px; */
+   border: rgb(185,185,185) solid 1px;
+   border-left: rgb(185, 185, 185) solid 25px;
    border-bottom: none;
+   color: rgb(185,185,185);
+   box-shadow: 2px 2px 4px 1px rgb(185,185,185);
 }
 
 #bouton-2:hover,
 #bouton-3:hover,
 #bouton-4:hover {
-   border: #FE9F00 solid 2px;
    color: #FE9F00;
+   border: #FE9F00 solid 1px;
+   border-left: #FE9F00 solid 25px;
    border-bottom: none;
+   box-shadow: 2px 2px 10px 2px rgb(201,199,199);
 }
 
 .bouton-clique {
-   border: #262626 solid 2px !important;
-   color: white !important;
+   /* border: #262626 solid 2px !important;
    background-color: #262626;
-   border-top-right-radius: 15px;
-   border-top-left-radius: 15px;
-   border-bottom: none;
+   color: white !important; */
+   background-color: white;
+   /* border-top-right-radius: 15px;
+   border-top-left-radius: 15px; */
+   color: #262626 !important;
+   border: solid 1px #262626 !important;
+   border-left: #262626 solid 25px !important;
+   border-bottom: none !important;
+   box-shadow: 2px 2px 4px 1px rgb(185,185,185) !important;
 }
 
 .all-clique {
    /* border: rgb(110, 110, 110) solid 2px !important; */
    color: rgb(110, 110, 110) !important;
-   border-top-right-radius: 15px;
-   border-top-left-radius: 15px;
-   background-color: white !important;
-   border: rgb(110,110,110) solid 2px;
+   /* border-top-right-radius: 15px;
+   border-top-left-radius: 15px; */
+   color: rgb(185,185,185) !important;
+   border: solid 1px rgb(185,185,185) !important;
+   border-left: rgb(185,185,185) solid 25px !important;
    border-bottom: none;
+   box-shadow: 2px 2px 4px 1px rgb(185,185,185);
 }
 
 .all-clique:hover {
-   border: #FE9F00 solid 2px !important;
+   /* background-color: #141414; */
+   /* border-top-right-radius: 15px;
+   border-top-left-radius: 15px; */
    color: #FE9F00 !important;
-   background-color: #141414;
-   border-top-right-radius: 15px;
-   border-top-left-radius: 15px;
+   border: #FE9F00 solid 1px !important;
+   border-left: #FE9F00 solid 25px !important;
    border-bottom: none !important;
+   box-shadow: 2px 2px 10px 2px rgb(201,199,199) !important;
 }
 
 /* REALISATIONS - BOUTONS (end) */
