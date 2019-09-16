@@ -62,11 +62,10 @@ ScrollReveal().reveal('.punchline', { delay: 1000 });
 
 ScrollReveal().reveal('.oneline', { delay: 500, duration: 1500 });
 ScrollReveal().reveal('.twoline', { delay: 1500, duration: 1500 });
-ScrollReveal().reveal('.threeline', { delay: 1500, duration: 2000 });
-ScrollReveal().reveal('.fourline', { delay: 2000, duration: 2000 });
-ScrollReveal().reveal('.fiveline', { delay: 3000, duration: 3000 });
-ScrollReveal().reveal('.sixline', { delay: 3500, duration: 3000 });
-
+ScrollReveal().reveal('.threeline', { delay: 2500, duration: 1500 });
+ScrollReveal().reveal('.fourline', { delay: 3000, duration: 1500 });
+ScrollReveal().reveal('.fiveline', { delay: 4000, duration: 1500 });
+ScrollReveal().reveal('.sixline', { delay: 5000, duration: 1500 });
 
 ScrollReveal().reveal('.uneidee', { duration: 2500 } );
 ScrollReveal().reveal('.deuxidee', { delay: 1000, duration: 1500 } );

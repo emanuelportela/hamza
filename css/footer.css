@@ -163,7 +163,7 @@ body {
 
    .bas-1-1 {
       width: 200px;
-      height: 200px;
+      height: 190px;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -175,7 +175,7 @@ body {
       }
 
       .bas-1-1-2 {
-         width: 150px;
+         width: 160px;
          height: 25px;
       }
 

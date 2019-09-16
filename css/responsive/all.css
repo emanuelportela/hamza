@@ -12,6 +12,19 @@
    .footer-1, .footer-2 {
       padding: 60px 60px;
    }
+
+   .times {
+      display: none;
+      color: black;
+   }
+
+   .times-add {
+      display: initial;
+   }
+
+   .bars-removed {
+      display: none;
+   }
 }
 
 /* ECRAN MEDIUM - 1000px (end) */
@@ -81,11 +94,6 @@
 
    .responsive i:hover {
       color: orange;
-   }
-
-   .times {
-      display: none;
-      color: black;
    }
 
    .footer-1-2 {

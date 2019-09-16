@@ -8,8 +8,8 @@ body {
       rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.205), rgba(255, 255, 255, 0)
       ), url('../img/PANO0001-Panorama.jpg');
    background-size: 100%;
-   height: 54vh;
-   padding: 18vh 25vh;
+   height: 55vh;
+   padding: 15vh 10vw;
    background-position-y: 100%;
 }
 
@@ -20,12 +20,13 @@ body {
 }
 .first-titre {
    padding-top: 2vh;
-   font-size: 40px;
+   font-size: 30px;
+   font-size: 2.5vw;
 }
 .second-titre {
    font-size: 20px;
    margin: auto;
-   max-width: 90%;
+   font-size: 1.5vw;
 }
 .color-span {
    color: #fe9f00;
@@ -33,10 +34,8 @@ body {
 .section-first {
    background-color: rgb(246, 246, 246);
    background-image: url('../img/17580.jpg');
-   background-image: 
-      linear-gradient(rgba(255,255,255,0.5),rgb(255,255,255,0.5)),
-      url('../img/4389.jpg');
    background-size: 100%;
+   background-repeat: repeat
 }
 .medi i {
    padding: 20px;
@@ -58,13 +57,14 @@ body {
       rgba(0, 0, 0, 0.959)
       );
 }
+
 .audit {
-   max-width: 70%;
+   max-width: 90%;
    margin: auto;
 }
 .audit p {
    color: white;
-   font-size: 30px;
+   font-size: 25px;
 }
 .audit div {
    background-color: transparent;
@@ -72,12 +72,12 @@ body {
    border-color: white;
 }
 .audit a {
-   padding-right: 70px;
-   padding-left: 70px;
+   padding-right: 40px;
+   padding-left: 40px;
    border: solid white 2px;
    /* border-radius: 8px; */
    color: white;
-   font-size: 20px;
+   font-size: 18px;
    text-decoration: none;
 }
 .audit a:hover {
@@ -440,17 +440,23 @@ body {
 }
 
 .new-test-2-1-2-bouton {
-   background-color: #838383;
-   color: white !important;
+   /* background-color: #838383; */
+   /* color: white !important; */
    font-size: 15px;
    padding: 12px 20px;
    box-shadow: 2px 2px 4px 1px rgb(185, 185, 185);
    text-decoration: none;
+   border: 2px solid black;
+   color: black;
 }
 
-.new-test-2-1-2-bouton:hover {
-   background-color: #FE7F00;
+.new-test-21:hover .new-test-2-1-2-bouton,
+.new-test-22:hover .new-test-2-1-2-bouton,
+.new-test-23:hover .new-test-2-1-2-bouton {
+   /* background-color: #FE7F00; */
    text-decoration: none;
+   border: 2px solid #FE7F00;
+   color: #FE7F00;
 }
 
 .new-test-2-21, .new-test-2-22, .new-test-2-23 {
@@ -536,12 +542,22 @@ body {
 .new-2-1-1 {
    background-color: orange;
    height: 80px;
-   width: 450px;
+   width: 350px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 30px;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
 }
 
 .new-2-1-2 {
    height: 200px;
-   width: 450px;
+   width: 350px;
+   padding: 30px;
+   font-size: 15px;
+   text-align: justify;
 }
 
 .new-2-21, .new-2-22, .new-2-23 {
@@ -593,8 +609,8 @@ body {
 .prix-3-nom { background-image: linear-gradient(to right top, #9b9b9b, #767676, #525252, #313131, #131313); }
 .prix-4-nom { background-image: linear-gradient(to left bottom, #fa8f43, #fb9f5d, #fcae77, #fbbd90, #faccab); }
 .prix-5-nom { background-image: linear-gradient(to left bottom, #130094, #3932a7, #5857b8, #787bc5, #9a9fd1); }
-.prix-6-nom { background-image: linear-gradient(to left bottom, #9d008e, #ac389e, #bb58ad, #ca75bd, #d891cd); }
-.prix-7-nom { background-image: linear-gradient(to left bottom, #730091, #8834a1, #9d56b0, #b175c0, #c494cf); }
+.prix-6-nom { background-image: linear-gradient(to left bottom, #00b38a, #50c3a3, #7bd2bb, #a2e1d1, #c8f0e7); }
+.prix-7-nom { background-image: linear-gradient(to left bottom, #9d008e, #ac389e, #bb58ad, #ca75bd, #d891cd); }
 
 .prix-1, .prix-2, .prix-3 {
    height: 270px;

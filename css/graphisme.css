@@ -3,32 +3,33 @@ body {
 }
 
 .img-fond {
-   height: 50vh;
+   height: 55vh;
    background-image: url('../img/3307.jpg');
    background-size: 100%;
+   padding: 15vh 10vw;
+   background-color: red;
 }
 .titre-web {
    height: 30vh;
    color: white;
-   padding-top: 19vh;
 }
 .first-titre {
-   font-size: 45px;
+   padding-top: 2vh;
+   font-size: 30px;
+   font-size: 2.5vw;
 }
 .second-titre {
    font-size: 20px;
-   max-width: 70%;
    margin: auto;
+   font-size: 1.5vw;
 }
 .color-span {
    color: #fe9f00;
 }
 .section-first {
    background-image: url('../img/17580.jpg');
-   background-image: 
-      linear-gradient(rgba(255,255,255,0.5),rgb(255,255,255,0.5)),
-      url('../img/5709.jpg');
    background-size: 100%;
+   background-repeat: repeat;
 }
 .medi i {
    padding: 20px;
@@ -51,12 +52,13 @@ body {
       );
 }
 .audit {
-   max-width: 70%;
+   max-width: 90%;
    margin: auto;
 }
+
 .audit p {
    color: white;
-   font-size: 30px;
+   font-size: 25px;
 }
 .audit div {
    background-color: transparent;
@@ -64,12 +66,12 @@ body {
    border-color: white;
 }
 .audit a {
-   padding-right: 70px;
-   padding-left: 70px;
+   padding-right: 40px;
+   padding-left: 40px;
    border: solid white 2px;
    /* border-radius: 8px; */
    color: white;
-   font-size: 20px;
+   font-size: 18px;
    text-decoration: none;
 }
 .audit a:hover {

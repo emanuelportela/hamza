@@ -15,236 +15,139 @@ if(isset($_POST['mailform'])) {
 
       /* HEADER DES MAILS (start) */
 
-         $header="MIME-Version: 1.0\r\n";
-         $header.='From:"Formulaire de contact"<info@atypeak.be>'."\n";
-         $header.='Content-Type:text/html;'."\n";
-         $header.='Content-Transfer-Encoding: 8bit';
+         $subject1='Accuse de reception';
+         $header1="MIME-Version: 1.0\r\n";
+         $header1.='From:"Atypeak"<info@atypeak.be>'."\n";
+         $header1.='Content-Type:text/html;'."\n";
+         $header1.='Content-Transfer-Encoding: 8bit';
+
+         
+         $subject2='Contact';
+         $header2="MIME-Version: 1.0\r\n";
+         $header2.='From:"Client : '.$_POST['prenom'].' '.$_POST['nom'].'"<'.$_POST['mail'].'>'."\n";
+         $header2.='Content-Type:text/html;'."\n";
+         $header2.='Content-Transfer-Encoding: 8bit';
    
       /* HEADER DES MAILS (end) */
 
-      /* MAIL SI PACK MEDIA (start) */
+      /* MAIL POUR CLIENT (start) */
 
-         if ($_POST['pack'] == 'Media') {
-		      $message='
-		      <html>
-		      	<body>
-                  <div style="background-color:#DDDDDD; padding: 10%;">
-
-                     <div style="background-color:#f49d2c; height: 40px; width: 100%; color: white; margin-bottom: 40px; font-size: 25px; padding: 5px 0; text-align:center;">Pack Media</div>
-
-                     <h3 style="color: #153350; margin-bottom: 40px;">Vous avez reçu un message !</h3>
-                     <h4 style="color:rgb(20,14,7)"><u>Informations du contact :</u></h4>
-
-                     <p>Prénom, Nom : <i>'.$_POST['prenom'].' '.$_POST['nom'].'</i><br/>
-                        Mail : <i>'.$_POST['mail'].'</i><br/>
-                        Numero : <i>'.$_POST['numero'].'</i><br/>
-                     </p>
-
-                     <h4 style="color:rgb(20,14,7)"><u>Pack demandé :</u> <i>'.$_POST['pack'].'</i></h4>
-
-                     <h4 style="color:rgb(20,14,7)"><u>Message :</u></h4>
-                     <p><i>" '.nl2br($_POST['message']).' "</i></p>
-
-                     <h4 style="text-align:right; color:#345f87; margin-top: 30px;">N\'hésitez pas à lui répondre.</h4>
-                     <h4 style="text-align:right; color:#939393">Atypeak - Site</h4>
-
-                  </div>
-		      	</body>
-		      </html>
-            '; 
-
-            mail("info@atypeak.be", "Contact - Atypeak", $message, $header);
-         }
+		   $message1='
+         <html>
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Montserrat|Source+Sans+Pro&display=swap" rel="stylesheet">
       
-      /* MAIL SI PACK MEDIA (end) */
-
-
-      /* MAIL SI PACK WEB (start) */
-
-         if ($_POST['pack'] == 'Web') {
-            $message='
-            <html>
-               <body>
-                  <div style="background-color:#DDDDDD; padding: 10%;">
-   
-                     <div style="background-color:#70b25b; height: 40px; width: 100%; color: white; margin-bottom: 40px; font-size: 25px; padding: 5px 0; text-align:center;">Pack Web</div>
-   
-                     <h3 style="color: #153350; margin-bottom: 40px;">Vous avez reçu un message !</h3>
-                     <h4 style="color:rgb(20,14,7)"><u>Informations du contact :</u></h4>
-   
-                     <p>Prénom, Nom : <i>'.$_POST['prenom'].' '.$_POST['nom'].'</i><br/>
-                        Mail : <i>'.$_POST['mail'].'</i><br/>
-                        Numero : <i>'.$_POST['numero'].'</i><br/>
-                     </p>
-   
-                     <h4 style="color:rgb(20,14,7)"><u>Pack demandé :</u> <i>'.$_POST['pack'].'</i></h4>
-   
-                     <h4 style="color:rgb(20,14,7)"><u>Message :</u></h4>
-                     <p><i>" '.nl2br($_POST['message']).' "</i></p>
-   
-                     <h4 style="text-align:right; color:#345f87; margin-top: 30px;">N\'hésitez pas à lui répondre.</h4>
-                     <h4 style="text-align:right; color:#939393">Atypeak - Site</h4>
-   
-                  </div>
-               </body>
-            </html>
-            '; 
-   
-            mail("info@atypeak.be", "Contact - Atypeak", $message, $header);
-         }
-      
-      /* MAIL SI PACK WEB (end) */
-
-
-      /* MAIL SI PACK GRAPHISME (start) */
-
-         if ($_POST['pack'] == 'Graphisme') {
-            $message='
-            <html>
-               <body>
-                  <div style="background-color:#DDDDDD; padding: 10%;">
-      
-                     <div style="background-color:#69b3ef; height: 40px; width: 100%; color: white; margin-bottom: 40px; font-size: 25px; padding: 5px 0; text-align:center;">Pack Graphisme</div>
-
-                     <h3 style="color: #153350; margin-bottom: 40px;">Vous avez reçu un message !</h3>
-                     <h4 style="color:rgb(20,14,7)"><u>Informations du contact :</u></h4>
-
-                     <p>Prénom, Nom : <i>'.$_POST['prenom'].' '.$_POST['nom'].'</i><br/>
-                        Mail : <i>'.$_POST['mail'].'</i><br/>
-                        Numero : <i>'.$_POST['numero'].'</i><br/>
-                     </p>
-
-                     <h4 style="color:rgb(20,14,7)"><u>Pack demandé :</u> <i>'.$_POST['pack'].'</i></h4>
-
-                     <h4 style="color:rgb(20,14,7)"><u>Message :</u></h4>
-                     <p><i>" '.nl2br($_POST['message']).' "</i></p>
-      
-                     <h4 style="text-align:right; color:#345f87; margin-top: 30px;">N\'hésitez pas à lui répondre.</h4>
-                     <h4 style="text-align:right; color:#939393">Atypeak - Site</h4>
-      
-                  </div>
-               </body>
-            </html>
-            '; 
-      
-            mail("info@atypeak.be", "Contact - Atypeak", $message, $header);
-         }
-      
-      /* MAIL SI PACK GRAPHISME (end) */
-
-
-      /* MAIL SI PACK DUO (start) */
-
-         if ($_POST['pack'] == 'Pack Duo') {
-		      $message='
-		      <html>
-		      	<body>
-                  <div style="background-color:#DDDDDD; padding: 10%;">
-
-                     <div style="background-color:#f47373; height: 40px; width: 100%; color: white; margin-bottom: 40px; font-size: 25px; padding: 5px 0; text-align:center;">Pack Duo</div>
-
-                     <h3 style="color: #153350; margin-bottom: 40px;">Vous avez reçu un message !</h3>
-                     <h4 style="color:rgb(20,14,7)"><u>Informations du contact :</u></h4>
-
-                     <p>Prénom, Nom : <i>'.$_POST['prenom'].' '.$_POST['nom'].'</i><br/>
-                        Mail : <i>'.$_POST['mail'].'</i><br/>
-                        Numero : <i>'.$_POST['numero'].'</i><br/>
-                     </p>
-
-                     <h4 style="color:rgb(20,14,7)"><u>Pack demandé :</u> <i>'.$_POST['pack'].'</i></h4>
-
-                     <h4 style="color:rgb(20,14,7)"><u>Message :</u></h4>
-                     <p><i>" '.nl2br($_POST['message']).' "</i></p>
-
-                     <h4 style="text-align:right; color:#345f87; margin-top: 30px;">N\'hésitez pas à lui répondre.</h4>
-                     <h4 style="text-align:right; color:#939393">Atypeak - Site</h4>
-
-                  </div>
-		      	</body>
-		      </html>
-            '; 
-
-            mail("info@atypeak.be", "Contact - Atypeak", $message, $header);
-         }
-      
-      /* MAIL SI PACK DUO (end) */
-
-
-      /* MAIL SI PACK TRIO (start) */
-
-         if ($_POST['pack'] == 'Pack Trio') {
-            $message='
-            <html>
-               <body>
-                  <div style="background-color:#DDDDDD; padding: 10%;">
-   
-                     <div style="background-color: #cf8fea; height: 40px; width: 100%; color: white; margin-bottom: 40px; font-size: 25px; padding: 5px 0; text-align:center;">Pack Trio</div>
-   
-                     <h3 style="color: #153350; margin-bottom: 40px;">Vous avez reçu un message !</h3>
-                     <h4 style="color:rgb(20,14,7)"><u>Informations du contact :</u></h4>
-   
-                     <p>Prénom, Nom : <i>'.$_POST['prenom'].' '.$_POST['nom'].'</i><br/>
-                        Mail : <i>'.$_POST['mail'].'</i><br/>
-                        Numero : <i>'.$_POST['numero'].'</i><br/>
-                     </p>
-   
-                     <h4 style="color:rgb(20,14,7)"><u>Pack demandé :</u> <i>'.$_POST['pack'].'</i></h4>
-   
-                     <h4 style="color:rgb(20,14,7)"><u>Message :</u></h4>
-                     <p><i>" '.nl2br($_POST['message']).' "</i></p>
-   
-                     <h4 style="text-align:right; color:#345f87; margin-top: 30px;">N\'hésitez pas à lui répondre.</h4>
-                     <h4 style="text-align:right; color:#939393">Atypeak - Site</h4>
-   
-                  </div>
-               </body>
-            </html>
-            '; 
-   
-            mail("info@atypeak.be", "Contact - Atypeak", $message, $header);
-         }
+            <body style="margin:0;font-family:"Montserrat",sans-serif;">
          
-      /* MAIL SI PACK TRIO (end) */
-
-
-      /* MAIL ACCUSE DE RECEPTION (start) */
-      
-         $message2='
-		   <html>
-		   	<body>
-               <div style="background-color:#DDDDDD; padding: 10%;">
-
-                  <h3 style="color: #153350; margin-bottom: 40px;">Merci pour votre message !</h3>
-                  <h4 style="color:rgb(20,14,7)"><u>Informations du contact :</u></h4>
+               <div style="background-color:#FFFFFF;">
          
-                  <p>Prénom, Nom : <i>'.$_POST['prenom'].' '.$_POST['nom'].'</i><br/>
-                     Mail : <i>'.$_POST['mail'].'</i><br/>
-                     Numero : <i>'.$_POST['numero'].'</i><br/>
-                  </p>   
+                  <div style="background-color:#222;height:250px;width:100%;display:flex;align-items:center;">
+                     <img src="http://atypeak.be/img/atypeak1.png" style="width:300px;margin-left:10%;">
+                  </div>
+         
+                  <div style="background-color:#fe9f00;width:80%;height:160px;margin:auto;margin-top:-80px;display:flex;align-items:center;justify-content:center;"><h1 style="font-size:30px;color:white;text-align:center;width:100%;">'.$_POST['pack'].'</h1></div>
 
-                  <h4 style="color:rgb(20,14,7)"><u>Message :</u></h4>
-                  <p><i>" '.nl2br($_POST['message']).' "</i></p>
+                  <div>
+         
+                     <p style="color:#262626;margin:50px 10% 10px">Cher/Chère '.$_POST['prenom'].' '.$_POST['nom'].'</p><br/>
+                     <p style="color:#262626;margin:0 10% 10px">Nous avons bien reçu votre demande de <b>'.$_POST['pack'].'.</b></p><br/>
+                     <p style="color:#262626;margin:0 10%">Vous trouverez ci-dessous les informations du contact.</p><br/>
+                     <p style="color:#666B6F;margin:0 12% 10px">adresse email : <i>'.$_POST['mail'].'</i><br/>
+                        numéro de téléphone : <i>'.$_POST['numero'].'</i>
+                     </p><br/>
+                     <p style="color:#262626;margin:0 10%">Ainsi que votre message :</p><br/>
+                     <p style="color:#666B6F;margin:0 12% 10px"><i>" '.nl2br($_POST['message']).' "</i></p><br/>
+                     <p style="color:#262626;margin:0 10% 40px">Nous vous remercions pour la confiance que vous nous accordez et vous contacterons dans les plus brefs délais.</p>
+                     <p style="color:#262626;margin:0 10% 40px">Cordialement,</p>
+                     <img src="http://atypeak.be/img/logo-2.png" style="margin:0 11% 10px;height:100px;width:100px;">
+                     <p style="color:#262626;margin:0 10% 80px">L\'équipe Atypeak.</p>
+         
+                  </div>
 
-                  <h4 style="text-align:right; color:#345f87; margin-top: 30px;">Nous vous répondrons au plus vite.</h4>
-                  <h4 style="text-align:right; color:#939393">Atypeak</h4>
+                  <div style="height:100px;background-color:#191A1A;font-size:15px;color:white;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;padding:20px;">
+                     <div style="width:100%;display:flex;justify-content:center;">
+                        <a style="text-decoration:none;color:white;margin:0 15px" href="tel:0032484547588">Appelez-nous</a>|
+                        <a style="text-decoration:none;color:white;margin:0 10px" href="#">Instagram</a>|
+                        <a style="text-decoration:none;color:white;margin:0 10px" href="#">Facebook</a>
+                     </div>
+                     <a style="text-decoration:none;color:rgb(190,190,190);width:100%;text-align:center;" href="http://www.atypeak.be">Retour sur le site</a>
+                  </div>
+         
+                  <div style="height:60px;background:#222222;border-top:1px solid #2a2a2a;color:#ccc;display:flex;justify-content: center;align-items:center;padding: 0 10%;font-size:13px">
+                     Agence de création et de communication web | Bruxelles | 2019
+                  </div>
 
                </div>
-		   	</body>
-		   </html>
+            </body>
+         </html>
+         '; 
+
+         mail($_POST['mail'], $subject1, $message1, $header1);
+      
+      /* MAIL POUR CLIENT (end) */
+
+
+
+      /* MAIL POUR NOUS (start) */
+      
+         $message2='
+            <html>
+               <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Montserrat|Source+Sans+Pro&display=swap" rel="stylesheet">
+                  
+               <body style="margin:0;font-family:"Montserrat",sans-serif;">
+                  
+                  <div style="background-color:#FFFFFF;">
+                  
+                     <div style="background-color:#222;height:250px;width:100%;display:flex;align-items:center;">
+                        <img src="http://atypeak.be/img/atypeak1.png" style="width:300px;margin-left:10%;">
+                     </div>
+                  
+                     <div style="background-color:#fe9f00;width:80%;height:160px;margin:auto;margin-top:-80px;display:flex;align-items:center;justify-content:center;"><h1 style="font-size:30px;color:white;text-align:center;width:100%;">'.$_POST['pack'].'</text-align:center;width:100%;"></div>
+                     
+                     <div>
+                  
+                        <p style="color:#262626;margin:50px 10% 10px">Cher Atypeak,</p><br/>
+                        <p style="color:#262626;margin:0 10% 10px">Vous avez reçu une demande de <b>'.$_POST['pack'].'.</b></p><br/>
+                        <p style="color:#262626;margin:0 10%">Vous trouverez ci-dessous les informations du contact.</p><br/>
+                        <p style="color:#666B6F;margin:0 12% 10px">
+                           nom et prénom : <i>'.$_POST['nom'].' '.$_POST['prenom'].'</i><br/>
+                           adresse email : <i>'.$_POST['mail'].'</i><br/>
+                           numéro de téléphone : <i>'.$_POST['numero'].'</i>
+                        </p><br/>
+                        <p style="color:#262626;margin:0 10%">Ainsi que son message :</p><br/>
+                        <p style="color:#666B6F;margin:0 12% 10px"><i>" '.nl2br($_POST['message']).' "</i></p><br/>
+                        <p style="color:#262626;margin:0 10% 80px">N\'hésitez pas à le/la contacter dans les plus brefs délais.</p>
+                  
+                     </div>
+                     
+                     <div style="height:100px;background-color:#191A1A;font-size:15px;color:white;display:flex;justify-content:center;align-items:center;flex-wrap:wrap;padding:20px;">
+                        <div style="width:100%;display:flex;justify-content:center;">
+                           <a style="text-decoration:none;color:white;margin:0 10px" href="#">Instagram</a>|
+                           <a style="text-decoration:none;color:white;margin:0 10px" href="#">Facebook</a>
+                        </div>
+                        <a style="text-decoration:none;color:rgb(190,190,190);width:100%;text-align:center;" href="http://www.atypeak.be">Retour sur le site</a>
+                     </div>
+                  
+                     <div style="height:60px;background:#222222;border-top:1px solid #2a2a2a;color:#ccc;display:flex;justify-content: center;align-items:center;padding: 0 10%;font-size:13px">
+                        Agence de création et de communication web | Bruxelles | 2019
+                     </div>
+                     
+                  </div>
+               </body>
+            </html>
 		   ';
 
-         mail($_POST['mail'], "Accuse de reception - Atypeak", $message2, $header);
+         mail("info@atypeak.be", $subject2, $message2, $header2);
 
-      /* MAIL ACCUSE DE RECEPTION (end) */
+      /* MAIL POUR NOUS (end) */
       
       
    /* POP UP (start) */
 
-      $msg="<p class='mail1'>Nous avons bien reçu votre demande d'inscription !</p>";
+      $msg="<p class='reponse-positive'>Votre mail a bien été envoyé !</p>";
    
   
    } else {
-      $msg="<p class='mail2'>Tous les champs doivent être complétés !</p>";
+      $msg="<p class='reponse-negative'>Tous les champs doivent être complétés !</p>";
    }
 
    /* POP UP (end) */
@@ -254,14 +157,18 @@ if(isset($_POST['mailform'])) {
 
 <style>
 
-.mail1 {
+.reponse-positive {
    color: green;
    font-size: 13px;
+   margin-top: 20px;
+   margin-bottom: -40px
 }
 
-.mail2 {
+.reponse-negative {
    color: red;
    font-size: 13px;
+   margin-top: 20px;
+   margin-bottom: -40px
 }
 
 </style>

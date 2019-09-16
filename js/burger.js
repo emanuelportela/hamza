@@ -8,6 +8,8 @@ hamburger.addEventListener("click", function () {
    var burgerDiv = document.querySelector(".burger-1");
    var burger2 = document.querySelector(".responsive i");
    var burger3 = document.querySelector(".header-2");
+   var times = document.querySelector(".times");
+   var bars = document.querySelector(".bars");
 
    if (hamburger.classList.contains("afficher")) {
       burger.classList.remove("afficher");
@@ -15,6 +17,8 @@ hamburger.addEventListener("click", function () {
       burger2.classList.remove("responsiva");
       burger2.classList.remove("clicked-2");
       burger3.classList.remove("clicked");
+      times.classList.remove("times-add");
+      bars.classList.remove("bars-removed");
    } 
 
    else {
@@ -23,5 +27,7 @@ hamburger.addEventListener("click", function () {
       burger2.classList.add("responsiva");
       burger2.classList.add("clicked-2");
       burger3.classList.add("clicked");
+      times.classList.add("times-add");
+      bars.classList.add("bars-removed");
    }
 })

@@ -1,4 +1,4 @@
-<!-- <?php include("mail.php"); ?> -->
+<?php include("mail.php"); ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -22,13 +22,12 @@
    <link rel="stylesheet" href="css/contact.css">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/footer.css">
-   <link rel="stylesheet" href="css/responsive/all.css">
    <link rel="stylesheet" href="css/responsive/contactR.css">
+   <link rel="stylesheet" href="css/responsive/all.css">
 
    <!-- Font-->
    <!-- Font -->
-   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Montserrat|Source+Sans+Pro&display=swap"
-      rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Montserrat|Source+Sans+Pro&display=swap" rel="stylesheet">
 
 
    <title>Atypeak - Contact</title>
@@ -172,56 +171,49 @@
 
                <div class="c-form">
                   <div class="c-form-1">ENTREZ VOTRE NOM COMPLET</div>
-                  <input type="text" name="prenom" class="c-form-2" placeholder="Prénom">
-                  <!-- value="<?php if(isset($_POST['prenom'])) { echo $_POST['prenom']; } ?>" -->
+                  <input type="text" name="prenom" class="c-form-2" placeholder="Prénom" value="<?php if(isset($_POST['prenom'])) { echo $_POST['prenom']; } ?>">
+                  
 
-                  <input type="text" name="nom" class="c-form-3" placeholder="Nom">
-                  <!-- value="<?php if(isset($_POST['nom'])) { echo $_POST['nom']; } ?>" -->
+                  <input type="text" name="nom" class="c-form-3" placeholder="Nom" value="<?php if(isset($_POST['nom'])) { echo $_POST['nom']; } ?>">
+                  
                </div>
 
                <div class="c-form-test">
                   <div class="c-form-1">ENTREZ VOTRE EMAIL</div>
-                  <input type="text" name="mail" class="c-form-4" placeholder="example@gmail.com">
-                  <!-- value="<?php if(isset($_POST['mail'])) { echo $_POST['mail']; } ?>" -->
+                  <input type="text" name="mail" class="c-form-4" placeholder="example@gmail.com" value="<?php if(isset($_POST['mail'])) { echo $_POST['mail']; } ?>">
+                  
                </div>
 
                <div class="c-form-test-2">
                   <div class="c-form-1">ENTREZ VOTRE NUMÉRO</div>
-                  <input type="text" name="numero" class="c-form-4" placeholder="+3247000000">
-                  <!-- value="<?php if(isset($_POST['numero'])) { echo $_POST['numero']; } ?>" -->
+                  <input type="text" name="numero" class="c-form-4" placeholder="+3247000000" value="<?php if(isset($_POST['numero'])) { echo $_POST['numero']; } ?>">
+                  
                </div>
 
                <div class="c-form">
                   <div class="c-form-1">QUEL PACK DÉSIREZ-VOUS ?</div>
-                  <select id="pack" class="c-form-4" name="pack" style="color:#b1b1b1">
-                     <!-- value="<?php if(isset($_POST['pack'])) { echo $_POST['pack']; } ?>" -->
-                     <option value="SERVICE MEDIA">SERVICE MÉDIA</option>
-                     <option value="SERVICE WEB">SERVICE WEB</option>
-                     <option value="SERVICE GRAPHISME">SERVICE GRAPHISME</option>
-                     <option value="PACK DUO">PACK DUO</option>
-                     <option value="PACK TRIO">PACK TRIO</option>
+                  <select id="pack" class="c-form-4" name="pack" style="color:#b1b1b1" value="<?php if(isset($_POST['pack'])) { echo $_POST['pack']; } ?>">
+                     
+                     <option value="SERVICE MEDIA">Média</option>
+                     <option value="SERVICE WEB">Web</option>
+                     <option value="SERVICE GRAPHISME">Graphisme</option>
+                     <option value="PACK DUO">Pack Duo</option>
+                     <option value="PACK TRIO">Pack Trio</option>
                   </select>
                </div>
 
                <div class="c-form">
                   <div class="c-form-1">MESSAGE</div>
-                  <textarea class="c-form-5" name="message" placeholder="Écrivez-nous un message"></textarea>
-                  <!-- <?php if(isset($_POST['message'])) { echo $_POST['message']; } ?> -->
+                  <textarea class="c-form-5" name="message" placeholder="Écrivez-nous un message"><?php if(isset($_POST['message'])) { echo $_POST['message']; } ?></textarea>
+                  
                </div>
 
                <button type="submit" class="c-form-6" name="mailform">ENVOYER</button>
 
-               <!-- <?php
-               if(isset($msg))
-               {
-                  echo $msg;
-               }
-            ?> -->
-
-               <!-- Retirer commentaires lignes 1, commentaire dans le form àpd 161  -->
-
+               
             </form>
-
+            
+            <?php if( isset($msg) ) { echo $msg; } ?>
          </div>
 
       </div>
@@ -246,27 +238,13 @@
          <div class="bas-1-2">
             <h1>MENU</h1>
             <div class="bas-1-2-1">
-               <a href="index.html"><i class="far fa-circle mr-4"></i>
-                  <p>Accueil</p>
-               </a>
-               <a href="web.html"><i class="far fa-circle mr-4"></i>
-                  <p>Web</p>
-               </a>
-               <a href="media.html"><i class="far fa-circle mr-4"></i>
-                  <p>Média</p>
-               </a>
-               <a href="graphisme.html"><i class="far fa-circle mr-4"></i>
-                  <p>Graphisme</p>
-               </a>
-               <a href="realisations.html"><i class="far fa-circle mr-4"></i>
-                  <p>Réalisations</p>
-               </a>
-               <a href="apropos.html"><i class="far fa-circle mr-4"></i>
-                  <p>À propos</p>
-               </a>
-               <a href="contact.html"><i class="far fa-circle mr-4"></i>
-                  <p>Contact</p>
-               </a>
+               <a href="index.html"><i class="far fa-circle mr-4"></i><p>Accueil</p></a>
+               <a href="web.html"><i class="far fa-circle mr-4"></i><p>Web</p></a>
+               <a href="media.html"><i class="far fa-circle mr-4"></i><p>Média</p></a>
+               <a href="graphisme.html"><i class="far fa-circle mr-4"></i><p>Graphisme</p></a>
+               <a href="realisations.html"><i class="far fa-circle mr-4"></i><p>Réalisations</p></a>
+               <a href="apropos.html"><i class="far fa-circle mr-4"></i><p>À propos</p></a>
+               <a href="contact.html"><i class="far fa-circle mr-4"></i><p>Contact</p></a>
             </div>
          </div>
 

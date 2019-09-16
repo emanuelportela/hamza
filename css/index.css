@@ -74,12 +74,8 @@ body {
    padding: 50px 100px;
    position: relative /* test triangle*/;
    background-image: url("../img/17580.jpg");
-   background-image: url("../img/5709.jpg");
-   background-image: 
-      linear-gradient(rgba(255,255,255,0.5),rgb(255,255,255,0.5)),
-      url('../img/4389.jpg');
    background-size: 100%;
-   background-repeat: no-repeat;
+   background-repeat: repeat;
 }
 
 .section-services h1 {
