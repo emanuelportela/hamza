@@ -20,11 +20,93 @@
 /* ECRAN 1200px (end) */
 
 
+/* ECRAN 1100px (start) */
+
+@media only screen and (max-width: 1100px) {
+   .apropos-1-carre-1,
+   .apropos-1-carre-2,
+   .apropos-1-carre-3 {
+      height: 140px;
+      width: 140px;
+   }
+   
+   .apropos-1-carre-2 {
+      left: 130px;
+   }
+   
+   .apropos-1-carre-3 {
+      left: 260px;
+   }
+}
+
+/* ECRAN 1100px (end) */
+
+
 /* ECRAN 1000px (start) */
 
 @media only screen and (max-width: 1000px) {
    .accueil {
       background-size: 160%;
+   }
+
+   .promo {
+      padding: 60px 30px;
+   }
+
+   .promo .pack {
+      padding: 0;
+      margin: 0;
+   }
+
+   .test {
+      margin-bottom: 30px;
+   }
+
+   .section-services {
+      padding: 60px 30px;
+   }
+
+   .section-apropos {
+      padding: 50px 20px;
+   }
+
+   .apropos {
+      padding: 0;
+   }
+   
+   .apropos-1 {
+      height: 200px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+   
+   .apropos-1-carres {
+      width: 300px;
+      height: 150px;
+   }
+   
+   .apropos-1-carre-1,
+   .apropos-1-carre-2,
+   .apropos-1-carre-3 {
+      height: 100px;
+      width: 100px;
+   }
+   
+   .apropos-1-carre-2 {
+      left: 90px;
+   }
+   
+   .apropos-1-carre-3 {
+      left: 180px;
+   }
+   
+   .apropos-1 h1 {
+      line-height: 25px;
+      font-size: 15px;
+   }
+
+   .apropos-2 p {
+      margin-top: 20px;
    }
 }
 
@@ -56,11 +138,32 @@
 
    .service-1 {
       border: solid 2px #616161;
+      margin-top: 30px;
    }
    .service-2 {
       border: 2px solid #fe9f00;
    }
 
+   .service-2 {
+      margin: 30px auto;
+   }
+
+   .service-3-1, .service-3-2, .service-3-3 {
+      display: none;
+   }
+
+   .service-3-r {
+      display: initial;
+   }
+
+   .servicehover:hover .service-2::before, .servicehover:hover .service-2::after {
+      height: 0%;
+      width: 0%;
+   }
+
+   .servicehover:hover .service-2 {
+      color: #262626;
+   }
 }
 
 /* ECRAN 900px (end) */

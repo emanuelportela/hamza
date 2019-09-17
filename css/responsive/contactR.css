@@ -74,6 +74,10 @@
    .contact-donnee-2-1 {
       font-size: 15px;
    }
+
+   .top-contact h1 {
+      font-size: 30px;
+   }
 }
 
 /* ECRAN 767 px (end) */

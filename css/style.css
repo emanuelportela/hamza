@@ -139,6 +139,7 @@ body {
    margin: 0 1.5%;
    display: inline-block;
    font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
 }
 
 .navbar li::after, .navbar li::before {
@@ -163,7 +164,6 @@ body {
    display: inline-block;
    color: white;
    position: relative;
-   font-size: 14px;
    -webkit-transition: all 0.1s ease 0s;
    -o-transition: all 0.1s ease 0s;
    transition: all 0.1s ease 0s;
@@ -295,49 +295,69 @@ body {
 /* BURGER MENU (end) */
 
 
-/* SECTION - RAPPEL CONTACT (start) */
+/* SECTION - RAPPEL CONTACT TEST (start) */
 
-.section_fourth {
+.contactez-nous {
    background: linear-gradient(rgba(255, 145, 0, 0.795), rgb(255, 81, 0));
-   /* background-color: #cf7c00; */
-   background-color: rgb(255, 81, 0);
-   padding: 40px 100px !important;
+   padding: 40px 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
 
-.contactez_nous img {
+.contactez-nous-1 {
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contactez-nous-2 {
+   width: 600px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.contactez-nous-3 {
+   width: 300px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.contactez-nous-1 img {
    height: 60px;
 }
 
-.section_fourth:hover img {
+.contactez-nous:hover img {
    transform: rotate(15deg);
    transition: all 0.5s;
 }
 
-.contactez_nous h1 {
+.contactez-nous-2 h1 {
    color: white;
-   align-self: center;
 }
 
-.contactez_nous button {
+.contactez-nous-3 a {
    color: white;
    border: 2px solid white;
    background-color: transparent;
    padding: 10px 20px;
    font-size: 16px;
    font-weight: bold;
+   text-decoration: none;
+   width: 207px;
+   height: 48px;
 }
 
-.contactez_nous button:hover {
+.contactez-nous-3 a:hover {
    transition: all 0.2s linear;
    color: #262626;
    border: 2px solid #262626;
 }
 
-.besoin_info {
-   align-self: center;
-}
-
-/* SECTION - RAPPEL CONTACT (end) */
+/* SECTION - RAPPEL CONTACT TEST (end) */
 
 
 /* TRIANGLE - TEST */

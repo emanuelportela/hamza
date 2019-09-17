@@ -1,0 +1,82 @@
+/* ECRAN 1100 px (start) */
+
+@media only screen and (max-width: 1100px) {
+
+   .first-titre {
+      font-size: 25px;
+   }
+   .second-titre {
+      font-size: 17px;
+   }
+}
+
+/* ECRAN 1100 px (end) */
+
+
+/* ECRAN 1000 px (start) */
+
+@media only screen and (max-width: 1000px) {
+
+   .img-fond {
+      background-size: 140%;
+   }
+}
+
+/* ECRAN 1000 px (end) */
+
+
+/* ECRAN 900 px (start) */
+
+@media only screen and (max-width: 900px) {
+
+   .first-titre {
+      font-size: 20px;
+   }
+   .second-titre {
+      font-size: 15px;
+   }
+}
+
+/* ECRAN 900 px (end) */
+
+
+/* ECRAN 767 px (start) */
+
+@media only screen and (max-width: 767px) {
+
+   .img-fond {
+      background-size: 250%;
+      height: 70vh;
+      background-image: 
+         linear-gradient(rgba(10, 10,10,0),rgba(0,0,0,1)), 
+         url('../../img/PANO0001-Panorama.jpg');
+   }
+
+   .second-titre {
+      font-size: 18px;
+   }
+}
+
+/* ECRAN 767 px (end) */
+
+
+/* ECRAN 500 px (start) */
+
+@media only screen and (max-width: 500px) {
+
+   .img-fond {
+      background-size: 700%;
+      height: 100vh;
+      background-position-y: 0%;
+   }
+
+   .first-titre {
+      font-size: 25px;
+   }
+   .second-titre {
+      font-size: 20px;
+   }
+   
+}
+
+/* ECRAN 500 px (end) */

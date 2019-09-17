@@ -1,0 +1,48 @@
+/* ECRAN 1000 px (start) */
+
+@media only screen and (max-width: 1000px) {
+
+   .img-fond {
+      background-size: 140%;
+   }
+}
+
+/* ECRAN 1000 px (end) */
+
+
+/* ECRAN 767 px (start) */
+
+@media only screen and (max-width: 767px) {
+
+   .img-fond {
+      background-size: 192%;
+      height: 70vh;
+      background-image: 
+         linear-gradient(rgba(10, 10,10,0),rgba(0,0,0,1)), 
+         url('../../img/3307.jpg');
+   }
+}
+
+/* ECRAN 767 px (end) */
+
+
+/* ECRAN 500 px (start) */
+
+@media only screen and (max-width: 500px) {
+
+   .img-fond {
+      height: 100vh;
+      background-size: 300%;
+      padding: 25vh 5vw;
+   }
+
+   .first-titre {
+      font-size: 30px;
+   }
+   .second-titre {
+      font-size: 21px;
+   }
+   
+}
+
+/* ECRAN 500 px (end) */

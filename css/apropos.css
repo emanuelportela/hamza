@@ -15,22 +15,24 @@
 .img-fond {
    background-image: url("../img/atomium-1827594.jpg");
    background-size: 103%;
-   padding-top: 100px;
-   padding-bottom: 100px;
+   padding: 100px;
    background-position-y: 22%;
+   background-position-x: 50%;
 }
 .img-fond-1 {
    background-color: white;
    margin: auto;
-   max-width: 60%;
-   padding: 60px;
+   max-width: 80%;
+   padding: 40px 80px;
 }
 .img-fond-titre {
    font-size: 30px;
 }
 .img-fond-text {
-   font-size: 16px;
-   max-width: 70%;
+   font-size: 15px;
    margin: auto;
+   text-align: justify;
+   margin-bottom: 20px;
 }
+
 /* TOP - A PROPOS (end) */

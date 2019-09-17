@@ -7,7 +7,6 @@ body {
    background-image: url('../img/3307.jpg');
    background-size: 100%;
    padding: 15vh 10vw;
-   background-color: red;
 }
 .titre-web {
    height: 30vh;
@@ -16,12 +15,10 @@ body {
 .first-titre {
    padding-top: 2vh;
    font-size: 30px;
-   font-size: 2.5vw;
 }
 .second-titre {
    font-size: 20px;
    margin: auto;
-   font-size: 1.5vw;
 }
 .color-span {
    color: #fe9f00;

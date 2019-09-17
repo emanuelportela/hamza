@@ -5,9 +5,9 @@ body {
 .img-fond {
    height: 55vh;
    /* background-color: rgba(0, 0, 0, 0.808); */
-   background-image: linear-gradient(rgba(10, 10, 10, 0),rgba(0, 0, 0, 0.377)), url("../img/DSC06176.jpg");
+   background-image: linear-gradient(rgba(10, 10, 10, 0.76),rgba(0, 0, 0, 0.377)), url("../img/DJI_0283.jpg");
    background-size: 100%;
-   background-position-y: 50%;
+   background-position-y: 60%;
    padding: 15vh 10vw;
 }
 .titre-web {
@@ -17,12 +17,10 @@ body {
 .first-titre {
    padding-top: 2vh;
    font-size: 30px;
-   font-size: 2.5vw;
 }
 .second-titre {
    font-size: 20px;
    margin: auto;
-   font-size: 1.5vw;
 }
 .color-span {
    color: #fe9f00;

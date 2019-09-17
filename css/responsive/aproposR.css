@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1200px) { 
+   .img-fond {
+      background-position-y: 50%;
+      background-position-x: 50%;
+      background-size: 150%;
+   } 
+}
+
+/* ECRAN 1000 px (start) */
+
+@media only screen and (max-width: 1000px) {
+
+   .img-fond {
+      padding: 50px;
+   }
+
+   .img-fond-1 {
+      padding: 40px;
+   }
+
+   .img-fond-titre {
+      font-size: 20px;
+   }
+}
+
+/* ECRAN 1000 px (end) */
+
+
+@media only screen and (max-width: 900px) { 
+   .img-fond {
+      padding: 30px 0;
+   }
+
+   .img-fond-1 {
+      padding: 20px;
+      width: 100%;
+   }
+
+   .img-fond-titre {
+      font-size: 20px;
+   }
+}
