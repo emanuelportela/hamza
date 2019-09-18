@@ -199,6 +199,16 @@
    .contactez-nous-2 h1 {
       text-align: center;
    }
+
+   .bas-1-3-1 {
+      width: 200px;
+   }
+
+   .bas-1-3-1 a {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+   }
 }
 
 /* ECRAN MEDIUM - 767px (end) */

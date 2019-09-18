@@ -33,6 +33,7 @@ body {
       url("../img/17580.jpg");
    background-size: 100%;
    background-repeat: repeat;
+   padding: 30px 0;
 }
 .medi i {
    padding: 20px;
@@ -251,10 +252,11 @@ canvas {
 }
 
 .new-test-21, .new-test-22, .new-test-23, .new-test-24 {
-   height: 450px;
+   /* height: 450px; */
    width: 650px;
    box-shadow: 2px 2px 10px 3px rgb(185, 185, 185);
    display: flex;
+   flex-wrap: wrap;
 }
 
 .new-test-22, .new-test-23, .new-test-24 {
@@ -263,13 +265,13 @@ canvas {
 
 .new-test-2-1 {
    background-color: rgb(255, 255, 255);
-   height: 450px;
-   width: 50%;
+   /* height: 450px; */
+   width: 325px;
 }
 
 .new-test-2-1-1 {
    height: 110px;
-   width: 325px;
+   width: 100%;
    background-color: rgb(254, 159, 0);
    display: flex;
    justify-content: flex-start;
@@ -281,8 +283,8 @@ canvas {
 }
 
 .new-test-2-1-2 {
-   height: 290px;
-   width: 325px;
+   /* height: 290px; */
+   width: 100%;
    padding: 30px;
    font-size: 15px;
    text-align: justify;
@@ -293,7 +295,7 @@ canvas {
    background-position-y: 50%;
    background-size: 190%;
    height: 450px;
-   width: 50%;
+   width: 325px;;
 }
 
 .new-test-2-21 { background-image: url('../img/mockup-16.png'); background-size: 250%; background-position-x: 20%;}
