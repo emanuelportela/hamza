@@ -5,9 +5,10 @@ body {
 .img-fond {
    height: 55vh;
    /* background-color: rgba(0, 0, 0, 0.808); */
-   background-image: linear-gradient(rgba(10, 10, 10, 0.76),rgba(0, 0, 0, 0.377)), url("../img/DJI_0283.jpg");
+   background-image: linear-gradient(rgba(10, 10, 10, 0.4),rgba(0, 0, 0, 0.6)), 
+   url("../img/TOPWEB.jpg");
    background-size: 100%;
-   background-position-y: 60%;
+   background-position-y: 50%;
    padding: 15vh 10vw;
 }
 .titre-web {
@@ -287,10 +288,11 @@ canvas {
    width: 100%;
    padding: 30px;
    font-size: 15px;
-   text-align: justify;
+   /* text-align: justify; */
 }
 
 .new-test-2-21, .new-test-2-22, .new-test-2-23, .new-test-2-24 {
+   background-color: rgb(185,185,185);
    background-position-x: 50%;
    background-position-y: 50%;
    background-size: 190%;

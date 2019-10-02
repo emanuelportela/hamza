@@ -426,7 +426,7 @@ body {
 }
 
 .new-test-2-1-1 {
-   height: 110px;
+   height: 100px;
    width: 100%;
    background-color: rgb(254, 159, 0);
    display: flex;
@@ -435,7 +435,7 @@ body {
    padding: 30px;
    color: white;
    font-weight: bold;
-   font-size: 25px;
+   font-size: 20px;
 }
 
 .new-test-2-1-2 {
@@ -443,11 +443,11 @@ body {
    width: 100%;
    padding: 30px;
    font-size: 15px;
-   text-align: justify;
+   /* text-align: justify; */
 }
 
 .new-test-2-21, .new-test-2-22, .new-test-2-23 {
-   background-image: url('../img/DSC04831.jpg');
+   background-color: rgb(185,185,185);
    background-position-x: 50%;
    background-position-y: 50%;
    background-size: 165%;

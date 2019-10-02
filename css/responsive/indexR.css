@@ -1,6 +1,6 @@
 /* ECRAN 1300 px (start) */
 
-@media only screen and (max-width: 1300px) {
+@media all and (max-width: 1300px) {
    .accueil {
       background-size: 120%;
    }
@@ -11,7 +11,7 @@
 
 /* ECRAN 1200px (start) */
 
-@media only screen and (max-width: 1200px) {
+@media all and (max-width: 1200px) {
    .accueil {
       background-size: 140%;
    }
@@ -22,7 +22,7 @@
 
 /* ECRAN 1100px (start) */
 
-@media only screen and (max-width: 1100px) {
+@media all and (max-width: 1100px) {
    .apropos-1-carre-1,
    .apropos-1-carre-2,
    .apropos-1-carre-3 {
@@ -44,7 +44,7 @@
 
 /* ECRAN 1000px (start) */
 
-@media only screen and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
    .accueil {
       background-size: 160%;
    }
@@ -115,7 +115,7 @@
 
 /* ECRAN 900px (start) */
 
-@media only screen and (max-width: 900px) {
+@media all and (max-width: 900px) {
    .accueil {
       background-size: 300%;
    }
@@ -171,7 +171,7 @@
 
 /* ECRAN 700px (start) */
 
-@media only screen and (max-width: 700px) {
+@media all and (max-width: 700px) {
    .accueil {
       background-size: 300%;
    }
@@ -190,7 +190,7 @@
 
 /* ECRAN 600px (start) */
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
    .accueil {
       background-size: 400%;
    }

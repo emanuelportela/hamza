@@ -1,6 +1,6 @@
 /* ECRAN 1000 px (start) */
 
-@media only screen and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
 
    .img-fond {
       background-size: 140%;
@@ -11,29 +11,30 @@
 /* ECRAN 1000 px (end) */
 
 
-/* ECRAN 767 px (start) */
+/* ECRAN 775 px (start) */
 
-@media only screen and (max-width: 767px) {
+@media all and (max-width: 775px) {
 
    .img-fond {
-      background-size: 192%;
+      background-size: 210%;
       height: 70vh;
-      background-image: 
-         linear-gradient(rgba(10, 10, 10, 0.678),rgba(0, 0, 0, 0.637)), 
-         url('../../img/DJI_0283.jpg');
+      background-image: linear-gradient(rgba(10, 10, 10, 0.4),rgba(0, 0, 0, 0.6)), 
+      url("../../img/TOPWEB.jpg");
+      background-position-x: 50%;
+      background-position-y: 50%;
    }
 }
 
-/* ECRAN 767 px (end) */
+/* ECRAN 775 px (end) */
 
 
 /* ECRAN 500 px (start) */
 
-@media only screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
 
    .img-fond {
       height: 100vh;
-      background-size: 300%;
+      background-size: 350%;
       padding: 20vh 5vw;
    }
 
@@ -51,7 +52,7 @@
 
 /* ECRAN 1200 px (start) */
 
-@media only screen and (max-width: 1200px) {
+@media all and (max-width: 1200px) {
 
    .new-test-1 {
       height: 100px;
@@ -84,7 +85,7 @@
 
 /* ECRAN 770 px (start) */
 
-@media only screen and (max-width: 770px) {
+@media all and (max-width: 770px) {
 
    .new-test {
       padding: 60px 30px;

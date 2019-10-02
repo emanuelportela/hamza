@@ -19,6 +19,7 @@ hamburger.addEventListener("click", function () {
       burger3.classList.remove("clicked");
       times.classList.remove("times-add");
       bars.classList.remove("bars-removed");
+      bars.style.color = "#282828";
    } 
 
    else {

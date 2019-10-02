@@ -1,6 +1,6 @@
 /* ECRAN 1223 px (start) */
 
-@media only screen and (max-width: 1223px) {
+@media all and (max-width: 1223px) {
 
    .c-form-test, .c-form-test-2 {
       width: 100%;
@@ -20,7 +20,7 @@
 
 /* ECRAN 1000 px (start) */
 
-@media only screen and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
 
    .top-contact {
       background-size: 140%;
@@ -48,7 +48,7 @@
 
 /* ECRAN 767 px (start) */
 
-@media only screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
 
    .top-contact {
       background-size: 192%;
@@ -85,7 +85,7 @@
 
 /* ECRAN 500 px (start) */
 
-@media only screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
 
    .top-contact {
       background-size: 256%;

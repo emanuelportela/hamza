@@ -73,7 +73,7 @@
          <li><a href="index.html"><img src="./img/logo-3.png"></a></li>
          <li><a class="nonactive5" href="realisations.html">RÉALISATIONS</a></li>
          <li><a class="nonactive4" href="apropos.html">À PROPOS</a></li>
-         <li class="active"><a href="contact.html">CONTACT</a></li>
+         <li class="active"><a href="contact.php">CONTACT</a></li>
       </ul>
 
    </header>
@@ -91,7 +91,7 @@
       <div><a class="b-2" href="graphisme.html">Graphisme</a></div>
       <div><a class="b-2" href="realisations.html">Réalisations</a></div>
       <div><a class="b-2" href="apropos.html">À propos</a></div>
-      <div><a class="b-2" href="contact.html" style="color:orange">Contact</a></div>
+      <div><a class="b-2" href="contact.php" style="color:orange">Contact</a></div>
 
    </div>
 
@@ -231,8 +231,7 @@
       <div class="bas-1">
 
          <div class="bas-1-1">
-            <img class="bas-1-1-1" src="./img/logo-2.png">
-            <img class="bas-1-1-2" src="./img/atypeak1.png">
+            <img class="bas-1-1-1" src="./img/logo.trio.titre.blanc.png">
          </div>
 
          <div class="bas-1-2">
@@ -244,7 +243,7 @@
                <a href="graphisme.html"><i class="far fa-circle mr-4"></i><p>Graphisme</p></a>
                <a href="realisations.html"><i class="far fa-circle mr-4"></i><p>Réalisations</p></a>
                <a href="apropos.html"><i class="far fa-circle mr-4"></i><p>À propos</p></a>
-               <a href="contact.html"><i class="far fa-circle mr-4"></i><p>Contact</p></a>
+               <a href="contact.php"><i class="far fa-circle mr-4"></i><p>Contact</p></a>
             </div>
          </div>
 

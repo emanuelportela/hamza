@@ -1,6 +1,6 @@
 /* ECRAN - 1200px (start) */
 
-@media only screen and (max-width: 1200px){
+@media all and (max-width: 1200px){
    .header-2 {
       padding: 0 70px;
    }
@@ -24,11 +24,11 @@
 
 /* ECRAN - 1050px (start) */
 
-@media only screen and (max-width: 1050px){
+@media all and (max-width: 1050px){
 
    .contactez-nous-1 { width: 60px; }
    .contactez-nous-2 { width: 480px; }
-   .contactez-nous-3 { width: 210px; }
+   .contactez-nous-3 { width: 220px; }
 }
 
 /* ECRAN - 1050px (end) */
@@ -36,7 +36,7 @@
 
 /* ECRAN MEDIUM - 1000px (start) */
 
-@media only screen and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
 
    .times {
       display: none;
@@ -79,7 +79,7 @@
 
 /* ECRAN - 950px (start) */
 
-@media only screen and (max-width: 950px){
+@media all and (max-width: 950px){
 
    .contactez-nous-1 { width: 10%; }
    .contactez-nous-2 { width: 80%; }
@@ -91,7 +91,7 @@
 
 /* ECRAN - 900px (start) */
 
-@media only screen and (max-width: 900px) {
+@media all and (max-width: 900px) {
    .bas-1-1 {
       margin-right: 60px;
    }
@@ -105,7 +105,7 @@
 
 /* ECRAN - 800px (start) */
 
-@media only screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
    .bas-1-2 {
       margin-top: 60px;
    }
@@ -116,7 +116,7 @@
 
 /* ECRAN MEDIUM - 767px (start) */
 
-@media only screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
    
    .box {
       bottom: 40px;
@@ -209,6 +209,10 @@
       height: 40px;
       font-size: 18px;
    }
+
+   .burger-1 div a {
+      padding: 15px 30px;
+   }
 }
 
 /* ECRAN MEDIUM - 767px (end) */
@@ -217,7 +221,7 @@
 
 /* ECRAN SMALL - 500px (start) */
 
-@media only screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
 
    .box {
       bottom: 20px;

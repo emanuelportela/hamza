@@ -188,6 +188,10 @@ body {
    text-decoration: none;
 }
 
+.navbar li a:link, .navbar li a:visited {
+   text-decoration: none;
+}
+
 .navbar li.active::after, .navbar li.active::before {
    content: "";
    display: block;
@@ -343,12 +347,15 @@ body {
    color: white;
    border: 2px solid white;
    background-color: transparent;
-   padding: 10px 20px;
+   /* padding: 10px 20px; */
    font-size: 16px;
    font-weight: bold;
    text-decoration: none;
-   width: 207px;
+   width: 220px;
    height: 48px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .contactez-nous-3 a:hover {

@@ -1,6 +1,6 @@
 /* ECRAN 1000 px (start) */
 
-@media only screen and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
 
    .img-fond {
       background-size: 140%;
@@ -12,14 +12,16 @@
 
 /* ECRAN 767 px (start) */
 
-@media only screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
 
    .img-fond {
-      background-size: 192%;
+      background-size: 210%;
       height: 70vh;
       background-image: 
-         linear-gradient(rgba(10, 10,10,0),rgba(0,0,0,1)), 
+         linear-gradient(rgba(10, 10,10,0.5),rgba(0,0,0,1)), 
          url('../../img/3307.jpg');
+      background-position-x: 50%;
+      background-position-y: 50%;
    }
 }
 
@@ -28,11 +30,11 @@
 
 /* ECRAN 500 px (start) */
 
-@media only screen and (max-width: 500px) {
+@media all and (max-width: 500px) {
 
    .img-fond {
       height: 100vh;
-      background-size: 300%;
+      background-size: 350%;
       padding: 25vh 5vw;
    }
 
@@ -50,7 +52,7 @@
 
 /* ECRAN 1200 px (start) */
 
-@media only screen and (max-width: 1200px) {
+@media all and (max-width: 1200px) {
 
    .new-test-1 {
       height: 100px;
@@ -83,7 +85,7 @@
 
 /* ECRAN 770 px (start) */
 
-@media only screen and (max-width: 770px) {
+@media all and (max-width: 770px) {
 
    .new-test {
       padding: 60px 30px;
@@ -91,19 +93,24 @@
 
    .new-test-1 {
       margin: 0 0 20px;
-      height: 150px;
+      height: 80px;
    }
    
    .new-test-1-1 {
-      font-size: 13px;
+      font-size: 12px;
       height: 50px;
-      width: 45%;
+      width: 30%;
       margin: 0;
-      margin-right: 10%;
-      padding-left: 10px;
+      margin-right: 5%;
+      padding-left: 5px;
+      border-left: solid #ccc 10px;
    }
 
-   .new-test-1-1:nth-child(2) {
+   .filtre-active { border-left: 10px solid #fe9f00 !important; }
+   .filtre-1 { border-left: 10px solid #fe9f00 !important; }
+   .filtre-2 { border-left: 10px solid rgb(185, 185, 185) !important; }
+
+   .new-test-1-1:nth-child(3) {
       margin-right: 0;
    }
 

@@ -25,19 +25,19 @@ body {
       width: 200px;
       height: 190px;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       flex-wrap: wrap;
    }
 
       .bas-1-1-1 {
-         width: 120px;
-         height: 120px;
+         width: 160px;
+         height: 155px;
       }
 
-      .bas-1-1-2 {
+      /* .bas-1-1-2 {
          width: 160px;
          height: 25px;
-      }
+      } */
 
    .bas-1-2 {
       width: 350px;
