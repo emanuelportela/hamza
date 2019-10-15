@@ -16,12 +16,21 @@
 
    .img-fond {
       background-size: 210%;
-      height: 70vh;
-      background-image: 
-         linear-gradient(rgba(10, 10,10,0.5),rgba(0,0,0,1)), 
-         url('../../img/3307.jpg');
+      background-image:
+         linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.2)),
+         url('../../img/title-graph-2.jpg');
       background-position-x: 50%;
       background-position-y: 50%;
+   }
+
+   .section-first {
+      background-image: none;
+      background-color: rgb(247, 247, 247);
+   }
+
+   .new-test-2-1-2 {
+      font-size: 15px !important;
+      line-height: 30px !important;
    }
 }
 
@@ -35,15 +44,15 @@
    .img-fond {
       height: 100vh;
       background-size: 350%;
-      padding: 25vh 5vw;
+      padding: 30vh 5vw;
    }
 
-   .first-titre {
+   /* .first-titre {
       font-size: 30px;
    }
    .second-titre {
       font-size: 21px;
-   }
+   } */
    
 }
 

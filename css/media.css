@@ -5,7 +5,7 @@ body {
 .img-fond {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0), 
-      rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.205), rgba(255, 255, 255, 0)
+      rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.205)
       ), url('../img/PANO0001-Panorama.jpg');
    background-size: 100%;
    height: 55vh;
@@ -20,10 +20,10 @@ body {
 }
 .first-titre {
    padding-top: 2vh;
-   font-size: 30px;
+   font-size: 50px;
 }
 .second-titre {
-   font-size: 20px;
+   font-size: 25px;
    margin: auto;
 }
 .color-span {
@@ -497,14 +497,13 @@ body {
    background-color: rgb(185,185,185);
    background-position-x: 50%;
    background-position-y: 50%;
-   background-size: 200%;
    height: 390px;
    width: 325px;
 }
 
-.new-test-2-21 { background-image: url('../img/DSC04831.jpg');}
-.new-test-2-22 { background-image: url('../img/DSC05226.jpg');}
-.new-test-2-23 { background-image: url('../img/DSC05986.jpg');}
+.new-test-2-21 { background-size: 180%; background-image: url('../img/Corpo-illus.jpg');}
+.new-test-2-22 { background-size: 230%; background-image: url('../img/Immo-illus.jpg');}
+.new-test-2-23 { background-size: 180%; background-image: url('../img/Restau-ilus.jpg');}
 
 /* ARGUMENTS (end) */
 

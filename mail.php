@@ -58,7 +58,7 @@ if(isset($_POST['mailform'])) {
                      <p style="color:#666B6F;margin:0 12% 10px"><i>" '.nl2br($_POST['message']).' "</i></p><br/>
                      <p style="color:#262626;margin:0 10% 40px">Nous vous remercions pour la confiance que vous nous accordez et vous contacterons dans les plus brefs délais.</p>
                      <p style="color:#262626;margin:0 10% 40px">Cordialement,</p>
-                     <img src="http://127.0.0.1:5501/img/logo.trio.titre.blanc.png" style="margin:0 11% 10px;height:120px;width:120px;">
+                     <img src="https://atypeak.be/img/logo.trio.titre.blanc.png" style="margin:0 11% 10px;height:120px;width:120px;">
                      <p style="color:#262626;margin:0 10% 80px">L\'équipe Atypeak.</p>
          
                   </div>
@@ -69,7 +69,7 @@ if(isset($_POST['mailform'])) {
                         <a style="text-decoration:none;color:white;margin:0 10px" href="https://www.instagram.com/atypeak.be/">Instagram</a>|
                         <a style="text-decoration:none;color:white;margin:0 10px" href="https://www.facebook.com/Atypeak-105000600875221/">Facebook</a>
                      </div>
-                     <a style="text-decoration:none;color:rgb(190,190,190);width:100%;text-align:center;" href="http://127.0.0.1:5501/img/logo-3.png">Retour sur le site</a>
+                     <a style="text-decoration:none;color:rgb(190,190,190);width:100%;text-align:center;" href="https://www.atypeak.be">Retour sur le site</a>
                   </div>
          
                   <div style="height:60px;background:#222222;border-top:1px solid #2a2a2a;color:#ccc;display:flex;justify-content: center;align-items:center;padding: 0 10%;font-size:13px">
@@ -124,7 +124,7 @@ if(isset($_POST['mailform'])) {
                            <a style="text-decoration:none;color:white;margin:0 10px" href="https://www.instagram.com/atypeak.be/">Instagram</a>|
                            <a style="text-decoration:none;color:white;margin:0 10px" href="https://www.facebook.com/Atypeak-105000600875221/">Facebook</a>
                         </div>
-                        <a style="text-decoration:none;color:rgb(190,190,190);width:100%;text-align:center;" href="http://www.atypeak.be">Retour sur le site</a>
+                        <a style="text-decoration:none;color:rgb(190,190,190);width:100%;text-align:center;" href="https://www.atypeak.be">Retour sur le site</a>
                      </div>
                   
                      <div style="height:60px;background:#222222;border-top:1px solid #2a2a2a;color:#ccc;display:flex;justify-content: center;align-items:center;padding: 0 10%;font-size:13px">

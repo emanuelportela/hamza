@@ -27,7 +27,7 @@ body {
    right: 100px;
    height: 40px;
    width: 40px;
-   z-index: 999;
+   z-index: 998;
    background-color: #fe9f00;
    -webkit-transition: all 0.4s ease 0s;
    -o-transition: all 0.4s ease 0s;

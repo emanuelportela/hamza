@@ -18,10 +18,20 @@
    .img-fond {
       background-size: 210%;
       height: 70vh;
-      background-image: linear-gradient(rgba(10, 10, 10, 0.4),rgba(0, 0, 0, 0.6)), 
-      url("../../img/TOPWEB.jpg");
+      background-image: 
+         linear-gradient(rgba(10, 10, 10, 0.4),rgba(0, 0, 0, 0.6)), 
+         url("../../img/title-font.jpg");
       background-position-x: 50%;
       background-position-y: 50%;
+   }
+
+   .section-first {
+      background-image: none;
+      background-color: rgb(247, 247, 247);
+   }
+
+   .new-test-2-1-2 {
+      line-height: 30px;
    }
 }
 
@@ -35,15 +45,15 @@
    .img-fond {
       height: 100vh;
       background-size: 350%;
-      padding: 20vh 5vw;
+      padding: 25vh 5vw;
    }
 
-   .first-titre {
+   /* .first-titre {
       font-size: 30px;
    }
    .second-titre {
       font-size: 21px;
-   }
+   } */
    
 }
 

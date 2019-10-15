@@ -273,26 +273,26 @@ body {
 .portfolio-1 {
    width: 300px;
    margin: 15px;
-   height: 450px;
+   height: 550px;
    background-color: grey;
-   background-image: url('../img/mockup-1.png');
-   background-size: 250%;
+   background-image: url('../img/Ice-hotel.jpg');
+   background-size: 185%;
    background-position-x: 50%;
    background-position-y: 50%;
 }
 
-.portfolio-2 {
+/* .portfolio-2 {
    width: 300px;
    margin: 15px;
-   height: 200px;
+   height: 250px;
    background-color: grey;
-   background-image: url('../img/mockup-2.png');
-   background-size: 100%;
+   background-image: url('../img/projet-web.png');
+   background-size: 150%;
    background-position-x: 50%;
    background-position-y: 50%;
-}
+} */
 
-.portfolio-3 {
+/* .portfolio-3 {
    width: 300px;
    margin: 15px;
    height: 350px;
@@ -312,15 +312,15 @@ body {
    background-size: 150%;
    background-position-x: 50%;
    background-position-y: 50%;
-}
+} */
 
 .portfolio-5 {
    width: 300px;
    margin: 15px;
-   height: 300px;
+   height: 220px;
    background-color: grey;
-   background-image: url('../img/mockup-5.png');
-   background-size: 100%;
+   background-image: url('../img/projet-web.png');
+   background-size: 150%;
    background-position-x: 50%;
    background-position-y: 50%;
 }
@@ -328,15 +328,15 @@ body {
 .portfolio-6 {
    width: 300px;
    margin: 15px;
-   height: 400px;
+   height: 300px;
    background-color: grey;
-   background-image: url('../img/mockup-6.png');
+   background-image: url('../img/Belgium-Lion.jpg');
    background-size: 180%;
    background-position-x: 50%;
    background-position-y: 50%;
 }
 
-.portfolio-7 {
+/* .portfolio-7 {
    width: 300px;
    margin: 15px;
    height: 400px;
@@ -356,31 +356,31 @@ body {
    background-size: 100%;
    background-position-x: 50%;
    background-position-y: 50%;
-}
+} */
 
 .portfolio-9 {
    width: 300px;
    margin: 15px;
-   height: 350px;
+   height: 550px;
    background-color: grey;
-   background-image: url('../img/mockup-9.png');
-   background-size: 250%;
-   background-position-x: 50%;
-   background-position-y: 50%;
-}
-
-.portfolio-10 {
-   width: 300px;
-   margin: 15px;
-   height: 300px;
-   background-color: grey;
-   background-image: url('../img/mockup-10.png');
+   background-image: url('../img/Sony.jpg');
    background-size: 150%;
    background-position-x: 50%;
    background-position-y: 50%;
 }
 
-.portfolio-11 {
+/* .portfolio-10 {
+   width: 300px;
+   margin: 15px;
+   height: 350px;
+   background-color: grey;
+   background-image: url('../img/projet-graphisme-2.png');
+   background-size: 130%;
+   background-position-x: 50%;
+   background-position-y: 50%;
+} */
+
+/* .portfolio-11 {
    width: 300px;
    margin: 15px;
    height: 300px;
@@ -400,7 +400,7 @@ body {
    background-size: 250%;
    background-position-x: 50%;
    background-position-y: 50%;
-}
+} */
 
 .portfolio {
    position: relative;
@@ -422,7 +422,7 @@ body {
 }
  
 .portfolio:hover .portfolio-filtre {
-   opacity: 0.8;
+   opacity: 0.85;
 }
 
 .portfolio:hover .portfolio-texte {
@@ -440,50 +440,66 @@ body {
 }
 
 .portfolio-texte {
-   color: #262626;
-   font-size: 30px;
-   position: absolute;
-   bottom: 10px;
-   left: 90px;
-   -webkit-transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
-   text-align: center;
-   opacity: 0;
    display: flex;
    justify-content: flex-end;
+   align-items: flex-end;
    flex-wrap: wrap;
+   width: 100%;
+   height: 100%;
+   padding: 30px;
 }
 
-.portfolio-texte h1 {
-   /* margin-bottom: -10px; */
+.projet-1 {
+   color: #262626;
+   font-size: 30px;
+   width: 100%;
+   height: 35px;
+}
+
+.projet-2 {
+   text-decoration: none;
+   color: #818181;
+   font-size: 15px;
+   width: 100%;
+}
+
+.projet-3 {
+   text-decoration: none;
+   color: rgb(254,123,0);
+   font-size: 15px;
+   width: 100%;
+   height: 20px;
+}
+
+/* .portfolio-texte h1 {
    width:100%;
-}
+} */
 
-.pta {
+/* .pta {
    width: 200px;
-   margin-left: 100px;
    text-align: left;
-   margin-top: -15px;
-}
+   background-color: blue;
+} */
 
 .pta-1 {
    text-decoration: none;
    color: #818181;
    font-size: 15px;
-   margin-top: 0;
+   color: rgb(254,123,0);
 }
 
 .pta-2 {
    text-decoration: none;
    color: #818181;
    font-size: 15px;
-   margin-top: 0;
+   color: rgb(254,123,0);
 }
 
 .pta-1:hover, .pta-2:hover {
    text-decoration: none;
    color: #3d3d3d;
+   color: rgb(180, 88, 1);
 }
+
 
 /* PORTFOLIO (end) */

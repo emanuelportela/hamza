@@ -5,8 +5,9 @@ body {
 .img-fond {
    height: 55vh;
    /* background-color: rgba(0, 0, 0, 0.808); */
-   background-image: linear-gradient(rgba(10, 10, 10, 0.4),rgba(0, 0, 0, 0.6)), 
-   url("../img/TOPWEB.jpg");
+   background-image: 
+      linear-gradient(rgba(10, 10, 10, 0.5),rgba(0, 0, 0, 0.6)), 
+      url("../img/");
    background-size: 100%;
    background-position-y: 50%;
    padding: 15vh 10vw;
@@ -17,10 +18,10 @@ body {
 }
 .first-titre {
    padding-top: 2vh;
-   font-size: 30px;
+   font-size: 50px;
 }
 .second-titre {
-   font-size: 20px;
+   font-size: 25px;
    margin: auto;
 }
 .color-span {
@@ -94,30 +95,6 @@ body {
 .contain {
    padding: 0 100px;
 }
-.arguments div {
-   background-color: white;
-   padding: 15px;
-   margin: 20px;
-   border-left: 25px solid rgb(185, 185, 185);
-   box-shadow: 2px 2px 4px 1px rgb(185, 185, 185);
-}
-
-.arguments div h1 {
-   padding-bottom: 18px;
-   padding-top: 18px;
-   padding-left: 10px;
-   font-size: 20px;
-}
-
-.arguments div:hover {
-   background-color: white;
-   color:black;
-   padding: 15px;
-   margin: 20px;
-   border-left: 25px solid #fe9f00;
-   box-shadow: 2px 2px 10px 5px rgb(201, 199, 199);
-   transition: 0.4s;
-}
 
 .filtre-active {
    border-left: 25px solid #fe9f00 !important;
@@ -156,48 +133,13 @@ body {
    color: white;
    margin-left: 15px;
 }
-.fond_h1 {
-   background-color: #fe9f00;
-   height: 120px;
-   display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   padding: 30px;
-}
 
-.fond_h1 h1 {
-   color: white;
-   font-weight: bold;
-   padding: 0;
-   margin: 0 auto;
-   font-size: 25px;
-}
-.text_visibilité {
-   font-size: 15px;
-   text-align: justify;
-}
-.img_visibilité img {
-   height: 455px;
-   width: 100%;
-}
 .affichage {
    padding: 0;
 }
 
 .affichage-2, .affichage-3, .affichage-4 {
    display: none;
-}
-
-#particles-js {
-   position: absolute;
-   width: 100%;
-   height: 50vh;
-   z-index: 9;
- }
-
-canvas {
-   display: block;
-   vertical-align: bottom;
 }
 
 .header-web {
@@ -300,9 +242,9 @@ canvas {
    width: 325px;;
 }
 
-.new-test-2-21 { background-image: url('../img/mockup-16.png'); background-size: 250%; background-position-x: 20%;}
-.new-test-2-22 { background-image: url('../img/mockup-10.png');}
-.new-test-2-23 { background-image: url('../img/mockup-15.png'); background-position-y: 30%; }
-.new-test-2-24 { background-image: url('../img/mockup-4.png');}
+.new-test-2-21 { background-image: url('../img/16355.jpg'); background-size: 210%; background-position-x: 30%;}
+.new-test-2-22 { background-image: url('../img/797.jpg'); background-size: 210%; }
+.new-test-2-23 { background-image: url('../img/projet-web.png'); background-size: 250%; background-position-x: 20%; }
+.new-test-2-24 { background-image: url('../img/21003.jpg');}
 
 /* ARGUMENTS (end) */

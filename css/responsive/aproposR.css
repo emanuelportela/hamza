@@ -29,6 +29,7 @@
 @media all and (max-width: 900px) { 
    .img-fond {
       padding: 30px 0;
+      background-size: 450%;
    }
 
    .img-fond-1 {

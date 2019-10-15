@@ -136,6 +136,11 @@
       padding: 20% 0;
    }
 
+   .section-services {
+      background-image: none;
+      background-color: rgb(247, 247, 247);
+   }
+
    .service-1 {
       border: solid 2px #616161;
       margin-top: 30px;

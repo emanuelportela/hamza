@@ -1,12 +1,9 @@
 /* ECRAN 1100 px (start) */
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1200px) {
 
-   .first-titre {
-      font-size: 25px;
-   }
-   .second-titre {
-      font-size: 17px;
+   .img-fond {
+      background-size: 140%;
    }
 }
 
@@ -18,7 +15,7 @@
 @media all and (max-width: 1000px) {
 
    .img-fond {
-      background-size: 140%;
+      background-size: 160%;
    }
 
    .top-media {
@@ -33,11 +30,16 @@
 
 @media all and (max-width: 900px) {
 
-   .first-titre {
+   /* .first-titre {
       font-size: 20px;
    }
    .second-titre {
       font-size: 15px;
+   } */
+   
+   .section-first {
+      background-image: none;
+      background-color: rgb(247, 247, 247);
    }
 }
 
@@ -62,9 +64,9 @@
       background-size: 250%;
    }
 
-   .second-titre {
+   /* .second-titre {
       font-size: 18px;
-   }
+   } */
 
    .new-test-2-1-2 {
       height: 280px;
@@ -88,18 +90,19 @@
       background-size: 700%;
       height: 100vh;
       background-position-y: 0%;
+      padding: 20vh 5vw;
    }
 
    .top-media {
       background-size: 200%;
    }
 
-   .first-titre {
+   /* .first-titre {
       font-size: 25px;
    }
    .second-titre {
       font-size: 20px;
-   }
+   } */
 
    .new-test-2-1-2 {
       height: 350px;
