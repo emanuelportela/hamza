@@ -147,7 +147,7 @@ if(isset($_POST['mailform'])) {
    
   
    } else {
-      $msg="<p class='reponse-negative'>Tous les champs doivent être complétés !</p>";
+      $msge="<p class='reponse-negative'>Tous les champs doivent être complétés !</p>";
    }
 
    /* POP UP (end) */
@@ -158,10 +158,18 @@ if(isset($_POST['mailform'])) {
 <style>
 
 .reponse-positive {
-   color: green;
+   color: white;
    font-size: 13px;
-   margin-top: 20px;
-   margin-bottom: -40px
+   /* margin-top: 20px; */
+   /* margin-bottom: -40px */
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   padding: 10px 20px;
+   background-color: #05bf6e;
+   z-index: 1000;
+   opacity: 1;
+   border-radius: 5px;
 }
 
 .reponse-negative {

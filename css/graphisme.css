@@ -5,7 +5,7 @@ body {
 .img-fond {
    height: 55vh;
    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-      url('../img/title-graph-2.jpg');
+      url('../img/title-graph-1.jpg');
    background-size: 100%;
    background-position-y: 100%;
    padding: 15vh 10vw;
@@ -495,13 +495,12 @@ body {
 
 .new-test-2-22 {
    background-size: 180%;
-   background-image: url('../img/resto-illus.jpg');
+   background-image: url('../img/Resto-illus.jpg');
 }
 
 .new-test-2-23 {
-   background-size: 165%;
-   background-image: url('../img/projet-graphisme-2.png');
-   background-position-y: 30%;
+   background-size: 200%;
+   background-image: url('../img/GRAPH-EVENT.jpg');
 }
 
 /* ARGUMENTS (end) */

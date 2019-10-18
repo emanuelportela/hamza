@@ -34,7 +34,9 @@
 
 </head>
 
-<body>
+<body id="up">
+
+   <?php if( isset($msg) ) { echo $msg; } ?>
 
    <!-- Header section (start) -->
 
@@ -100,7 +102,7 @@
 
    <!-- SECTION TOP - CONTACT (start) -->
 
-   <div class="top-contact" id="up">
+   <div class="top-contact">
 
       <div class="top-contact-filtre">
          <h1>CONTACTEZ-NOUS</h1>
@@ -128,6 +130,7 @@
    <section>
 
       <div class="contact row">
+
          <div class="col-md-6 col-sm-12 contact-1">
             <div class="contact-1-filtre">
 
@@ -192,13 +195,14 @@
 
                <div class="c-form">
                   <div class="c-form-1">QUEL PACK DÉSIREZ-VOUS ?</div>
-                  <select id="pack" class="c-form-4" name="pack" style="color:#b1b1b1" value="<?php if(isset($_POST['pack'])) { echo $_POST['pack']; } ?>">
+                  <select id="pack" class="c-form-4" name="pack" style="color:#000000" value="<?php if(isset($_POST['pack'])) { echo $_POST['pack']; } ?>">
                      
-                     <option value="SERVICE MEDIA">Média</option>
-                     <option value="SERVICE WEB">Web</option>
-                     <option value="SERVICE GRAPHISME">Graphisme</option>
-                     <option value="PACK DUO">Pack Duo</option>
-                     <option value="PACK TRIO">Pack Trio</option>
+                     <option value="SERVICE MEDIA">SERVICE MÉDIA</option>
+                     <option value="SERVICE WEB">SERVICE WEB</option>
+                     <option value="SERVICE GRAPHISME">SERVICE GRAPHISME</option>
+                     <option value="PACK DUO">PACK DUO</option>
+                     <option value="PACK TRIO">PACK TRIO</option>
+                     <option value="AUTRE">AUTRE</option>
                   </select>
                </div>
 
@@ -213,7 +217,7 @@
                
             </form>
             
-            <?php if( isset($msg) ) { echo $msg; } ?>
+            <?php if( isset($msge) ) { echo $msge; } ?>
          </div>
 
       </div>

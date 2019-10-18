@@ -235,10 +235,25 @@ body {
 
 .top-media {
    height: 300px;
-   background-image: url('../img/2354877.jpg');
    background-size: 100%;
-   background-position-y: 30%;
+   background-position-x: 50%;
    font-family: 'Montserrat', sans-serif;
+}
+
+
+.top-media-1 {
+   background-image: url('../img/Corpo-illus.jpg');
+   background-position-y: 60%;
+}
+
+.top-media-2 {
+   background-image: url('../img/Restau-ilus.jpg');
+   background-position-y: 27%;
+}
+
+.top-media-3 {
+   background-image: url('../img/fullee-3.jpg');
+   background-position-y: 20%;
 }
 
 .top-media-filtre {
@@ -253,7 +268,7 @@ body {
 }
 
 .top-media h1 {
-   font-size: 35px;
+   font-size: 50px;
    color: white;
    margin-top: 40px;
    width: 100%;
@@ -516,8 +531,14 @@ body {
    align-items: center;
    justify-content: center;
    font-size: 17px;
-   width: 70%;
-   margin: 30px 15% 0;
+   width: 80%;
+   margin: 60px 10% 0;
+}
+
+.fa-home {
+   font-size: 70px;
+   margin-right: 20px;
+   color: rgb(179, 177, 177);
 }
 
 .new {
@@ -543,7 +564,7 @@ body {
    width: 100%;
    background-color: #fff;
    margin-bottom: 20px;
-   font-size: 15px;
+   font-size: 18px;
    border-left: solid #ccc 25px;
    box-shadow: 2px 2px 4px 1px rgb(185, 185, 185);
    display: flex;
@@ -557,7 +578,7 @@ body {
    width: 100%;
    background-color: #fff;
    margin-bottom: 20px;
-   font-size: 15px;
+   font-size: 18px;
    border-left: solid #fe9f00 25px;
    box-shadow: 2px 2px 4px 1px rgb(185, 185, 185);
    display: flex;
@@ -632,20 +653,22 @@ body {
 .new-2-21, .new-2-22, .new-2-23, .new-2-24, .new-2-25, .new-2-26, .new-2-27, .new-2-28, .new-2-29 {
    background-color: rgb(185,185,185);
    background-clip: 50%;
-   background-size: 120%;
+   background-size: 121%;
+   background-position-x: 50%;
+   background-position-y: 50%;
    height: 280px;
    width: 350px;
 }
 
-.new-2-21 { background-image: url('../img/DSC04831.jpg');}
-.new-2-22 { background-image: url('../img/DSC05226.jpg');}
-.new-2-23 { background-image: url('../img/DSC05986.jpg');}
-.new-2-24 { background-image: url('../img/DSC05986.jpg');}
-.new-2-25 { background-image: url('../img/DSC04831.jpg');}
-.new-2-26 { background-image: url('../img/DSC05226.jpg');}
-.new-2-27 { background-image: url('../img/DSC05226.jpg');}
-.new-2-28 { background-image: url('../img/DSC05986.jpg');}
-.new-2-29 { background-image: url('../img/DSC04831.jpg');}
+.new-2-21 { background-image: url('../img/visez-juste.jpg');}
+.new-2-22 { background-image: url('../img/innovation.jpg'); background-size: 150%}
+.new-2-23 { background-image: url('../img/focus.jpg');}
+.new-2-24 { background-image: url('../img/profondeur.jpg');}
+.new-2-25 { background-image: url('../img/perpectives.jpg'); background-size: 100%}
+.new-2-26 { background-image: url('../img/HDR.jpg');}
+.new-2-27 { background-image: url('../img/eveillez-les-papilles.jpg');}
+.new-2-28 { background-image: url('../img/a-table.jpg');}
+.new-2-29 { background-image: url('../img/c-est-qui-le-chef.jpg');}
 
 /* DESCRIPTION PHOTOS & VIDEOS (end) */
 
@@ -660,11 +683,21 @@ body {
 }
 
 .prixxx {
+   width: 250px;
+   height: 340px;
+   box-shadow: 2px 4px 10px 3px rgb(185, 185, 185);
+   margin: 0 10px;
    transform: scale(1.10);
 }
 
+
+.prixxx:hover {
+   transition: all .3s;
+   transform: scale(1.15);
+}
+
 .prix:hover {
-   transition: all 1s;
+   transition: all .3s;
    transform: scale(1.05);
 }
 
@@ -756,6 +789,11 @@ body {
    font-size: 25px;
 }
 
+.prixxx span {
+   margin: 0 5px;
+   font-size: 25px;
+}
+
 .prix-2-3 {
    padding: 0;
    justify-content: flex-start;
@@ -785,7 +823,24 @@ body {
    transition: all 10s ease 0s;
 }
 
+.prixxx:hover .delais  {
+   display: none;
+   -webkit-transition: all 10s ease 0s;
+   -o-transition: all 10s ease 0s;
+   transition: all 10s ease 0s;
+}
+
 .prix:hover .bouton  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   -webkit-transition: all 10s ease 0s;
+   -o-transition: all 10s ease 0s;
+   transition: all 10s ease 0s;
+}
+
+.prixxx:hover .bouton  {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -809,7 +864,29 @@ body {
    text-decoration: none;
 }
 
+.prixxxa {
+   height: 40px;
+   width: 170px;
+   /* background-color: #262626; */
+   /* color: white !important; */
+   border: solid 2px #262626;
+   color: #262626 !important;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 15px;
+   text-decoration: none;
+}
+
 .prix a:hover {
+   /* background-color: #ccc;
+   color: #262626 !important; */
+   border: solid 2px #fe9f00;
+   color: #fe9f00 !important;
+   text-decoration: none;
+}
+
+.prixxxa:hover {
    /* background-color: #ccc;
    color: #262626 !important; */
    border: solid 2px #fe9f00;
@@ -819,3 +896,6 @@ body {
 
 /* TABLEAUX PRIX (end) */
 
+.prixxxx {
+   display: none;
+}

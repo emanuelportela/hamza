@@ -75,7 +75,7 @@
    }
    
    .apropos-1 {
-      height: 200px;
+      height: 120px;
       margin-top: 20px;
       margin-bottom: 20px;
    }
@@ -213,8 +213,9 @@
    }
 
    .accueil-filtre h4 {
-      font-size: 15px;
+      font-size: 20px;
       width: 80%;
+      line-height: 30px;
    }
    
    .accueil-filtre h2 {

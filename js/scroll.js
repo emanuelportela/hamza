@@ -12,6 +12,7 @@ window.onscroll = () => {
    var nonactive4 = document.querySelector('.nonactive4');
    var nonactive5 = document.querySelector('.nonactive5');
    var nonactive6 = document.querySelector('.nonactive6');
+   var reponsepositive = document.querySelector('.reponse-positive');
    
    
    if (this.scrollY > 0) {
@@ -25,6 +26,7 @@ window.onscroll = () => {
       nonactive4.classList.add("nonactiveblack");
       nonactive5.classList.add("nonactiveblack");
       nonactive6.classList.add("nonactiveblack");
+      reponsepositive.style.display="initial";
 
    } else {
       nav.classList.remove("scroll");
@@ -37,6 +39,7 @@ window.onscroll = () => {
       nonactive4.classList.remove("nonactiveblack");
       nonactive5.classList.remove("nonactiveblack");
       nonactive6.classList.remove("nonactiveblack");
+      reponsepositive.style.display="none";
    }
 };
 
@@ -44,30 +47,54 @@ window.onscroll = () => {
 
 
 
-/* TITRE REFRESH TEST (start) */
+// ScrollReveal().reveal('.oneline', { delay: 100, duration: 1500 });
+// ScrollReveal().reveal('.twoline', { delay: 600, duration: 1500 });
+// ScrollReveal().reveal('.threeline', { delay: 1100, duration: 1500 });
+// ScrollReveal().reveal('.fourline', { delay: 300, duration: 1500 });
+// ScrollReveal().reveal('.fiveline', { delay: 800, duration: 1500 });
+// ScrollReveal().reveal('.sixline', { delay: 1300, duration: 1500 });
 
-// window.addEventListener("load", function () {
-//    let bar = document.querySelector('.accueil-ligne');
+// ScrollReveal().reveal('.oneweb', { delay: 100, duration: 1500 });
+// ScrollReveal().reveal('.twoweb', { delay: 600, duration: 1500 });
+// ScrollReveal().reveal('.threeweb', { delay: 300, duration: 1500 });
+// ScrollReveal().reveal('.fourweb', { delay: 800, duration: 1500 });
 
-//    bar.classList.add("accueil-ligne-2");
-
-// })
-
-/* TITRE REFRESH TEST (start) */
-
-
-
-ScrollReveal().reveal('.headline', { delay: 500 });
-ScrollReveal().reveal('.punchline', { delay: 1000 });
-
-ScrollReveal().reveal('.oneline', { delay: 500, duration: 1500 });
-ScrollReveal().reveal('.twoline', { delay: 1000, duration: 1500 });
-ScrollReveal().reveal('.threeline', { delay: 1500, duration: 1500 });
-ScrollReveal().reveal('.fourline', { delay: 2000, duration: 1500 });
-ScrollReveal().reveal('.fiveline', { delay: 2500, duration: 1500 });
-ScrollReveal().reveal('.sixline', { delay: 3000, duration: 1500 });
+/* SCROLL REVEAL (start) */
 
 ScrollReveal().reveal('.uneidee', { duration: 2500 } );
 ScrollReveal().reveal('.deuxidee', { delay: 1000, duration: 1500 } );
 ScrollReveal().reveal('.troisidee', { delay: 2000, duration: 2000 } );
 ScrollReveal().reveal('.quatreidee', { delay: 3000, duration: 2000 } );
+
+
+if (screen.width < 960) {
+   // alert('Less than 960');
+   ScrollReveal().reveal('.oneline', { delay: 100 });
+   ScrollReveal().reveal('.twoline', { delay: 300 });
+   ScrollReveal().reveal('.threeline', { delay: 500 });
+   ScrollReveal().reveal('.fourline', { delay: 700 });
+   ScrollReveal().reveal('.fiveline', { delay: 900 });
+   ScrollReveal().reveal('.sixline', { delay: 1100 });
+
+   ScrollReveal().reveal('.oneweb', { delay: 100, duration: 1500 });
+   ScrollReveal().reveal('.twoweb', { delay: 300, duration: 1500 });
+   ScrollReveal().reveal('.threeweb', { delay: 500, duration: 1500 });
+   ScrollReveal().reveal('.fourweb', { delay: 700, duration: 1500 });
+}
+
+else {
+   // alert('More than 960');
+   ScrollReveal().reveal('.oneline', { delay: 1000, duration: 1500 });
+   ScrollReveal().reveal('.twoline', { delay: 2000, duration: 1500 });
+   ScrollReveal().reveal('.threeline', { delay: 3000, duration: 1500 });
+   ScrollReveal().reveal('.fourline', { delay: 1500, duration: 1500 });
+   ScrollReveal().reveal('.fiveline', { delay: 2500, duration: 1500 });
+   ScrollReveal().reveal('.sixline', { delay: 3500, duration: 1500 });
+
+   ScrollReveal().reveal('.oneweb', { delay: 1000, duration: 1500 });
+   ScrollReveal().reveal('.twoweb', { delay: 2000, duration: 1500 });
+   ScrollReveal().reveal('.threeweb', { delay: 1500, duration: 1500 });
+   ScrollReveal().reveal('.fourweb', { delay: 2500, duration: 1500 });
+}
+
+/* SCROLL REVEAL (end) */

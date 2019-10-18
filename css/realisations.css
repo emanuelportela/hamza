@@ -422,7 +422,7 @@ body {
 }
  
 .portfolio:hover .portfolio-filtre {
-   opacity: 0.85;
+   opacity: 0.90;
 }
 
 .portfolio:hover .portfolio-texte {
@@ -451,9 +451,10 @@ body {
 
 .projet-1 {
    color: #262626;
-   font-size: 30px;
+   font-size: 25px;
    width: 100%;
    height: 35px;
+   font-family: 'Montserrat', sans-serif !important;
 }
 
 .projet-2 {
@@ -486,6 +487,7 @@ body {
    color: #818181;
    font-size: 15px;
    color: rgb(254,123,0);
+   text-decoration: underline;
 }
 
 .pta-2 {
@@ -493,6 +495,7 @@ body {
    color: #818181;
    font-size: 15px;
    color: rgb(254,123,0);
+   text-decoration: underline;
 }
 
 .pta-1:hover, .pta-2:hover {

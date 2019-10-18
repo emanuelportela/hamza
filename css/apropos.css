@@ -23,7 +23,7 @@
    background-color: white;
    margin: auto;
    max-width: 80%;
-   padding: 40px 80px;
+   padding: 50px 150px;
 }
 .img-fond-titre {
    font-size: 30px;
@@ -31,7 +31,7 @@
 .img-fond-text {
    font-size: 15px;
    margin: auto;
-   text-align: justify;
+   text-align: left;
    margin-bottom: 20px;
 }
 
