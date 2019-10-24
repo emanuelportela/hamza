@@ -91,10 +91,10 @@ else {
    ScrollReveal().reveal('.fiveline', { delay: 2500, duration: 1500 });
    ScrollReveal().reveal('.sixline', { delay: 3500, duration: 1500 });
 
-   ScrollReveal().reveal('.oneweb', { delay: 1000, duration: 1500 });
-   ScrollReveal().reveal('.twoweb', { delay: 2000, duration: 1500 });
-   ScrollReveal().reveal('.threeweb', { delay: 1500, duration: 1500 });
-   ScrollReveal().reveal('.fourweb', { delay: 2500, duration: 1500 });
+   ScrollReveal().reveal('.oneweb', { delay: 500, duration: 1500 });
+   ScrollReveal().reveal('.twoweb', { delay: 1500, duration: 1500 });
+   ScrollReveal().reveal('.threeweb', { delay: 1000, duration: 1500 });
+   ScrollReveal().reveal('.fourweb', { delay: 2000, duration: 1500 });
 }
 
 /* SCROLL REVEAL (end) */

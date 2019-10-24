@@ -6,7 +6,7 @@ body {
 .accueil {
    height: 97vh;
    background-image: url('../img/DSC06152.jpg');
-   background-size: 100%;
+   background-size: 120%;
    background-position-y: 100%;
    background-position-x: 50%;
    background-repeat: no-repeat;
@@ -35,7 +35,8 @@ body {
 }
 
 .accueil-ligne {
-   width: 600px;
+   width: 50%;
+   margin: 0 25%;
    height: 3px;
    background-color: white;
 }
@@ -473,31 +474,53 @@ body {
    width: 100%;
 }
 
-.test-3 button {
+
+.test-3 p {
+   font-size: 13px;
+   color: #282828;
+   text-align: center;
+   margin: 20px 0 0;
+   width: 100%;
+}
+
+
+.bouton-test {
    width: 150px;
    height: 50px;
    border: 2px dashed white;
-   background-color: #7f9ad4;
    display: block;
    margin: 0 auto;
-}
-
-.test-3 button a {
    text-decoration: none;
    color: white;
    font-size: 13px;
    font-weight: bold;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
-.test:hover .test-3 button {
+.bouton-test:hover {
+   text-decoration: none;
+   color: white;
+}
+
+.test:hover .bouton-test {
    transition: all .5s;
    border: 2px dashed #282828;
    transform: scale(1.02);
 }
 
-.test:hover .test-3 button a {
+.test:hover .bouton-test {
    transition: all .5s;
    color: #282828;
+}
+
+.sectionp {
+   font-size: 13px;
+   color: #707070;
+   text-align: center;
+   margin: 50px 0 0;
+   width: 100%;
 }
 
 .test-1-promo-2 i { color: rgb(132, 99, 194); }

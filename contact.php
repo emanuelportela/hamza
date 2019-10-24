@@ -4,6 +4,15 @@
 <html lang="fr">
 
 <head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150722951-1"></script>
+   <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-150722951-1');
+   </script>
+
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -70,7 +79,7 @@
       <ul class="navbar">
          <!-- <li><a class="nonactive5" href="index.html">ACCUEIL</a></li> -->
          <li><a class="nonactive1" href="web.html">WEB</a></li>
-         <li><a class="nonactive2" href="media.html">MÉDIA</a></li>
+         <li><a class="nonactive2" href="image.html">Image</a></li>
          <li><a class="nonactive3" href="graphisme.html">GRAPHISME</a></li>
          <li><a href="index.html"><img src="./img/logo-3.png"></a></li>
          <li><a class="nonactive5" href="realisations.html">RÉALISATIONS</a></li>
@@ -89,7 +98,7 @@
 
       <div><a class="b-2" href="index.html">Accueil</a></div>
       <div><a class="b-2" href="web.html">Web</a></div>
-      <div><a class="b-2" href="media.html">Média</a></div>
+      <div><a class="b-2" href="image.html">Image</a></div>
       <div><a class="b-2" href="graphisme.html">Graphisme</a></div>
       <div><a class="b-2" href="realisations.html">Réalisations</a></div>
       <div><a class="b-2" href="apropos.html">À propos</a></div>
@@ -194,10 +203,10 @@
                </div>
 
                <div class="c-form">
-                  <div class="c-form-1">QUEL PACK DÉSIREZ-VOUS ?</div>
+                  <div class="c-form-1">QUEL SERVICE DÉSIREZ-VOUS ?</div>
                   <select id="pack" class="c-form-4" name="pack" style="color:#000000" value="<?php if(isset($_POST['pack'])) { echo $_POST['pack']; } ?>">
                      
-                     <option value="SERVICE MEDIA">SERVICE MÉDIA</option>
+                     <option value="SERVICE IMAGE">SERVICE IMAGE</option>
                      <option value="SERVICE WEB">SERVICE WEB</option>
                      <option value="SERVICE GRAPHISME">SERVICE GRAPHISME</option>
                      <option value="PACK DUO">PACK DUO</option>
@@ -243,7 +252,7 @@
             <div class="bas-1-2-1">
                <a href="index.html"><i class="far fa-circle mr-4"></i><p>Accueil</p></a>
                <a href="web.html"><i class="far fa-circle mr-4"></i><p>Web</p></a>
-               <a href="media.html"><i class="far fa-circle mr-4"></i><p>Média</p></a>
+               <a href="image.html"><i class="far fa-circle mr-4"></i><p>Image</p></a>
                <a href="graphisme.html"><i class="far fa-circle mr-4"></i><p>Graphisme</p></a>
                <a href="realisations.html"><i class="far fa-circle mr-4"></i><p>Réalisations</p></a>
                <a href="apropos.html"><i class="far fa-circle mr-4"></i><p>À propos</p></a>

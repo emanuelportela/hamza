@@ -55,8 +55,11 @@ body {
 }
 
 .section-second {
-   background: linear-gradient(rgba(29, 29, 29, 0.884), rgba(0, 0, 0, 0.904),
-         rgba(0, 0, 0, 0.959));
+   background-image: linear-gradient(rgba(20, 20, 20, 0.719),rgba(41, 39, 39, 0.062),rgba(41, 39, 39, 0.062)),url("../img/mountainroad.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center;
+   background-attachment: fixed;
 }
 
 .audit {

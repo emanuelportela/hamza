@@ -43,6 +43,15 @@ body {
    cursor: pointer;
 }
 
+.box a {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+}
+
 .box i {
    color: white;
    font-size: 20px;

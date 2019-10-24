@@ -5,6 +5,10 @@
    .img-fond {
       background-size: 140%;
    }
+
+   .section-second {
+      background-size: 140%;
+   }
 }
 
 /* ECRAN 1000 px (end) */
@@ -21,6 +25,10 @@
          url('../../img/title-graph-1.jpg');
       background-position-x: 50%;
       background-position-y: 50%;
+   }
+
+   .section-second {
+      background-size: 300%;
    }
 
    .section-first {
@@ -45,6 +53,11 @@
       height: 100vh;
       background-size: 350%;
       padding: 30vh 5vw;
+   }
+
+   .section-second {
+      background-image: linear-gradient(rgba(20, 20, 20, 0.637),rgba(41, 39, 39, 0.479)),url("../../img/mountainroad.jpg");
+      background-size: 400%;
    }
 
    /* .first-titre {
@@ -129,6 +142,7 @@
       background-size: 150%;
       height: 200px;
       width: 100%;
+      display: none; /* TEST */
    }
 
    .new-test-2-1 {

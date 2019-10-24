@@ -3,7 +3,7 @@
 let all = document.getElementById('bouton-1');
 let web = document.getElementById('bouton-2');
 let graphisme = document.getElementById('bouton-3');
-let media = document.getElementById('bouton-4');
+let image = document.getElementById('bouton-4');
 
 /* DECLARATION VARIABLE (end) */
 
@@ -22,7 +22,7 @@ all.addEventListener("click", function () {
 
    web.classList.remove("bouton-clique")
    graphisme.classList.remove("bouton-clique")
-   media.classList.remove("bouton-clique")
+   image.classList.remove("bouton-clique")
 
 })
 
@@ -42,7 +42,7 @@ web.addEventListener("click", function () {
          web.classList.add("bouton-clique")
          all.classList.add("all-clique")
 
-         media.classList.remove("bouton-clique")
+         image.classList.remove("bouton-clique")
          graphisme.classList.remove("bouton-clique")
 
       } else {
@@ -68,7 +68,7 @@ graphisme.addEventListener("click", function () {
          all.classList.add("all-clique")
 
          web.classList.remove("bouton-clique")
-         media.classList.remove("bouton-clique")
+         image.classList.remove("bouton-clique")
 
       } else {
          document.querySelectorAll(".realisation")[i].style.display = "none";
@@ -81,7 +81,7 @@ graphisme.addEventListener("click", function () {
 
 /* BOUTON 4 (start) */
 
-media.addEventListener("click", function () {
+image.addEventListener("click", function () {
 
    let des = document.querySelectorAll(".realisation");
 
@@ -89,7 +89,7 @@ media.addEventListener("click", function () {
 
       if (des[i].classList.contains("meedia")) {
          document.querySelectorAll(".realisation")[i].style.display = "initial";
-         media.classList.add("bouton-clique")
+         image.classList.add("bouton-clique")
          all.classList.add("all-clique")
 
          web.classList.remove("bouton-clique")
