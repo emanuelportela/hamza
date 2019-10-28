@@ -70,16 +70,16 @@ ScrollReveal().reveal('.quatreidee', { delay: 3000, duration: 2000 } );
 if (screen.width < 960) {
    // alert('Less than 960');
    ScrollReveal().reveal('.oneline', { delay: 100 });
-   ScrollReveal().reveal('.twoline', { delay: 300 });
-   ScrollReveal().reveal('.threeline', { delay: 500 });
-   ScrollReveal().reveal('.fourline', { delay: 700 });
-   ScrollReveal().reveal('.fiveline', { delay: 900 });
-   ScrollReveal().reveal('.sixline', { delay: 1100 });
+   ScrollReveal().reveal('.twoline', { delay: 130 });
+   ScrollReveal().reveal('.threeline', { delay: 300 });
+   ScrollReveal().reveal('.fourline', { delay: 330 });
+   ScrollReveal().reveal('.fiveline', { delay: 500 });
+   ScrollReveal().reveal('.sixline', { delay: 530 });
 
-   ScrollReveal().reveal('.oneweb', { delay: 100, duration: 1500 });
-   ScrollReveal().reveal('.twoweb', { delay: 300, duration: 1500 });
-   ScrollReveal().reveal('.threeweb', { delay: 500, duration: 1500 });
-   ScrollReveal().reveal('.fourweb', { delay: 700, duration: 1500 });
+   ScrollReveal().reveal('.oneweb', { delay: 100, duration: 1400 });
+   ScrollReveal().reveal('.twoweb', { delay: 200, duration: 1400 });
+   ScrollReveal().reveal('.threeweb', { delay: 300, duration: 1400 });
+   ScrollReveal().reveal('.fourweb', { delay: 500, duration: 1400 });
 }
 
 else {
@@ -91,10 +91,10 @@ else {
    ScrollReveal().reveal('.fiveline', { delay: 2500, duration: 1500 });
    ScrollReveal().reveal('.sixline', { delay: 3500, duration: 1500 });
 
-   ScrollReveal().reveal('.oneweb', { delay: 500, duration: 1500 });
-   ScrollReveal().reveal('.twoweb', { delay: 1500, duration: 1500 });
-   ScrollReveal().reveal('.threeweb', { delay: 1000, duration: 1500 });
-   ScrollReveal().reveal('.fourweb', { delay: 2000, duration: 1500 });
+   ScrollReveal().reveal('.oneweb', { delay: 1000, duration: 1500 });
+   ScrollReveal().reveal('.twoweb', { delay: 2000, duration: 1500 });
+   ScrollReveal().reveal('.threeweb', { delay: 1500, duration: 1500 });
+   ScrollReveal().reveal('.fourweb', { delay: 2500, duration: 1500 });
 }
 
 /* SCROLL REVEAL (end) */

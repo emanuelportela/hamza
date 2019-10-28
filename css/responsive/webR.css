@@ -38,8 +38,14 @@
       background-color: rgb(247, 247, 247);
    }
 
-   .new-test-2-1-2 {
-      line-height: 30px;
+   .new-test-2-1-1 {
+      height: 80px;
+      font-size: 17px;
+   }
+
+   .new-test-2-1-2 p {
+      font-size: 15px !important;
+      line-height: 25px !important;
    }
 }
 
