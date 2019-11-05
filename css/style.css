@@ -429,3 +429,17 @@ body {
 }
 
 /* TRIANGLE - TEST */
+
+
+.row:before, .row:after {
+   display: inline-block; 
+}
+
+
+.row:before {
+   content: none;
+}
+
+.row:after {
+   content: '';
+}
