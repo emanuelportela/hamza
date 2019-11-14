@@ -56,7 +56,7 @@
 
 /* ECRAN 767 px (start) */
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 769px) {
 
    .img-fond {
       background-size: 280%;
@@ -69,7 +69,7 @@
    }
 
    .section-second {
-      background-size: 280%;
+      background-size: 350%;
    }
 
    .top-media {
@@ -126,8 +126,10 @@
    }
 
    .section-second {
-      background-size: 500%;
       background-image: linear-gradient(rgba(20, 20, 20, 0.719),rgba(48, 48, 48, 0.459)),url("../../img/lac.jpg");
+      background-size: 120%;
+      background-attachment: initial;
+      background-position-y: 50%;
    }
 
    .top-media {
@@ -198,7 +200,7 @@
       width: 650px;
       margin-left: 30px;
    }
-   
+    
    .new-1-1 {
       height: 60px;
       width: 30%;
@@ -265,10 +267,12 @@
    .new-test {
       padding: 60px 30px;
    }
-
+   .new-2-1-4 {
+      padding: 15px 30px;
+   }
    .new-test-1 {
-      margin: 0 0 20px;
-      height: 80px;
+      margin: 0 0 0px;
+      height: 70px;
    }
    
    .new-test-1-1 {
@@ -314,8 +318,9 @@
    }
 
    .new-titre {
-      width: 90%;
-      margin: 30px 5% 0;
+      width: 85%;
+      margin: 35px 7% 0;
+      text-align: justify;
    }
 }
 
@@ -325,19 +330,21 @@
 /* ECRAN 820 px (start) */
 
 @media all and (max-width: 820px) {
-
+ 
    .new {
-      padding: 60px 30px;
+      padding: 40px 30px;
    }
-
+   .new-2-1-4 {
+      padding: 15px 30px;
+   }
    .new-1 {
-      margin: 0 0 20px;
-      height: 80px;
+      margin: 0 0 0px;
+      height: 60px;
    }
    
    .new-1-1 {
       font-size: 13px;
-      height: 40px;
+      height: 45px;
       width: 30%;
       margin: 0;
       margin-right: 5%;

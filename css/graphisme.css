@@ -54,14 +54,6 @@ body {
    margin: auto;
 }
 
-.section-second {
-   background-image: linear-gradient(rgba(20, 20, 20, 0.719),rgba(41, 39, 39, 0.062),rgba(41, 39, 39, 0.062)),url("../img/mountainroad.jpg");
-   background-repeat: no-repeat;
-   background-size: 100%;
-   background-position: center;
-   background-attachment: fixed;
-}
-
 .audit {
    max-width: 90%;
    margin: auto;
@@ -399,6 +391,7 @@ body {
    justify-content: center;
    align-items: center;
    padding: 50px 60px;
+   background-color: white;
 }
 
 .new-test-1 {
@@ -507,3 +500,19 @@ body {
 }
 
 /* ARGUMENTS (end) */
+
+
+/* SCROLL IMAGE (start) */
+
+.section-second {
+   /* background-image: url('../img/mountainroad.jpg'); */
+   width: 100%;
+   background-size: 100%;
+   background-position-x: 50% ;
+   background-position-y: 100% ;
+   background-image: linear-gradient(rgba(20, 20, 20, 0.719),rgba(41, 39, 39, 0.062),rgba(41, 39, 39, 0.062)),url("../img/mountainroad.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+/* SCROLL IMAGE (end) */

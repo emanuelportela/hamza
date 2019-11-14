@@ -209,7 +209,7 @@ body {
    left: 0;
    line-height: 25px;
    left: -200px;
-   color: white;
+   color: transparent;
    z-index: -2;
    font-weight: bold;
 
@@ -227,7 +227,7 @@ body {
 .service-3-1 span,
 .service-3-2 span,
 .service-3-3 span {
-   color: white;
+   color: transparent;
 }
 
 .servicehover:hover .service-3-1 span,
@@ -436,7 +436,7 @@ body {
 }
 
 .test-1 h1 {
-   font-size: 30px;
+   font-size: 40px;
    color: #282828;
    margin: 0 auto;
    margin-top: 25px;

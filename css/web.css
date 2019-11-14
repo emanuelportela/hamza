@@ -6,10 +6,10 @@ body {
    height: 55vh;
    /* background-color: rgba(0, 0, 0, 0.808); */
    background-image: 
-      linear-gradient(rgba(10, 10, 10, 0.377),rgba(0, 0, 0, 0.521)), 
+      linear-gradient(rgba(10, 10, 10, 0.274),rgba(0, 0, 0, 0.37)), 
       url("../img/title-font.jpg");
    background-size: 100%;
-   background-position-y: 50%;
+   background-position-y: 53%;
    padding: 15vh 10vw;
 }
 .titre-web {
@@ -54,10 +54,12 @@ body {
 .section-second {
    background-image: linear-gradient(rgba(20, 20, 20, 0.534),rgba(41, 39, 39, 0.212)), url("../img/mountain.jpg");
    background-repeat: no-repeat;
+   width: 100%;
    background-size: 100%;
-   background-position: center;
+   background-position-x: 50% ;
+   background-position-y: 100% ;
+   background-repeat: no-repeat;
    background-attachment: fixed;
-   /* transform: scale(1.4); */
 }
 .audit {
    max-width: 90%;

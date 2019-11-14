@@ -16,7 +16,7 @@
 
 /* ECRAN 767 px (start) */
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 769px) {
 
    .img-fond {
       background-size: 210%;
@@ -28,7 +28,9 @@
    }
 
    .section-second {
-      background-size: 300%;
+      background-size: 350%;
+      /* background-image: none;
+      background-color: red; */
    }
 
    .section-first {
@@ -62,7 +64,8 @@
 
    .section-second {
       background-image: linear-gradient(rgba(20, 20, 20, 0.637),rgba(41, 39, 39, 0.479)),url("../../img/mountainroad.jpg");
-      background-size: 400%;
+      background-size: 100%;
+      background-attachment: initial;
    }
 
    /* .first-titre {
@@ -119,7 +122,7 @@
    }
 
    .new-test-1 {
-      margin: 0 0 20px;
+      margin: 0 0 0px;
       height: 80px;
    }
    

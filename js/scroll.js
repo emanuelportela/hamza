@@ -45,7 +45,7 @@ window.onscroll = () => {
 
 /* BARRE NAV AU SCROLL (end) */
 
-
+ 
 
 // ScrollReveal().reveal('.oneline', { delay: 100, duration: 1500 });
 // ScrollReveal().reveal('.twoline', { delay: 600, duration: 1500 });
@@ -61,7 +61,7 @@ window.onscroll = () => {
 
 /* SCROLL REVEAL (start) */
 
-ScrollReveal().reveal('.uneidee', { duration: 2500 } );
+// ScrollReveal().reveal('.uneidee', { duration: 2000 } );
 ScrollReveal().reveal('.deuxidee', { delay: 1000, duration: 1500 } );
 ScrollReveal().reveal('.troisidee', { delay: 2000, duration: 2000 } );
 ScrollReveal().reveal('.quatreidee', { delay: 3000, duration: 2000 } );
@@ -84,12 +84,12 @@ if (screen.width < 960) {
 
 else {
    // alert('More than 960');
-   ScrollReveal().reveal('.oneline', { delay: 1000, duration: 1500 });
-   ScrollReveal().reveal('.twoline', { delay: 2000, duration: 1500 });
-   ScrollReveal().reveal('.threeline', { delay: 3000, duration: 1500 });
-   ScrollReveal().reveal('.fourline', { delay: 1500, duration: 1500 });
-   ScrollReveal().reveal('.fiveline', { delay: 2500, duration: 1500 });
-   ScrollReveal().reveal('.sixline', { delay: 3500, duration: 1500 });
+   ScrollReveal().reveal('.oneline', { delay: 700, duration: 1500 });
+   ScrollReveal().reveal('.twoline', { delay: 1700, duration: 1500 });
+   ScrollReveal().reveal('.threeline', { delay: 2700, duration: 1500 });
+   ScrollReveal().reveal('.fourline', { delay: 1200, duration: 1500 });
+   ScrollReveal().reveal('.fiveline', { delay: 2200, duration: 1500 });
+   ScrollReveal().reveal('.sixline', { delay: 3200, duration: 1500 });
 
    ScrollReveal().reveal('.oneweb', { delay: 1000, duration: 1500 });
    ScrollReveal().reveal('.twoweb', { delay: 2000, duration: 1500 });
