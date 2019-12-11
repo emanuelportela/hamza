@@ -291,7 +291,7 @@ body {
 }
 
 .burger-1 div a:hover {
-   color: #fe9f00;
+   /* color: #fe9f00; */
    text-decoration: none;
    background-color: #2E2E2E;
 }

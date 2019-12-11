@@ -66,7 +66,7 @@
    <header class="header-2">
 
       <div class="header-logo" style="display: none;">
-         <a href="index.html"><img src="./img/logo-3.png"></a>
+         <a href="index.html"><img src="./img/logo-3.png" alt="logo"></a>
       </div>
 
       <!-- Navigation -->
@@ -81,7 +81,7 @@
          <li><a class="nonactive1" href="web.html">WEB</a></li>
          <li><a class="nonactive2" href="image.html">Image</a></li>
          <li><a class="nonactive3" href="graphisme.html">GRAPHISME</a></li>
-         <li><a href="index.html"><img src="./img/logo-3.png"></a></li>
+         <li><a href="index.html"><img src="./img/logo-3.png" alt="logo"></a></li>
          <li><a class="nonactive5" href="realisations.html">RÉALISATIONS</a></li>
          <li><a class="nonactive4" href="apropos.html">À PROPOS</a></li>
          <li class="active"><a href="contact.php">CONTACT</a></li>
@@ -244,7 +244,7 @@
       <div class="bas-1">
 
          <div class="bas-1-1">
-            <img class="bas-1-1-1" src="./img/logo.trio.titre.blanc.png">
+            <img class="bas-1-1-1" src="./img/logo.trio.titre.blanc.png" alt="logo">
          </div>
 
          <div class="bas-1-2">
