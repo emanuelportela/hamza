@@ -127,11 +127,14 @@
 
    .section-second {
       background-image: linear-gradient(rgba(20, 20, 20, 0.719),rgba(48, 48, 48, 0.459)),url("../../img/lac.jpg");
-      background-size: 120%;
+      background-size: 150%;
       background-attachment: initial;
       background-position-y: 50%;
    }
-
+   .audit p {
+      color: white;
+      font-size: 22px;
+   }
    .top-media {
       background-size: 200%;
    }
@@ -185,7 +188,12 @@
    .new-test-2-1-2-bouton {
       left: 20%;
    }
-   
+   .section-second {
+      background-image: linear-gradient(rgba(20, 20, 20, 0.719),rgba(48, 48, 48, 0.459)),url("../../img/lac.jpg");
+      background-size: 150%;
+      background-attachment: initial;
+      background-position-y: 50%;
+   }
 }
 
 /* ECRAN 400 px (end) */

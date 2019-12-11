@@ -64,8 +64,14 @@
 
    .section-second {
       background-image: linear-gradient(rgba(20, 20, 20, 0.637),rgba(41, 39, 39, 0.479)),url("../../img/mountainroad.jpg");
-      background-size: 100%;
+      background-size: 140%;
       background-attachment: initial;
+      background-position-y: 50%;
+      background-position-x: 5%;
+   }
+   .audit p {
+      color: white;
+      font-size: 22px;
    }
 
    /* .first-titre {

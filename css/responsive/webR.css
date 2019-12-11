@@ -61,7 +61,10 @@
       background-size: 350%;
       padding: 25vh 5vw;
    }
-
+   .audit p {
+      color: white;
+      font-size: 22px;
+   }
    .section-second {
       background-image: linear-gradient(rgba(20, 20, 20, 0.685),rgba(41, 39, 39, 0.473)), url("../../img/mountain.jpg");
       background-size: 100%;

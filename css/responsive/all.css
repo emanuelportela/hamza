@@ -146,12 +146,12 @@
    }
    
    .header-logo img {
-      height: 50px;
+      height: 40px;
       transition: transform .2s;
    }
    
    .header-logo img:hover {
-      height: 50px;
+      height: 40px;
       transform: scale(1.1);
    }
    
@@ -165,7 +165,7 @@
    .responsive {
       display: block;
       color: white;
-      font-size: 30px;
+      font-size: 25px;
       width: 30%;
       display: flex;
       justify-content: flex-end;

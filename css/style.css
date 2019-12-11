@@ -182,10 +182,10 @@ body {
    justify-content: center;
    align-items: center;
 }
-
+ 
 .navbar li a img {
-   width: 60px;
-   transition: transform .2s;
+   width: 46px;
+   transition: transform .13s;
 }
 
 .navbar li a img:hover {
@@ -220,6 +220,7 @@ body {
          z-index: 999;
          padding: 0 150px;
          width: 100%;
+         height: 55px;
          box-shadow: 0px 1px 5px #7a7a7a;
          -webkit-transition: all 0.4s ease 0s;
          -o-transition: all 0.4s ease 0s;
@@ -301,7 +302,7 @@ body {
    flex-wrap: wrap;
    z-index: 999;
    position: fixed;
-   top: 70px !important;
+   top: 54px !important;
    background-color: rgba(38,38,38,0.8);
 }
 
