@@ -66,7 +66,7 @@
    <header class="header-2">
 
       <div class="header-logo" style="display: none;">
-         <a href="index.html"><img src="./img/logo-3.png" alt="logo"></a>
+         <a href="/"><img src="./img/logo-3.png" alt="logo"></a>
       </div>
 
       <!-- Navigation -->
@@ -77,11 +77,11 @@
 
       <!-- Navbar -->
       <ul class="navbar">
-         <!-- <li><a class="nonactive5" href="index.html">ACCUEIL</a></li> -->
+         <!-- <li><a class="nonactive5" href="/">ACCUEIL</a></li> -->
          <li><a class="nonactive1" href="web.html">WEB</a></li>
          <li><a class="nonactive2" href="image.html">Image</a></li>
          <li><a class="nonactive3" href="graphisme.html">GRAPHISME</a></li>
-         <li><a href="index.html"><img src="./img/logo-3.png" alt="logo"></a></li>
+         <li><a href="/"><img src="./img/logo-3.png" alt="logo"></a></li>
          <li><a class="nonactive5" href="realisations.html">RÉALISATIONS</a></li>
          <li><a class="nonactive4" href="apropos.html">À PROPOS</a></li>
          <li class="active"><a href="contact.php">CONTACT</a></li>
@@ -96,7 +96,7 @@
 
    <div class="burger-1">
 
-      <div><a class="b-2" href="index.html">Accueil</a></div>
+      <div><a class="b-2" href="/">Accueil</a></div>
       <div><a class="b-2" href="web.html">Web</a></div>
       <div><a class="b-2" href="image.html">Image</a></div>
       <div><a class="b-2" href="graphisme.html">Graphisme</a></div>
@@ -250,7 +250,7 @@
          <div class="bas-1-2">
             <h1>MENU</h1>
             <div class="bas-1-2-1">
-               <a href="index.html"><i class="far fa-circle mr-4"></i><p>Accueil</p></a>
+               <a href="/"><i class="far fa-circle mr-4"></i><p>Accueil</p></a>
                <a href="web.html"><i class="far fa-circle mr-4"></i><p>Web</p></a>
                <a href="image.html"><i class="far fa-circle mr-4"></i><p>Image</p></a>
                <a href="graphisme.html"><i class="far fa-circle mr-4"></i><p>Graphisme</p></a>

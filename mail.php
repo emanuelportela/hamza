@@ -41,7 +41,7 @@ if(isset($_POST['mailform'])) {
                <div style="background-color:#FFFFFF;">
          
                   <div style="background-color:#222;height:250px;width:100%;display:flex;align-items:center;">
-                     <img src="http://atypeak.be/img/atypeak1.png" style="width:300px;margin-left:10%;">
+                     <img src="http://atypeak.be/img/atypeak.png" style="width:300px;margin-left:10%;">
                   </div>
          
                   <div style="background-color:#fe9f00;width:80%;height:160px;margin:auto;margin-top:-80px;display:flex;align-items:center;justify-content:center;"><h1 style="font-size:30px;color:white;text-align:center;width:100%;">'.$_POST['pack'].'</h1></div>
@@ -69,7 +69,7 @@ if(isset($_POST['mailform'])) {
                         <a style="text-decoration:none;color:white;margin:0 10px" href="https://www.instagram.com/atypeak.be/">Instagram</a>|
                         <a style="text-decoration:none;color:white;margin:0 10px" href="https://www.facebook.com/Atypeak-105000600875221/">Facebook</a>
                      </div>
-                     <a style="text-decoration:none;color:rgb(190,190,190);width:100%;text-align:center;" href="https://www.atypeak.be">Retour sur le site</a>
+                     <a style="text-decoration:none;color:rgb(190,190,190);width:100%;text-align:center;" href="https:///">Retour sur le site</a>
                   </div>
          
                   <div style="height:60px;background:#222222;border-top:1px solid #2a2a2a;color:#ccc;display:flex;justify-content: center;align-items:center;padding: 0 10%;font-size:13px">
@@ -98,7 +98,7 @@ if(isset($_POST['mailform'])) {
                   <div style="background-color:#FFFFFF;">
                   
                      <div style="background-color:#222;height:250px;width:100%;display:flex;align-items:center;">
-                        <img src="http://atypeak.be/img/atypeak1.png" style="width:300px;margin-left:10%;">
+                        <img src="http://atypeak.be/img/atypeak.png" style="width:300px;margin-left:10%;">
                      </div>
                   
                      <div style="background-color:#fe9f00;width:80%;height:160px;margin:auto;margin-top:-80px;display:flex;align-items:center;justify-content:center;"><h1 style="font-size:30px;color:white;text-align:center;width:100%;">'.$_POST['pack'].'</text-align:center;width:100%;"></div>
@@ -124,7 +124,7 @@ if(isset($_POST['mailform'])) {
                            <a style="text-decoration:none;color:white;margin:0 10px" href="https://www.instagram.com/atypeak.be/">Instagram</a>|
                            <a style="text-decoration:none;color:white;margin:0 10px" href="https://www.facebook.com/Atypeak-105000600875221/">Facebook</a>
                         </div>
-                        <a style="text-decoration:none;color:rgb(190,190,190);width:100%;text-align:center;" href="https://www.atypeak.be">Retour sur le site</a>
+                        <a style="text-decoration:none;color:rgb(190,190,190);width:100%;text-align:center;" href="https:///">Retour sur le site</a>
                      </div>
                   
                      <div style="height:60px;background:#222222;border-top:1px solid #2a2a2a;color:#ccc;display:flex;justify-content: center;align-items:center;padding: 0 10%;font-size:13px">
